@@ -1,0 +1,22 @@
+Quantity  Case1   Case2
+Status SOLVED SOLVED
+Mode Snap Snap
+Number 100 100
+LoadMult 1.000 1.000
+NumDevices 2203 2203
+NumBuses 1240 1240
+NumNodes 2345 2345
+Iterations 4 2
+ControlMode STATIC OFF
+ControlIterations 2 1
+MaxPuVoltage 1.356 1.3555
+MinPuVoltage 1.0001 1.0001
+TotalMW 0.0935158 0.0925892
+TotalMvar -2.449720 -2.448916
+MWLosses 0.0935158 0.0925892
+pctLosses 100 100
+MvarLosses 0.564778 0.563538
+Frequency 60 60
+
+Regulator, Case 1 Tap, Case 2 Tap
+TRANS_N650-N630 16 16

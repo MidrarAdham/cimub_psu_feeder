@@ -1,0 +1,50 @@
+WARNING  [INIT] : class_find_property(CLASS *oclass='solar', PROPERTYNAME name='generator_mode': property is deprecated
+WARNING  [INIT] : last warning message was repeated 13 times
+WARNING  [INIT] : no processor available to avoid overloading--job not added to process map
+WARNING  [INIT] : Using a 2x2 z-matrix, instead of geometric values, is an under-determined system. Ground and/or neutral currents will be incorrect.
+WARNING  [2000-01-01 00:00:00 EST] : last warning message was repeated 959 times
+WARNING  [2000-01-01 00:00:00 EST] : Regulator reg_trans_n650-n630 has phase A at the maximum tap value
+
+Core profiler results
+======================
+
+Total objects               2617 objects
+Parallelism                    1 thread
+Total time                   1.0 seconds
+  Core time                  0.9 seconds (93.5%)
+    Compiler                 0.2 seconds (16.1%)
+    Instances                0.0 seconds (0.0%)
+    Random variables         0.0 seconds (0.0%)
+    Schedules                0.0 seconds (0.0%)
+    Loadshapes               0.0 seconds (0.0%)
+    Enduses                  0.0 seconds (0.0%)
+    Transforms               0.0 seconds (0.0%)
+  Model time                 0.1 seconds/thread (6.5%)
+Simulation time                0 days
+Simulation speed               0 object.hours/second
+Passes completed               2 passes
+Time steps completed           1 timesteps
+Convergence efficiency      2.00 passes/timestep
+Read lock contention        0.0%
+Write lock contention       0.0%
+Average timestep              0 seconds/timestep
+Simulation rate               0 x realtime
+
+
+Model profiler results
+======================
+
+Class            Time (s) Time (%) msec/obj
+---------------- -------- -------- --------
+substation         0.025     38.5%     25.0
+triplex_node       0.017     26.2%      0.0
+triplex_line       0.011     16.9%      0.0
+transformer        0.004      6.2%      0.0
+overhead_line      0.003      4.6%      0.0
+voltdump           0.002      3.1%      2.0
+currdump           0.002      3.1%      2.0
+node               0.001      1.5%      0.0
+================ ======== ======== ========
+Total              0.065    100.0%      0.0
+
+WARNING  [2000-01-01 00:00:00 EST] : last warning message was repeated 5 times
