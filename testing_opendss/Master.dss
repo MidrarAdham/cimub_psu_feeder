@@ -7074,10 +7074,10 @@ New Load.trip_load_611_C_40 Bus1=trip_load_611_C_h_40.1.2 Daily=shape960 phases=
 
 
 
-Set Voltagebases=[115, 4.16, 2.4, 0.48, 0.208, 0.12]
+Set Voltagebases=[115, 4.16, 2.4, 0.48, 0.208]
 
 Calcvoltagebases
 
 solve
 
-// BusCoords psu_feeder_coords.csv
+BusCoords psu_feeder_coords.csv

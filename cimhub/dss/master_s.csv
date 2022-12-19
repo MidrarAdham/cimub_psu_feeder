@@ -1,2 +1,2 @@
 DateTime, CaseName, Status, Mode, Number, LoadMult, NumDevices, NumBuses, NumNodes, Iterations, ControlMode, ControlIterations, MostIterationsDone, Year, Hour, MaxPuVoltage, MinPuVoltage, TotalMW, TotalMvar, MWLosses, pctLosses, MvarLosses, Frequency
-"17-12-22 15:14:46", source, SOLVED, Snap, 100,    1.000, 2203, 1240, 2345, 2, OFF, 1, 2, 0, 0, 1.3555, 1.0001, 0.0925892, -2.448916, 0.0925892, 100, 0.563538, 60
+"19-12-22 15:11:12", source, SOLVED, Snap, 100,    1.000, 2203, 1240, 2345, 2, OFF, 1, 2, 0, 0, 1.3555, 1.0001, 0.0925892, -2.448916, 0.0925892, 100, 0.563538, 60

@@ -8,7 +8,7 @@
 //Clock that defines the simulation time
 clock {
 	timestamp '2021-12-25 0:00:00';
-	stoptime '2021-12-31 23:59:00';
+	stoptime '2021-12-25 0:00:00';
 }
 //#set double_format="%.4le"
 module tape;

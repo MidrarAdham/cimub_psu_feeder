@@ -5,9 +5,9 @@ import pandas as pd
 
 
 
-for i in range(1,961):
-    # print(f"New Loadshape.shape{i} npts=672 mult=(file=house_{i}.csv)")
-    print(f"Daily=shape{i} phases=2 Conn=Wye kV=0.208 kvar=0.0")
+#for i in range(1,961):
+#    # print(f"New Loadshape.shape{i} npts=672 mult=(file=house_{i}.csv)")
+#    print(f"Daily=shape{i} phases=2 Conn=Wye kV=0.208 kvar=0.0")
 
 
 # namebusses = []
@@ -35,12 +35,12 @@ for i in range(1,961):
 #         df.to_csv(dump+files,index=False)
 
 
-# directory = "./"
-# dump = "./no_time_csv_files/"
-# dump2 = "./no_ts_no_w/"
-# file_names = os.listdir(dump)
-# for files in file_names:
-#     if files.startswith("house") and files.endswith('csv'):
-#         df = pd.read_csv(dump+files)
-#         df = df.iloc[:,0]/1000
-#         df.to_csv(dump2+files, index=False)
+directory = "./"
+dump = "./no_ts_csv_files/"
+file_names = os.listdir(directory)
+for files in file_names:
+    if files.startswith("house") and files.endswith('csv'):
+        df = pd.read_csv(directory+files)
+        df = df.drop(columns=df.columns[0])
+        df = df.iloc[:,0]/1000
+        df.to_csv(dump+files, index=False)

@@ -1,0 +1,12 @@
+//
+clear
+redirect Master_base.dss
+set maxiterations=80
+set tolerance=1e-08
+set controlmode=off
+solve
+export summary   Master_s.csv
+export voltages  Master_v.csv
+export currents  Master_i.csv
+export taps      Master_t.csv
+export nodeorder Master_n.csv
