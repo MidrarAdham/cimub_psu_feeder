@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Intro:
 This repository is focused on uploading a modified version of the IEEE-13 Node Feeder to the Blazegraph. The starting point is a glm file. The glm file is converted to a dss file. Then the dss file is used in several folders
 to upload it to the Blazegraph. This repo reports the progress on uploading the PSU feeder to the Blazegraph.
