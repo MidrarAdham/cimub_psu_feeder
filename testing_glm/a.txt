@@ -1,0 +1,1047 @@
+WARNING  [INIT] : Shunt capacitance of overhead line:OL632-645 not calculated - invalid values
+WARNING  [INIT] : last warning message was repeated 26 times
+WARNING  [INIT] : Underground_line:34 UL684-652 - phase N conductor should just be a normal conductor!
+WARNING  [INIT] : Shunt capacitance of overhead line:UL632-633 not calculated - invalid values
+WARNING  [INIT] : last warning message was repeated 3 times
+WARNING  [INIT] : switch objects may not behave properly under FBS!
+WARNING  [INIT] : Automatic controls can oscillate to the iteration limit with no time delays.  To prevent this, ensure your switching limits are reasonable.
+WARNING  [INIT] : Shunt capacitance of overhead line:OL_652_A not calculated - invalid values
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 287 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:OL630-632 is at 164.58% of its continuous rating on phase A!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:OL630-632 is at 239.80% of its emergency rating on phase C!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:OL632-6321 is at 106.50% of its continuous rating on phase A!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:OL632-6321 is at 135.51% of its emergency rating on phase C!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:OL6321-671 is at 106.50% of its continuous rating on phase A!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:OL6321-671 is at 135.51% of its emergency rating on phase C!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_28 is at 122.07% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 23 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_16 is at 104.59% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_40 is at 139.11% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 14 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_B_h_8 is at 100.73% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_36 is at 245.61% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 11 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_16 is at 103.02% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_C_h_36 is at 166.43% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 26 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_36 is at 104.50% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_B_h_12 is at 139.92% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 19 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_14 is at 104.50% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_33 is at 139.92% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 15 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_B_h_8 is at 100.73% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_3 is at 161.56% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 35 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_2 is at 104.50% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_C_h_7 is at 392.47% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 13 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_2 is at 101.61% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_2 is at 101.72% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:OL630-632 is at 116.87% of its continuous rating on phase B!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_31 is at 112.95% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 11 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_C_h_17 is at 102.05% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_20 is at 269.99% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 20 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_C_h_17 is at 103.25% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_B_h_12 is at 152.32% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 33 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_611_C_h_19 is at 103.07% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_611_C_h_13 is at 107.39% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 5 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_C_h_17 is at 103.25% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_38 is at 120.28% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_B_h_8 is at 100.12% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_21 is at 117.06% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_2 is at 101.82% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:OL630-632 is at 124.40% of its continuous rating on phase A!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_31 is at 161.40% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 4 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_8 is at 100.92% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_38 is at 150.37% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_B_h_12 is at 102.76% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_28 is at 157.82% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_C_h_17 is at 101.49% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_20 is at 135.13% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 18 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_C_h_17 is at 104.54% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_B_h_12 is at 100.31% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_B_h_32 is at 104.23% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_652_A_h_3 is at 113.20% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_B_h_12 is at 102.00% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_33 is at 116.44% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_C_h_17 is at 101.25% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_32 is at 150.52% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 21 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_8 is at 103.56% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_A_h_2 is at 178.04% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_611_C_h_19 is at 101.97% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_611_C_h_13 is at 106.14% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_B_h_32 is at 103.46% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_2 is at 183.94% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_C_h_17 is at 104.54% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_38 is at 150.37% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 4 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_2 is at 101.68% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_2 is at 101.78% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 38 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_28 is at 102.23% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_C_h_17 is at 100.76% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 36 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:OL630-632 is at 114.72% of its continuous rating on phase A!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_31 is at 132.66% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 4 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_8 is at 101.27% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_38 is at 139.64% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_B_h_12 is at 100.77% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_28 is at 144.02% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 18 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_B_h_12 is at 103.53% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_38 is at 250.45% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_B_h_32 is at 102.21% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_652_A_h_3 is at 104.36% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_B_h_12 is at 100.62% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_33 is at 117.06% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 17 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_8 is at 104.26% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_A_h_2 is at 164.58% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_B_h_32 is at 102.06% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_2 is at 170.67% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_B_h_12 is at 103.53% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 236.59% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_2 is at 103.41% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_2 is at 103.07% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:OL630-632 is at 102.31% of its continuous rating on phase C!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_31 is at 194.55% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_8 is at 103.92% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_38 is at 104.06% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_B_h_12 is at 104.49% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_40 is at 175.13% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 57 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_684_C_h_27 is at 100.96% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_B_h_12 is at 102.92% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 62 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_32 is at 100.72% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_32 is at 100.83% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 104.42% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_2 is at 107.66% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 6 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_C_h_17 is at 103.48% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_20 is at 113.88% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 19 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_33 is at 103.24% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_32 is at 128.77% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 19 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_611_C_h_19 is at 104.33% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_611_C_h_13 is at 108.59% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 30 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_B_h_18 is at 104.73% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_B_h_32 is at 110.60% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 11 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_B_h_18 is at 101.80% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_3 is at 124.81% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_28 is at 103.96% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_32 is at 186.74% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 15 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_B_h_18 is at 101.04% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_38 is at 104.70% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_17 is at 100.85% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_31 is at 106.39% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_22 is at 104.87% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_11 is at 104.91% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 20 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_611_C_h_33 is at 100.79% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_11 is at 109.79% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_C_h_11 is at 102.30% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_38 is at 178.10% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 15 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_C_h_31 is at 103.75% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_684_A_h_19 is at 106.96% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_C_h_31 is at 101.23% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_18 is at 104.18% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_C_h_31 is at 103.75% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_38 is at 109.80% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_C_h_11 is at 102.30% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_7 is at 105.52% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_32 is at 101.05% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_11 is at 121.47% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 103.57% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_2 is at 147.66% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 15 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_B_h_18 is at 102.76% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_B_h_32 is at 108.47% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 8 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_B_h_18 is at 100.00% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_3 is at 106.22% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 19 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_17 is at 103.87% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_38 is at 100.69% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 60 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_18 is at 103.74% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 104.93% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 4 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_8 is at 100.93% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_40 is at 132.43% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_3 is at 102.32% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_38 is at 127.22% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_B_h_32 is at 101.97% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_2 is at 106.88% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_B_h_12 is at 100.54% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_38 is at 131.85% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_B_h_32 is at 101.97% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_3 is at 101.01% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_7 is at 101.29% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_12 is at 143.35% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_32 is at 104.16% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_11 is at 144.86% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 6 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_B_h_12 is at 100.54% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_7 is at 100.57% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_17 is at 103.79% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_31 is at 109.34% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 12 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_17 is at 102.98% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_38 is at 110.97% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_40 is at 102.50% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_20 is at 117.81% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 34 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_31 is at 101.93% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_20 is at 107.60% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_38 is at 102.43% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_2 is at 118.86% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 5 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_11 is at 100.50% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 120.89% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 102.42% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_31 is at 159.99% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 13 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_611_C_h_33 is at 101.83% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_11 is at 135.71% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_C_h_11 is at 103.01% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_38 is at 135.72% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 10 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_C_h_31 is at 104.48% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_18 is at 107.01% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_611_C_h_13 is at 100.40% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_2 is at 110.60% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_C_h_31 is at 104.48% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_7 is at 110.93% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_31 is at 100.14% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_38 is at 128.25% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_2 is at 103.16% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_11 is at 134.60% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_A_h_2 is at 101.21% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 128.24% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_17 is at 101.86% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_20 is at 134.40% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 5 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_38 is at 102.48% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_32 is at 145.25% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_A_h_11 is at 101.12% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_2 is at 119.22% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_11 is at 104.69% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_11 is at 160.35% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_11 is at 104.69% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_22 is at 106.02% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_28 is at 102.85% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_32 is at 151.28% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_A_h_38 is at 101.13% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_12 is at 143.21% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_652_A_h_11 is at 101.73% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_11 is at 106.02% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_11 is at 102.48% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_18 is at 131.03% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_8 is at 104.33% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_A_h_2 is at 117.65% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_38 is at 104.70% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 152.41% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_17 is at 101.11% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_20 is at 100.47% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_38 is at 103.14% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_2 is at 119.89% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 10 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_18 is at 103.79% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_31 is at 148.47% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_38 is at 100.03% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_40 is at 133.07% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_20 is at 102.50% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_2 is at 116.51% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 6 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_11 is at 100.02% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_11 is at 148.77% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_11 is at 100.02% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_22 is at 145.29% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 4 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_7 is at 103.00% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_12 is at 104.86% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 5 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_18 is at 100.80% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_A_h_2 is at 112.98% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_38 is at 100.03% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_7 is at 103.54% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 5 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_32 is at 103.24% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_2 is at 101.34% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 5 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_12 is at 101.79% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 100.47% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_A_h_2 is at 104.37% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_2 is at 103.05% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 10 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_3 is at 103.32% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_38 is at 128.13% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_B_h_32 is at 103.40% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_2 is at 105.56% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_B_h_12 is at 101.95% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_38 is at 133.87% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_B_h_32 is at 103.40% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_3 is at 102.86% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 10 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_B_h_32 is at 100.99% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_2 is at 107.57% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_B_h_12 is at 101.95% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 128.12% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 7 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_32 is at 100.17% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_11 is at 108.22% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_32 is at 104.66% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_11 is at 123.82% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 103.22% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_2 is at 132.21% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 6 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_28 is at 102.46% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_40 is at 109.47% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_20 is at 102.22% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_2 is at 124.39% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_38 is at 104.62% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_32 is at 105.84% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_A_h_11 is at 103.27% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_2 is at 121.81% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 9 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_A_h_38 is at 103.28% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_12 is at 104.36% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_652_A_h_11 is at 104.67% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_11 is at 120.54% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_11 is at 104.61% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_A_h_2 is at 120.26% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 5 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_2 is at 103.35% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_38 is at 123.62% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_2 is at 101.65% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_11 is at 130.19% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 7 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_2 is at 103.35% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 123.61% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 4 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_8 is at 100.67% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_40 is at 114.04% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 6 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_2 is at 104.67% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_11 is at 123.36% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 4 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_26 is at 102.84% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_12 is at 143.00% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 6 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_A_h_2 is at 103.42% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_2 is at 101.47% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 16 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_17 is at 103.40% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_31 is at 109.02% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 36 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_31 is at 102.95% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_20 is at 115.67% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 6 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_33 is at 104.87% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_32 is at 131.26% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_11 is at 101.50% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 129.43% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 19 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_3 is at 100.10% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_32 is at 125.70% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_32 is at 101.36% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_11 is at 141.05% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_A_h_2 is at 104.29% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_2 is at 102.26% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_7 is at 103.54% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 120.13% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_17 is at 104.99% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_31 is at 110.61% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_17 is at 100.08% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_2 is at 103.36% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 12 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_A_h_2 is at 104.93% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_2 is at 103.36% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_38 is at 103.23% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_20 is at 118.08% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 5 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_38 is at 101.13% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_32 is at 127.75% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_11 is at 103.23% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_11 is at 162.67% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_11 is at 103.23% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_38 is at 162.69% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_28 is at 104.37% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_32 is at 132.63% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_652_A_h_11 is at 100.23% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 130.76% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_11 is at 101.13% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_18 is at 115.23% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_38 is at 103.23% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 154.17% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_17 is at 104.49% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_31 is at 110.31% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_17 is at 100.42% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_20 is at 113.93% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 7 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_33 is at 103.42% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_32 is at 130.23% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 12 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_20 is at 100.11% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_2 is at 107.18% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_3 is at 103.75% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_38 is at 129.11% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 10 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_7 is at 101.16% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_12 is at 102.50% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_32 is at 103.34% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_11 is at 143.94% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 6 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_31 is at 101.17% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_2 is at 109.00% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_32 is at 102.57% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_2 is at 107.10% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 5 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_12 is at 101.13% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_2 is at 182.73% of its emergency rating on phase 1!
+Processing 2021-12-25 00:00:00 UTC...WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 4 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_17 is at 102.67% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_31 is at 108.40% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_3 is at 104.84% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_38 is at 129.92% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 16 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_8 is at 104.36% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_A_h_2 is at 103.59% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 7 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_20 is at 103.99% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_18 is at 102.31% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 12 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_18 is at 102.48% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 105.80% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 17 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_26 is at 102.61% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_11 is at 131.37% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 22 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_18 is at 104.78% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_A_h_2 is at 103.29% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 6 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_8 is at 100.55% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_40 is at 103.48% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_2 is at 103.53% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_38 is at 116.04% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_2 is at 101.78% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_11 is at 120.89% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 11 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_A_h_2 is at 100.42% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 116.03% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 5 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_2 is at 100.24% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_38 is at 114.24% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 4 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_32 is at 103.71% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_11 is at 133.71% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 102.27% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_2 is at 144.86% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_2 is at 100.24% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 114.23% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_17 is at 104.96% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_31 is at 110.62% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_17 is at 100.55% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 4 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_2 is at 121.48% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_38 is at 102.29% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_32 is at 104.94% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_A_h_11 is at 100.72% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_2 is at 119.06% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_11 is at 104.37% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_11 is at 168.11% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_11 is at 104.37% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_22 is at 103.73% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 4 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_A_h_38 is at 100.72% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_12 is at 103.47% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_652_A_h_11 is at 101.87% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_11 is at 104.53% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_11 is at 102.29% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_A_h_2 is at 117.24% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_38 is at 104.37% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 159.79% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_31 is at 102.64% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_20 is at 116.46% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_2 is at 103.12% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_38 is at 120.27% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_2 is at 101.40% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_11 is at 126.27% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_3 is at 102.02% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_33 is at 100.50% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_11 is at 101.20% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 129.77% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_2 is at 103.12% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 120.26% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 7 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_2 is at 102.62% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_38 is at 114.46% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_2 is at 100.91% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_11 is at 118.75% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_33 is at 104.61% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_32 is at 131.76% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 7 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_2 is at 102.62% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 114.45% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 6 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_3 is at 103.31% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_38 is at 128.48% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 7 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_32 is at 100.20% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_11 is at 122.47% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 5 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_31 is at 102.77% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_31 is at 101.66% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_38 is at 102.95% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_20 is at 107.61% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 5 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_38 is at 100.89% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_32 is at 116.56% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_11 is at 102.94% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_11 is at 165.43% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_11 is at 102.94% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_38 is at 165.45% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 5 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_652_A_h_11 is at 100.00% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 119.06% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_11 is at 100.89% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_18 is at 105.13% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_38 is at 102.95% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 156.60% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_17 is at 101.65% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_31 is at 107.33% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 22 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_20 is at 101.81% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_2 is at 101.47% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_2 is at 104.73% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_11 is at 124.98% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_3 is at 100.46% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_32 is at 110.26% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_32 is at 100.54% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_11 is at 140.00% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_18 is at 100.33% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_2 is at 101.47% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_7 is at 103.46% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 120.57% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 6 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_32 is at 101.19% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_2 is at 108.79% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_22 is at 103.11% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_38 is at 150.85% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_32 is at 104.69% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_11 is at 103.51% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_11 is at 103.99% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_2 is at 183.94% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_31 is at 104.48% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_31 is at 103.14% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 10 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_22 is at 103.04% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_38 is at 142.54% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 5 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_11 is at 103.01% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 137.01% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 35 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_32 is at 103.10% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_2 is at 106.59% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 7 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_12 is at 101.66% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_11 is at 137.66% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 6 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_31 is at 100.75% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_2 is at 112.29% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 13 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_18 is at 101.11% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_A_h_2 is at 108.28% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 5 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_17 is at 101.25% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_20 is at 132.22% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_2 is at 103.65% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_38 is at 117.33% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_2 is at 101.89% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_11 is at 122.56% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 10 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_8 is at 104.33% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 117.32% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 5 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_18 is at 101.11% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_38 is at 112.19% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 17 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_38 is at 100.02% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_2 is at 116.44% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 6 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_11 is at 100.02% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_11 is at 157.71% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_11 is at 100.02% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_22 is at 108.53% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_28 is at 100.50% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_32 is at 103.47% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_12 is at 103.58% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_11 is at 114.58% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 5 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_38 is at 100.02% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 150.49% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_31 is at 102.00% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_20 is at 112.96% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 11 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_33 is at 102.31% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_32 is at 127.23% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_11 is at 100.57% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 125.44% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 12 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_2 is at 100.18% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_38 is at 111.79% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 13 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_2 is at 100.18% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 111.78% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 8 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_2 is at 104.96% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_11 is at 128.88% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_3 is at 103.61% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_11 is at 132.98% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 101.05% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_2 is at 157.48% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_A_h_2 is at 103.42% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_2 is at 101.63% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_31 is at 102.80% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_31 is at 101.89% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_38 is at 102.45% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_20 is at 100.23% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 5 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_38 is at 100.43% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_32 is at 108.71% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_11 is at 102.44% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_11 is at 165.90% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_11 is at 102.44% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_38 is at 165.92% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 5 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_11 is at 101.37% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 110.90% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_11 is at 100.43% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_A_h_2 is at 114.94% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_38 is at 102.45% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 157.16% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 4 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_2 is at 100.25% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_38 is at 114.26% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_22 is at 104.13% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_38 is at 119.56% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 4 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_11 is at 103.89% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 139.24% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_2 is at 100.25% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 114.25% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 7 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_2 is at 102.65% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_38 is at 115.18% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_2 is at 100.96% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_11 is at 119.40% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 10 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_2 is at 102.65% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 115.17% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_17 is at 104.15% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_2 is at 109.80% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 9 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_32 is at 103.48% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_11 is at 113.45% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 102.03% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_2 is at 178.96% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_31 is at 101.35% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_31 is at 100.12% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 12 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_33 is at 103.57% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_32 is at 128.61% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_11 is at 103.65% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 126.80% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 33 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_3 is at 100.78% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_38 is at 125.39% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_32 is at 103.46% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_2 is at 101.87% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 4 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_3 is at 104.62% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_32 is at 102.40% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_12 is at 102.02% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_11 is at 142.27% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 5 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_7 is at 100.11% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 125.38% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_31 is at 100.57% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_2 is at 114.52% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 9 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_28 is at 101.44% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_32 is at 106.33% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_11 is at 103.33% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 104.84% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 12 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_2 is at 104.28% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_11 is at 127.75% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_3 is at 103.15% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_33 is at 110.66% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 7 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_8 is at 100.50% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_2 is at 101.06% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 15 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_26 is at 104.00% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_12 is at 109.24% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 15 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_32 is at 102.11% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_2 is at 109.74% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 6 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_12 is at 100.68% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_11 is at 122.68% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 104.22% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_2 is at 180.35% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_31 is at 101.70% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_20 is at 107.63% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 13 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_11 is at 100.28% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 119.26% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 26 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_8 is at 100.51% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 111.49% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 5 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_2 is at 104.34% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_38 is at 119.32% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_32 is at 102.06% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_11 is at 123.81% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 4 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_12 is at 100.64% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_11 is at 138.98% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 104.73% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_2 is at 151.30% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_A_h_2 is at 101.20% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 119.31% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_38 is at 101.10% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_2 is at 117.66% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 6 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_11 is at 101.10% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_11 is at 162.84% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_11 is at 101.10% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_38 is at 162.86% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_28 is at 104.03% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_32 is at 106.61% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_11 is at 104.33% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 105.12% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_38 is at 101.10% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 154.64% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_31 is at 102.63% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_31 is at 101.35% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 6 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_2 is at 103.56% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_11 is at 128.22% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_22 is at 101.34% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_38 is at 128.23% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_3 is at 103.57% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_33 is at 105.40% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_11 is at 104.92% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 136.22% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_A_h_2 is at 101.94% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_2 is at 100.35% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 8 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_2 is at 100.13% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_38 is at 111.86% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 6 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_26 is at 104.35% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_12 is at 116.85% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 5 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_671_A_h_2 is at 100.13% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 111.85% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 15 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_32 is at 102.99% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_11 is at 124.04% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 101.55% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_2 is at 171.04% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_31 is at 103.82% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_20 is at 106.76% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 11 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_28 is at 101.29% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_32 is at 119.88% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_11 is at 102.37% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 118.19% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 8 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_17 is at 101.75% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_20 is at 125.15% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 21 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_18 is at 100.24% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_38 is at 119.16% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_2 is at 103.16% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_11 is at 123.57% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 9 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_A_h_2 is at 101.80% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 119.16% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_17 is at 100.38% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_31 is at 105.78% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 4 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_32 is at 104.39% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_2 is at 112.19% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 2 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_22 is at 104.03% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_38 is at 156.79% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_28 is at 100.07% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_32 is at 102.82% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_12 is at 102.92% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_11 is at 104.32% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_11 is at 104.88% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 101.38% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 4 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_31 is at 103.03% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_31 is at 101.73% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_3 is at 104.35% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_38 is at 129.25% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 5 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_C_h_22 is at 101.67% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_38 is at 135.79% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 5 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_11 is at 101.59% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 135.86% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 18 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_33 is at 100.34% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_32 is at 126.40% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 16 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_32 is at 100.93% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_675_A_h_2 is at 105.54% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 5 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_32 is at 104.63% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_11 is at 131.48% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 103.17% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_2 is at 169.29% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_31 is at 102.42% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_20 is at 102.04% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 11 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_A_h_28 is at 101.04% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_32 is at 114.57% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_11 is at 100.99% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_12 is at 112.96% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_B_h_18 is at 104.71% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_680_A_h_2 is at 110.26% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 3 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_17 is at 104.63% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_C_h_31 is at 110.48% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_C_h_17 is at 100.82% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_645_B_h_20 is at 128.86% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_692_A_h_2 is at 100.73% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_38 is at 113.66% of its emergency rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 13 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_632_B_h_8 is at 101.85% of its continuous rating on phase 1!
+WARNING  [2021-12-25 00:00:00 UTC] : last warning message was repeated 1 times
+WARNING  [2021-12-25 00:00:00 UTC] : Line:trip_line_633_A_h_11 is at 113.65% of its emergency rating on phase 1!

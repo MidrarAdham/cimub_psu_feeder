@@ -1,0 +1,8 @@
+# file...... output/Meter_633_C_Power.real_Best.csv
+# date...... Wed Dec 28 10:27:35 2022
+# user...... deras
+# host...... (null)
+# trigger... (none)
+# interval.. 900
+# limit..... 0
+# timestamp,meter_633_C:measured_real_power,xfmr_meter_633_C_1:measured_real_power,xfmr_meter_633_C_2:measured_real_power,xfmr_meter_633_C_3:measured_real_power,xfmr_meter_633_C_4:measured_real_power,xfmr_meter_633_C_5:measured_real_power

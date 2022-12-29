@@ -1,0 +1,8 @@
+# file...... output/Meter_684_A_Power_Best.csv
+# date...... Wed Dec 28 10:27:35 2022
+# user...... deras
+# host...... (null)
+# trigger... (none)
+# interval.. 900
+# limit..... 0
+# timestamp,meter_684_A:measured_voltage_A,xfmr_meter_684_A_1:voltage_A,xfmr_meter_684_A_2:voltage_A,xfmr_meter_684_A_3:voltage_A,xfmr_meter_684_A_4:voltage_A,xfmr_meter_684_A_5:voltage_A

@@ -1,0 +1,8 @@
+# file...... output/Meter_611_C_Power_Best.csv
+# date...... Wed Dec 28 10:27:35 2022
+# user...... deras
+# host...... (null)
+# trigger... (none)
+# interval.. 900
+# limit..... 0
+# timestamp,meter_611_C:measured_voltage_C,xfmr_meter_611_C_1:voltage_C,xfmr_meter_611_C_2:voltage_C,xfmr_meter_611_C_3:voltage_C,xfmr_meter_611_C_4:voltage_C,xfmr_meter_611_C_5:voltage_C
