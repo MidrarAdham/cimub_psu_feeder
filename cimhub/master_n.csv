@@ -1,6 +1,5 @@
 Element, Nterminals, Nconductors, Node-1, Node-2, Node-3, ...
 "Vsource.source", 2, 3, 1, 2, 3, 0, 0, 0
-"Transformer.sub", 2, 4, 1, 2, 3, 0, 1, 2, 3, 0
 "Transformer.trans_n650-n630", 2, 4, 1, 2, 3, 0, 1, 2, 3, 0
 "Transformer.t633-634", 2, 4, 1, 2, 3, 0, 1, 2, 3, 0
 "Transformer.xfmr_652_a_1", 3, 2, 1, 0, 1, 0, 0, 2

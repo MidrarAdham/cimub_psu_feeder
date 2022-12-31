@@ -1,2 +1,2 @@
-2345 Case 1 nodes, 0 not in Case 2
-2345 Case 2 nodes, 0 not in Case 1
+2342 Case 1 nodes, 0 not in Case 2
+2342 Case 2 nodes, 0 not in Case 1
