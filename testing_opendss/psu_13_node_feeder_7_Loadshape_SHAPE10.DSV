@@ -1,8 +1,0 @@
-SetProp, 1E050,   -1E050, 1E050, -1E050, 16777215, 16777215, 0, 4
-Caption, "Loadshape.SHAPE10"
-ChartCaption, "Loadshape = SHAPE10"
-Xlabel, "Seconds"
-Ylabel, "p.u."
-Curve, 0, 16711680, 1, 0, 0, 1, "SHAPE10"
-KeepAspect, 0
-PctRim, 2
