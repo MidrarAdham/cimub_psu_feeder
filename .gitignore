@@ -1,2 +1,3 @@
-*.dbl
-*.DSV
+cimhub/
+    *.dbl
+    *.DSV
