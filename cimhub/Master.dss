@@ -6125,22 +6125,23 @@ New Load.trip_load_611_C_39 Bus1=trip_load_611_C_h_39.3 phases=1 Conn=Wye Model=
 New Load.trip_load_611_C_40 Bus1=trip_load_611_C_h_40.3 phases=1 Conn=Wye Model=1  kV=0.120 kW=0.7 kvar=0.00 daily=default
 
 New energymeter.m1 element=Line.OL_633_A terminal=1
-New monitor.powers element=Line.OL_633_A terminal=1 ppolar=no mode=1
+New monitor.powers_line element=Line.OL_633_A terminal=1 ppolar=no mode=1
+New energymeter.m2 element=Transformer.trans_N650_N630 terminal=1
+New monitor.powers_xfmr element=Transformer.trans_N650_N630 terminal=1 ppolar=no mode=1
 
-
-Set Voltagebases=[4.16, 2.4, 0.48, 0.120]
+Set Voltagebases=[4.16, 2.4, 0.48]
 
 Calcvoltagebases
 
 set mode=daily
-set number=24
-set stepsize=1h
+set number=168
+set stepsize=15m
 
 // Set stepsize=15m
 // Set Number=672
 
 solve
 BusCoords psu_feeder_coords.csv
-// export all
-Export monitors powers
-Plot monitor object= powers channels=(1 )
+Visualize powers "EnergyMeter.M2"
+Export monitors powers_xfmr
+Plot monitor object= powers_xfmr channels=(1 3 5 7 )
