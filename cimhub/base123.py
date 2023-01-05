@@ -42,7 +42,7 @@ cwd = os.getcwd()
 cases = [
   {'dssname':'Master', 'root':'Master', 'mRID':'67CF8C4B-700E-4019-A03D-7C9E929ECAF9',
    'substation':'Fictitious', 'region':'Texas', 'subregion':'Austin', 'skip_gld': False,
-   'glmvsrc': 2400, 'bases':[120, 208, 480, 2400, 4160], 'export_options':' -l=1.0 -p=1.0 -e=carson',
+   'glmvsrc': 2400, 'bases':[480, 2400, 4160], 'export_options':' -l=1.0 -p=1.0 -e=carson',
    'check_branches':[{'dss_link': 'Transformer.T633-634', 'dss_bus': 'N633'},
                      {'dss_link': 'Line.OL632-6321', 'dss_bus': 'N632'},
                      {'gld_link': 'xf_t633-634', 'gld_bus': 'n633'}]}, #maybe 630

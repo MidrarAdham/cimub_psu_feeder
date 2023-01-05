@@ -1,4 +1,4 @@
-cimhub/*.dbl
-cimhub/*.DSV
-testing_opendss/*.dbl
-testing_opendss/*.DSV
+**/psu_13_node_feeder*
+**/psu_13_node_feeder*
+**/output/*
+py_scripts/*.py
