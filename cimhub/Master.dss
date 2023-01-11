@@ -5107,26 +5107,6 @@ New Transformer.xfmr_680_C_5 phases=1 windings=3
 ~ wdg=2 bus=trip_node_680_C_5.1.0 Kv=0.12 kva=1000.0 %r=0.006
 ~ wdg=3 bus=trip_node_680_C_5.0.2 Kv=0.12 kva=1000.0 %r=0.006 Xhl=2.04  Xht=2.04  Xlt=1.36
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 New Line.trip_line_680_C_h_33 length=50 units=ft
 ~ bus1=trip_node_680_C_5.1.2
 ~ bus2=trip_load_680_C_h_33.1.2 switch=n  phases=2 Linecode=2P_Code10
@@ -6129,7 +6109,7 @@ New monitor.powers_line element=Line.OL_633_A terminal=1 ppolar=no mode=1
 New energymeter.m2 element=Transformer.trans_N650_N630 terminal=1
 New monitor.powers_xfmr element=Transformer.trans_N650_N630 terminal=1 ppolar=no mode=1
 
-Set Voltagebases=[4.16, 2.4, 0.48]
+Set Voltagebases=[4.16, 2.4, 0.48, 0.12]
 
 Calcvoltagebases
 
@@ -6137,8 +6117,7 @@ set mode=Daily
 set number=672 // number of 15 minutes in a week
 set stepsize=15m // Simulation stepsize every 15 minutes
 
-// Set stepsize=15m
-// Set Number=672
+export cim100
 
 solve
 BusCoords psu_feeder_coords.csv

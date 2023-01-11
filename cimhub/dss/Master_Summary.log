@@ -1,21 +1,21 @@
 Quantity  Case1   Case2
 Status SOLVED SOLVED
-Mode Snap Snap
-Number 100 100
+Mode Daily Snap
+Number 672 100
 LoadMult 1.000 1.000
-NumDevices 2201 2201
+NumDevices 2205 2201
 NumBuses 1239 1239
 NumNodes 2702 2702
 Iterations 2 4
 ControlMode STATIC OFF
 ControlIterations 1 1
-MaxPuVoltage 1.1993 1.2043
+MaxPuVoltage 1.1986 1.2043
 MinPuVoltage 1.0001 1.0001
-TotalMW 0.272986 0.589538
-TotalMvar -1.949085 -1.901308
-MWLosses 0.0694928 0.07351
-pctLosses 25.46 12.47
-MvarLosses 0.38529 0.408763
+TotalMW 0.223547 0.589538
+TotalMvar -1.954240 -1.901308
+MWLosses 0.0692166 0.07351
+pctLosses 30.96 12.47
+MvarLosses 0.383613 0.408763
 Frequency 60 60
 
 Regulator, Case 1 Tap, Case 2 Tap
