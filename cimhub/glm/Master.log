@@ -3,22 +3,22 @@ WARNING  [INIT] : last warning message was repeated 13 times
 WARNING  [INIT] : Using a 2x2 z-matrix, instead of geometric values, is an under-determined system. Ground and/or neutral currents will be incorrect.
 WARNING  [2000-01-01 00:00:00 EST] : last warning message was repeated 959 times
 WARNING  [2000-01-01 00:00:00 EST] : transformer:xf_trans_n650_n630 is at 224.96% of its rated power value
-Processing 2000-01-01 00:00:00 EST...
+
 Core profiler results
 ======================
 
 Total objects               3575 objects
 Parallelism                    1 thread
-Total time                   2.0 seconds
-  Core time                  1.9 seconds (93.7%)
-    Compiler                 0.3 seconds (16.6%)
+Total time                   1.0 seconds
+  Core time                  0.9 seconds (87.6%)
+    Compiler                 0.3 seconds (32.5%)
     Instances                0.0 seconds (0.0%)
     Random variables         0.0 seconds (0.0%)
     Schedules                0.0 seconds (0.0%)
     Loadshapes               0.0 seconds (0.0%)
     Enduses                  0.0 seconds (0.0%)
     Transforms               0.0 seconds (0.0%)
-  Model time                 0.1 seconds/thread (6.3%)
+  Model time                 0.1 seconds/thread (12.4%)
 Simulation time                0 days
 Simulation speed               0 object.hours/second
 Passes completed               2 passes
@@ -35,17 +35,16 @@ Model profiler results
 
 Class            Time (s) Time (%) msec/obj
 ---------------- -------- -------- --------
-substation         0.063     49.6%     63.0
-triplex_node       0.018     14.2%      0.0
-triplex_line       0.015     11.8%      0.0
-triplex_load       0.014     11.0%      0.0
-voltdump           0.006      4.7%      6.0
-node               0.003      2.4%      0.0
-overhead_line      0.003      2.4%      0.0
+substation         0.062     50.0%     62.0
+triplex_node       0.021     16.9%      0.0
+triplex_line       0.015     12.1%      0.0
+triplex_load       0.013     10.5%      0.0
+voltdump           0.005      4.0%      5.0
+node               0.002      1.6%      0.0
+overhead_line      0.002      1.6%      0.0
 transformer        0.002      1.6%      0.0
 currdump           0.002      1.6%      2.0
-capacitor          0.001      0.8%      0.5
 ================ ======== ======== ========
-Total              0.127    100.0%      0.0
+Total              0.124    100.0%      0.0
 
 WARNING  [2000-01-01 00:00:00 EST] : last warning message was repeated 1 times

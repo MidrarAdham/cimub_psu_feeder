@@ -75,9 +75,9 @@ for row in cases:
   subrgn = row['subregion']
   rgn = row['region']
   print ('redirect {:s}.dss'.format (dssname), file=fp)
+  print ('export uuids {:s}_uuids.dat'.format (root), file=fp)
   print ('//uuids {:s}_uuids.dat'.format (root.lower()), file=fp)
   print ('export cim100 fid={:s} substation={:s} subgeo={:s} geo={:s} file={:s}.xml'.format (mRID, sub, subrgn, rgn, root), file=fp)
-  print ('export uuids {:s}_uuids.dat'.format (root), file=fp)
   print ('export summary   {:s}_s.csv'.format (root), file=fp)
   print ('export voltages  {:s}_v.csv'.format (root), file=fp)
   print ('export currents  {:s}_i.csv'.format (root), file=fp)
