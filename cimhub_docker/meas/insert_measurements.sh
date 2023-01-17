@@ -1,0 +1,6 @@
+python3 InsertMeasurements.py psu_13_node_feeder_7_lines_pq.txt
+python3 InsertMeasurements.py psu_13_node_feeder_7_loads.txt
+python3 InsertMeasurements.py psu_13_node_feeder_7_node_v.txt
+python3 InsertMeasurements.py psu_13_node_feeder_7_special.txt
+python3 InsertMeasurements.py psu_13_node_feeder_7_switch_i.txt
+python3 InsertMeasurements.py psu_13_node_feeder_7_xfmr_pq.txt

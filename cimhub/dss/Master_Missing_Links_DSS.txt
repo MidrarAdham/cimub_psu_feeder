@@ -1,2 +1,11 @@
-3188 Case 1 links, 0 not in Case 2
-3188 Case 2 links, 0 not in Case 1
+LOAD.TRIP_LOAD_680_C_8.2 not in Case 1
+LOAD.TRIP_LOAD_680_C_9.2 not in Case 1
+LOAD.TRIP_LOAD_680_C_6.2 not in Case 1
+LOAD.TRIP_LOAD_680_C_7.2 not in Case 1
+LOAD.TRIP_LOAD_680_C_4.2 not in Case 1
+LOAD.TRIP_LOAD_680_C_5.2 not in Case 1
+LOAD.TRIP_LOAD_680_C_2.2 not in Case 1
+LOAD.TRIP_LOAD_680_C_3.2 not in Case 1
+LOAD.TRIP_LOAD_680_C_1.2 not in Case 1
+4139 Case 1 links, 0 not in Case 2
+4148 Case 2 links, 9 not in Case 1

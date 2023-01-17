@@ -27,25 +27,28 @@ cwd = os.getcwd()
 # CBE09B55-091B-4BB0-95DA-392237B12640
 # 
 
-# cases = [
-#   {'dssname':'Master', 'root':'Master', 'mRID':'C6A497A3-43DE-4432-A151-91D830CFB65E',
-#    'substation':'Fictitious', 'region':'Texas', 'subregion':'Austin', 'skip_gld': True,
-#    'glmvsrc': 2401.78, 'bases':[208.0, 480.0, 4160.0], 'export_options':' -l=1.0 -p=1.0 -e=carson',
-#    'check_branches':[{'dss_link': 'Transformer.T633-634', 'dss_bus': 'N633'},
-#                      {'dss_link': 'Line.OL632-6321', 'dss_bus': 'N632'}]},
-# ]
-
-
 # NOTE: psu feeder with loads. Feeder mRID: F234F944-6C06-4D13-8E87-3532CDB095FA
 # Cases for the above feeder:
+
+# cases = [
+#   {'dssname':'Master', 'root':'Master', 'mRID':'67CF8C4B-700E-4019-A03D-7C9E929ECAF9',
+#    'substation':'Fictitious', 'region':'Texas', 'subregion':'Austin', 'skip_gld': False,
+#    'glmvsrc': 2400, 'bases':[120, 480, 2400, 4160], 'export_options':' -l=1.0 -p=1.0 -e=carson',
+#    'check_branches':[{'dss_link': 'Transformer.T633-634', 'dss_bus': 'N633'},
+#                      {'dss_link': 'Line.OL632-6321', 'dss_bus': 'N632'},
+#                      {'gld_link': 'xf_t633-634', 'gld_bus': 'n633'}]}, #maybe 630
+# ]
 
 cases = [
   {'dssname':'Master', 'root':'Master', 'mRID':'67CF8C4B-700E-4019-A03D-7C9E929ECAF9',
    'substation':'Fictitious', 'region':'Texas', 'subregion':'Austin', 'skip_gld': False,
-   'glmvsrc': 2400, 'bases':[120, 480, 2400, 4160], 'export_options':' -l=1.0 -p=1.0 -e=carson',
+   'glmvsrc': 2400, 'bases':[208, 480, 2400, 4160], 'export_options':' -l=1.0 -p=1.0 -e=carson',
    'check_branches':[{'dss_link': 'Transformer.T633-634', 'dss_bus': 'N633'},
                      {'dss_link': 'Line.OL632-6321', 'dss_bus': 'N632'},
                      {'gld_link': 'xf_t633-634', 'gld_bus': 'n633'}]}, #maybe 630
+  #  'check_branches':[{'dss_link': 'OL_680_A', 'dss_bus': 'N680'},
+  #                    {'dss_link': 'OL_680_B', 'dss_bus': 'N680'},
+  #                    {'gld_link': 'line_ol_680_a', 'gld_bus': 'n680'}]}, #maybe 630
 ]
 
 '''
