@@ -4,6 +4,7 @@ import subprocess
 import time
 import cimhub.CIMHubConfig as CIMHubConfig
 import cimhub.api as cimhub
+import xml.etree.ElementTree as et
 
 
 # Empty blazegraph repository.
@@ -21,12 +22,16 @@ print(f'export cim100 substation=Fictitious geo=Texas subgeo=Austin file={dss_na
 
 exp_dat_files.close()
 
-with open('master.dat', 'r') as f:
-    for lines in f:
-        if lines.startswith('Circuit'):
-            fd_mird = (lines.split()[1]).strip('{\}')
+mytree = et.parse('Master.xml')
+mroot = mytree.getroot()
+
+for child in mroot:
+    feeder = {child.tag.split('}')[1]}
+    for i in feeder:
+        if i == 'Feeder':
+            fd_mrid = child.attrib
         
-print(f"================ FYI ==================\n here is the feeder id\n{fd_mird}\n\n")
+print(f"================ FYI ==================\n here is the feeder id\n{fd_mrid}\n\n")
 # Run the dss file to export the dat file
 p1 = subprocess.Popen('dss exp_dss_data.dss', shell=True)
 p1.wait()
@@ -41,7 +46,7 @@ os.system('java -cp "./target/libs/*:./target/cimhub-0.0.1-SNAPSHOT.jar" gov.pnn
 
 # Create dss and glm files:
 print("\n\n===============creating dss and glms===============\n\n")
-os.system(f'java -cp "./target/libs/*:./target/cimhub-0.0.1-SNAPSHOT.jar" gov.pnnl.gridappsd.cimhub.CIMImporter -s={fd_mird} -u=$DB_URL -o=both -l=1.0 -i=1 -h=0 -x=0 -t=1 master')
+os.system(f'java -cp "./target/libs/*:./target/cimhub-0.0.1-SNAPSHOT.jar" gov.pnnl.gridappsd.cimhub.CIMImporter -s={fd_mrid} -u=$DB_URL -o=both -l=1.0 -i=1 -h=0 -x=0 -t=1 master')
 
 # test dss solution 
 test_dss = open('test_dss.dss', 'w')
@@ -63,7 +68,7 @@ print('bash ./insert_measurements.sh', file=run_meas)
 run_meas.close()
 
 list_meas =  open('list_measurements.sh','w')
-print(f'python3 ListMeasureables.py psu_13_node_feeder_7 _{fd_mird}', file=list_meas)
+print(f'python3 ListMeasureables.py psu_13_node_feeder_7 _{fd_mrid}', file=list_meas)
 list_meas.close()
 
 insert_meas =  open('insert_measurements.sh','w')
