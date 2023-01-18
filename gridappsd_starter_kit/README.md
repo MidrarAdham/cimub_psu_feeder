@@ -1,2 +1,2 @@
 # GridAppsStarter
- Setting up and walking through various APIs in pythong
+ Setting up and walking through various APIs in python

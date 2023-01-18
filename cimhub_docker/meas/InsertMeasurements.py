@@ -10,6 +10,7 @@ import constants
 
 # try to re-use the mRID, otherwise make a new one and save it
 def getMeasurementID (key, uuidDict):
+  print("\n\n=================== \n\n getting measurement\n\n==================\n\n")
   if key in uuidDict:
     return uuidDict[key]
   idNew = uuid.uuid4()
@@ -38,6 +39,7 @@ sparql = SPARQLWrapper2 (constants.blazegraph_url)
 sparql.method = 'POST'
 
 def InsertMeasurement (meascls, measid, eqname, eqid, trmid, meastype, phases):
+  print("=================== \n\n Inserting measurement\n\n==================\n\n")
   resource = '<' + constants.blazegraph_url + '#' + str(measid) + '>'
   equipment = '<' + constants.blazegraph_url + '#' + str(eqid) + '>'
   terminal = '<' + constants.blazegraph_url + '#' + str(trmid) + '>'
