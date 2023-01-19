@@ -18,14 +18,17 @@ dss_name = 'Master'
 # Directory path:
 current_dir = path().absolute()
 
+print(f"\n\n=============\n\n{current_dir}\n\n========\n\n")
+
 #Create folders if they don't exist
 path('dss').mkdir(parents=False, exist_ok=True)
 path('glm').mkdir(parents=False, exist_ok=True)
+path('config').mkdir(parents=False, exist_ok=True)
 
 
-def dss_config_files(dss_name, exp_dat_files):
+def dss_config_files(dss_name):
+
     exp_dat_files = open('exp_dss_data.dss', 'w')
-
     print(f'redirect {dss_name}.dss', file=exp_dat_files)
     print(f'solve', file=exp_dat_files)
     print(f'export uuids {dss_name}.json', file=exp_dat_files)
@@ -38,8 +41,8 @@ def dss_config_files(dss_name, exp_dat_files):
     p1.wait()
 
 
-def get_mrids ():
-    mytree = et.parse('Master.xml')
+def get_mrids (dss_name):
+    mytree = et.parse(dss_name+'.xml')
     root = mytree.getroot()
     mrids = []
 
@@ -70,9 +73,9 @@ def upload_to_blazegraph(dss_name,fd_mrid):
     os.system(f'java -cp "./target/libs/*:./target/cimhub-0.0.1-SNAPSHOT.jar" gov.pnnl.gridappsd.cimhub.CIMImporter -s={fd_mrid} -u=$DB_URL -o=both -l=1.0 -i=1 -h=0 -x=0 -t=1 master')
 
 
-def test_exported_files():
+def test_exported_files(current_dir):
     # Change to dss directory
-    os.chdir("./dss/")
+    os.chdir(f"{current_dir}/dss/")
 
     # test dss solution 
     test_dss = open('test_dss.dss', 'w')
@@ -86,7 +89,7 @@ def test_exported_files():
     p1.wait()
 
     # Change to glm direcoty
-    os.chdir('../glm/')
+    os.chdir(f'{current_dir}/glm/')
 
     glm_run = open('master_run.glm', 'w')
     print('clock {\n\ttimezone EST+5EDT;\n\tstarttime 2000-01-01 0:00:00;\n\tstoptime 2000-01-01 0:00:00;\n};', file=glm_run)
@@ -103,9 +106,10 @@ def test_exported_files():
     p1.wait()
 
 
-def list_insert_meas(fd_mrid):
-    os.chdir('../meas/')
 
+def list_insert_meas(fd_mrid,current_dir):
+
+    os.chdir(f"{current_dir}/meas/")
     run_meas = open ('run_meas.sh','w')
     print('bash ./list_measurements.sh', file=run_meas)
     print('bash ./insert_measurements.sh', file=run_meas)
@@ -133,3 +137,57 @@ def list_insert_meas(fd_mrid):
     p1 = subprocess.Popen('bash ./run_meas.sh', shell=True)
     p1.wait()
 
+def unix_ts(time):
+    dt_time = dt.strptime(time, "%Y-%m-%d %H:%M:%S")
+    unix_ts = dt_time.timestamp()
+    return unix_ts
+
+
+# Create a configuration file to be used when running the simulation
+def sim_config_file (dss_name, mrids, current_dir):
+    with open ('master.dat','r') as f:
+        for lines in f:
+            if (lines.split()[0]).startswith('Circuit.'+ckt_name):
+                line_name = (lines.split()[1]).strip('{ }')
+    
+    sim_config = {
+    "power_system_config": {
+        "GeographicalRegion_name": mrids[0],
+        "SubGeographicalRegion_name": mrids[1],
+        "Line_name":line_name
+    },
+    "application_config": {
+        "applications": []
+    },
+    "simulation_config": {
+        "start_time": f"{unix_ts(sim_start_time)}",
+        "duration": "30",
+        "simulator": "GridLAB-D",
+        "timestep_frequency": "1000",
+        "timestep_increment": "1000",
+        "run_realtime": "true",
+        "simulation_name": "psu_13_node_feeder_7",
+        "power_flow_solver_method": "NR",
+        "model_creation_config": {
+            "load_scaling_factor": "1",
+            "schedule_name": "ieeezipload",
+            "z_fraction": "0",
+            "i_fraction": "1",
+            "p_fraction": "0",
+            "randomize_zipload_fractions": "false",
+            "use_houses": "false"
+            }
+        },
+    }
+
+    os.chdir(f'{current_dir}/config')
+    with open ('simulation_configuration.json', 'w') as output:
+        json.dump(sim_config, output, indent=4)
+
+def main (dss_name, current_dir):
+    dss_config_files(dss_name)
+    geo, sub, fd_mrid = get_mrids (dss_name)
+    upload_to_blazegraph(dss_name,fd_mrid)
+    test_exported_files(current_dir)
+    list_insert_meas(fd_mrid, current_dir)
+main (dss_name, current_dir)

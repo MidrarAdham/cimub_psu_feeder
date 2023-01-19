@@ -1,7 +1,7 @@
 import json
 import xml.etree.ElementTree as et
 from datetime import datetime as dt
-'''
+
 ckt_name = 'psu_13_node_feeder_7'   # Type your ckt name. It can be found in the dat file.
 mytree = et.parse('Master.xml')
 root = mytree.getroot()
@@ -63,25 +63,25 @@ sim_config = {
 
 with open ('simulation_configuration.json', 'w') as output:
     json.dump(sim_config, output, indent=4)
-'''
 
-def get_mrids ():
-    mytree = et.parse('Master.xml')
-    root = mytree.getroot()
-    mrids = []
 
-    for child in root:
-        feeder = (child.tag).split("}")[1]
-        # if feeder == 'Feeder':
-        #     for element in child.attrib:
-        #         elem = element
-        #     fd_mrid = child.attrib[elem]
+# def get_mrids ():
+#     mytree = et.parse('Master.xml')
+#     root = mytree.getroot()
+#     mrids = []
 
-        if (feeder == "GeographicalRegion") or (feeder == 'SubGeographicalRegion') or (feeder == 'Feeder'):
-            for element in child.attrib:
-                mrids.append(child.attrib[element])
-    print(f"---> FYI <---\n Feeder id is --> \t{mrids[2]}\n\n")
-    print(f"---> FYI <---\n geo is --> \t{mrids[0]}\n\n")
-    print(f"---> FYI <---\n sub geo is --> \t{mrids[1]}\n\n")
+#     for child in root:
+#         feeder = (child.tag).split("}")[1]
+#         # if feeder == 'Feeder':
+#         #     for element in child.attrib:
+#         #         elem = element
+#         #     fd_mrid = child.attrib[elem]
 
-get_mrids()
+#         if (feeder == "GeographicalRegion") or (feeder == 'SubGeographicalRegion') or (feeder == 'Feeder'):
+#             for element in child.attrib:
+#                 mrids.append(child.attrib[element])
+#     print(f"---> FYI <---\n Feeder id is --> \t{mrids[2]}\n\n")
+#     print(f"---> FYI <---\n geo is --> \t{mrids[0]}\n\n")
+#     print(f"---> FYI <---\n sub geo is --> \t{mrids[1]}\n\n")
+
+# get_mrids()
