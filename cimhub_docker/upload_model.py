@@ -5,9 +5,12 @@ import subprocess
 import pandas as pd
 import cimhub.api as cimhub
 from pathlib import Path as path
+from gridappsd import topics as t
 import xml.etree.ElementTree as et
 from datetime import datetime as dt
 import cimhub.CIMHubConfig as CIMHubConfig
+from gridappsd.simulation import Simulation
+from gridappsd import GridAPPSD, DifferenceBuilder
 
 # Empty blazegraph repository.
 os.system('curl -D- -X POST $DB_URL --data-urlencode "update=drop all"')
@@ -106,7 +109,6 @@ def test_exported_files(current_dir):
     p1.wait()
 
 
-
 def list_insert_meas(fd_mrid,current_dir):
 
     os.chdir(f"{current_dir}/meas/")
@@ -134,18 +136,17 @@ def list_insert_meas(fd_mrid,current_dir):
     os.chmod("list_measurements.sh",0o775)
     os.chmod("insert_measurements.sh",0o775)
 
-    p1 = subprocess.Popen('bash ./run_meas.sh', shell=True)
-    p1.wait()
+    # p1 = subprocess.Popen('bash ./run_meas.sh', shell=True)
+    # p1.wait()
 
 def unix_ts(time):
     dt_time = dt.strptime(time, "%Y-%m-%d %H:%M:%S")
     unix_ts = dt_time.timestamp()
     return unix_ts
 
-
 # Create a configuration file to be used when running the simulation
-def sim_config_file (dss_name, mrids, current_dir):
-    with open ('master.dat','r') as f:
+def sim_config_file (mrids, current_dir):
+    with open (f'{current_dir}/master.dat','r') as f:
         for lines in f:
             if (lines.split()[0]).startswith('Circuit.'+ckt_name):
                 line_name = (lines.split()[1]).strip('{ }')
@@ -184,10 +185,23 @@ def sim_config_file (dss_name, mrids, current_dir):
     with open ('simulation_configuration.json', 'w') as output:
         json.dump(sim_config, output, indent=4)
 
+def connect_gridappsd ():
+    os.environ['GRIDAPPSD_USER'] = 'tutorial_user'
+    os.environ['GRIDAPPSD_PASSWORD'] = '12345!'
+    os.environ['GRIDAPPSD_ADDRESS'] = 'localhost'
+    os.environ['GRIDAPPSD_PORT'] = '61613'
+    
+    # Connect to GridAPPS-D Platform
+    
+    gapps_session = GridAPPSD()
+    assert gapps_session.connected
+
+
 def main (dss_name, current_dir):
     dss_config_files(dss_name)
     geo, sub, fd_mrid = get_mrids (dss_name)
     upload_to_blazegraph(dss_name,fd_mrid)
     test_exported_files(current_dir)
     list_insert_meas(fd_mrid, current_dir)
+    connect_gridappsd()
 main (dss_name, current_dir)

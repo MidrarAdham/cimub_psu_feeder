@@ -1,12 +1,12 @@
 {"feeders":[
 {"name":"psu_13_node_feeder_7",
-"mRID":"_1B2ABD78-50CC-4C09-B9D9-9B7849088B9E",
+"mRID":"_C196C31E-6F09-4F00-A1A1-DB9EBE31C64C",
 "substation":"Fictitious",
-"substationID":"_17EC6EF1-451A-4456-849E-DB3ED2AB1A5E",
+"substationID":"_EF1F4420-0478-4347-9864-A55FF249FE3F",
 "subregion":"Austin",
-"subregionID":"_903AD318-2697-412D-A553-146576F113A1",
+"subregionID":"_0EE9E6D8-C476-4DD7-BB40-46C5AD9C7F2B",
 "region":"Texas",
-"regionID":"_05913C2F-0129-4666-B02D-E642E12AEA87",
+"regionID":"_03149AD7-E2D7-4DEA-8688-4459AEB3CF3B",
 "swing_nodes":[
 {"name":"source","bus":"n650","phases":"ABC","nominal_voltage":2401.8,"x1":3000.0,"y1":6500.0}
 ],
