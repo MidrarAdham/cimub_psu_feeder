@@ -1,4 +1,5 @@
 import os
+import ast
 import time
 import json
 import subprocess
@@ -20,8 +21,6 @@ dss_name = 'Master'
 
 # Directory path:
 current_dir = path().absolute()
-
-print(f"\n\n=============\n\n{current_dir}\n\n========\n\n")
 
 #Create folders if they don't exist
 path('dss').mkdir(parents=False, exist_ok=True)
@@ -61,7 +60,7 @@ def get_mrids (dss_name):
     
     return geo_rgn, sub_geo, fd_mrid
 
-def upload_to_blazegraph(dss_name,fd_mrid):
+def upload_to_blazegraph(dss_name,mrids):
     
     # upload XML version to Blazegraph
     print("\n\n===============uploading xml===============\n\n")
@@ -73,7 +72,7 @@ def upload_to_blazegraph(dss_name,fd_mrid):
 
     # Create dss and glm files:
     print("\n\n===============creating dss and glms===============\n\n")
-    os.system(f'java -cp "./target/libs/*:./target/cimhub-0.0.1-SNAPSHOT.jar" gov.pnnl.gridappsd.cimhub.CIMImporter -s={fd_mrid} -u=$DB_URL -o=both -l=1.0 -i=1 -h=0 -x=0 -t=1 master')
+    os.system(f'java -cp "./target/libs/*:./target/cimhub-0.0.1-SNAPSHOT.jar" gov.pnnl.gridappsd.cimhub.CIMImporter -s={mrids[2]} -u=$DB_URL -o=both -l=1.0 -i=1 -h=0 -x=0 -t=1 master')
 
 
 def test_exported_files(current_dir):
@@ -109,7 +108,7 @@ def test_exported_files(current_dir):
     p1.wait()
 
 
-def list_insert_meas(fd_mrid,current_dir):
+def list_insert_meas(mrids,current_dir):
 
     os.chdir(f"{current_dir}/meas/")
     run_meas = open ('run_meas.sh','w')
@@ -118,7 +117,7 @@ def list_insert_meas(fd_mrid,current_dir):
     run_meas.close()
 
     list_meas =  open('list_measurements.sh','w')
-    print(f'python3 ListMeasureables.py psu_13_node_feeder_7 {fd_mrid}', file=list_meas)
+    print(f'python3 ListMeasureables.py psu_13_node_feeder_7 {mrids[2]}', file=list_meas)
     list_meas.close()
 
     insert_meas =  open('insert_measurements.sh','w')
@@ -139,13 +138,11 @@ def list_insert_meas(fd_mrid,current_dir):
     # p1 = subprocess.Popen('bash ./run_meas.sh', shell=True)
     # p1.wait()
 
-def unix_ts(time):
-    dt_time = dt.strptime(time, "%Y-%m-%d %H:%M:%S")
-    unix_ts = dt_time.timestamp()
-    return unix_ts
-
 # Create a configuration file to be used when running the simulation
 def sim_config_file (mrids, current_dir):
+
+    ckt_name = 'psu_13_node_feeder_7'   # Type your ckt name. It can be found in the dat file.
+
     with open (f'{current_dir}/master.dat','r') as f:
         for lines in f:
             if (lines.split()[0]).startswith('Circuit.'+ckt_name):
@@ -161,7 +158,7 @@ def sim_config_file (mrids, current_dir):
         "applications": []
     },
     "simulation_config": {
-        "start_time": f"{unix_ts(sim_start_time)}",
+        "start_time": "1570041113",
         "duration": "30",
         "simulator": "GridLAB-D",
         "timestep_frequency": "1000",
@@ -176,12 +173,13 @@ def sim_config_file (mrids, current_dir):
             "i_fraction": "1",
             "p_fraction": "0",
             "randomize_zipload_fractions": "false",
-            "use_houses": "false"
+            "use_houses": "false" 
             }
         },
     }
 
-    os.chdir(f'{current_dir}/config')
+    os.chdir(f'{current_dir}/config/')
+    print(f'-------------------------\n\n\n{os.getcwd}\n\n\n-------------------------')
     with open ('simulation_configuration.json', 'w') as output:
         json.dump(sim_config, output, indent=4)
 
@@ -195,13 +193,37 @@ def connect_gridappsd ():
     
     gapps_session = GridAPPSD()
     assert gapps_session.connected
+    return gapps_session
 
+# Load the configuration file created above.
+def load_config_from_file (current_dir):
+    
+    config_file = f'{current_dir}/config/simulation_configuration.json'
+    
+    with open (config_file) as f:
+        config_string = f.read()
+        config_parameters = ast.literal_eval (config_string)
+        sim_start_time = config_parameters["power_system_config"]["Line_name"]
+    
+    return config_parameters, sim_start_time
+
+def connect_to_sim (gapps_session, config_parameters):
+    sim_session = Simulation (gapps_session, config_parameters)
+    sim_mrid = sim_session.simulation_id                          # returns none
+
+    
 
 def main (dss_name, current_dir):
     dss_config_files(dss_name)
-    geo, sub, fd_mrid = get_mrids (dss_name)
-    upload_to_blazegraph(dss_name,fd_mrid)
+    mrids = get_mrids (dss_name)
+    upload_to_blazegraph(dss_name,mrids)
     test_exported_files(current_dir)
-    list_insert_meas(fd_mrid, current_dir)
-    connect_gridappsd()
+    list_insert_meas(mrids, current_dir)
+    sim_config_file(mrids, current_dir)
+    # Starting the simulation process:
+    gapps_session = connect_gridappsd()
+    config_parameters, sim_start_time = load_config_from_file(current_dir)
+    connect_to_sim(gapps_session, config_parameters)
+
+
 main (dss_name, current_dir)

@@ -2,3 +2,4 @@
 **/psu_13_node_feeder*
 **/output/*
 py_scripts/*.py
+**/python_tests/*
