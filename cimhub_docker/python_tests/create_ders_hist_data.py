@@ -101,14 +101,16 @@ def interpolate_df(df):
     expanded_df['Time'] = (expanded_df['Time'].apply(lambda x: x.timestamp())).astype(int)
     return expanded_df
 
-def wr_csv(df, current_dir):
-    return df.to_csv(current_dir+'/'+df, index=False)
+def wr_csv(df):
+    os.chdir('../DERSHistoricalDataInput/')
+    df.to_csv('psu_13_feeder_ders_s.csv', index=False)
 
 def main(der_loc_files, nodes, current_dir):
     empty_df = create_df_headers(nodes)
     der_s_dict = get_der_loc (der_loc_files, empty_df)
     der_s_dict = read_watts(der_s_dict)
+    os.chdir(current_dir)
     df = create_df(der_s_dict)
     df = interpolate_df(df)
-    wr_csv(df,current_dir)
+    wr_csv(df)
 main(der_loc_files, nodes, current_dir)

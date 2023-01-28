@@ -1,4 +1,20 @@
+# Remove testing files:
+
 **/psu_13_node_feeder*
 **/psu_13_node_feeder*
 **/output/*
 py_scripts/*.py
+
+# Remove OpenDSS exported files:
+
+master_base.dss
+master_busxy.dss
+master_uuid.dss
+exp_dss_data.dss
+test_dss.dss
+test_opendss.dss
+
+master_dict.json
+master_limits.json
+master_symbols.json
+test_feeder_index.json
