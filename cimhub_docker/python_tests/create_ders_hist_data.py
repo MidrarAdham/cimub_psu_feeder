@@ -103,7 +103,7 @@ def interpolate_df(df):
 
 def wr_csv(df):
     df = df.head(5400)
-    os.chdir('../../../midrar_me/DERSHistoricalDataInput/')
+    os.chdir('/home/deras/Desktop/midrar_work_github/cimhub_psu_feeder/midrar_me/DERSHistoricalDataInput/')
     df.to_csv('psu_13_feeder_ders_s.csv', index=False)
 
 def main(der_loc_files, nodes, current_dir):

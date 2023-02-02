@@ -1,6 +1,7 @@
 import os
 import csv
 import json
+import subprocess
 import pandas as pd
 from pprint import pprint as pp
 from pathlib import Path as path
@@ -13,10 +14,26 @@ from gridappsd import GridAPPSD, DifferenceBuilder
 current_dir = path().absolute()
 os.chdir("../")
 ckt_name = 'psu_13_node_feeder_7'       # Type your ckt name. It can be found in the dat file.
-mytree = et.parse('/home/deras/Desktop/midrar_work_github/cimhub_psu_feeder/cimhub_docker/Master.xml')
+# mytree = et.parse('/home/deras/Desktop/midrar_work_github/cimhub_psu_feeder/cimhub_docker/Master.xml')
 sim_start_time = '2023-01-01 00:00:00'
 sim_stop_time = '2023-01-02 00:00:00'
+dss_name = 'Master'
 
+
+def dss_config_files(dss_name):
+    print("this is called")
+    exp_dat_files = open('exp_dss_data.dss', 'w')
+    print(f'redirect {dss_name}.dss', file=exp_dat_files)
+    print(f'solve', file=exp_dat_files)
+    print(f'export uuids {dss_name}.json', file=exp_dat_files)
+    print(f'export cim100 substation=Fictitious geo=Texas subgeo=Austin file={dss_name}.xml', file=exp_dat_files)
+
+    exp_dat_files.close()
+
+    print(f"\n\n----> Exporting UUIDs and CIM files <----\n\n")
+
+    p1 = subprocess.Popen('dss exp_dss_data.dss', shell=True)
+    p1.wait()
 
 def query_feeder (fd_id):
     
@@ -61,7 +78,8 @@ def query_feeder (fd_id):
 
     return loads_query
 
-def get_mrids(mytree):
+def get_mrids():
+    mytree = et.parse('/home/deras/Desktop/midrar_work_github/cimhub_psu_feeder/cimhub_docker/Master.xml')
     root = mytree.getroot()
     mrids = []
     for child in root:
@@ -70,16 +88,18 @@ def get_mrids(mytree):
             for element in child.attrib:
                 mrids.append(child.attrib[element])
     
-    with open ('/home/deras/Desktop/midrar_work_github/cimhub_psu_feeder/cimhub_docker/master.dat','r') as f:
-        for lines in f:
-            if (lines.split()[0]).startswith('Circuit.'+ckt_name):
-                line_name = (lines.split()[1]).strip('{ }')
+    line_name = mrids[2]
+    
+    # with open ('/home/deras/Desktop/midrar_work_github/cimhub_psu_feeder/cimhub_docker/master.dat','r') as f:
+    #     for lines in f:
+    #         if (lines.split()[0]).startswith('Circuit.'+ckt_name):
+    #             line_name = (lines.split()[1]).strip('{ }')
 
     return mrids, line_name
 
 
 def create_config_file(mrids, line_name):
-    df = pd.read_csv('/home/deras/Desktop/midrar_work_github/midrar_me/DERSHistoricalDataInput/psu_13_feeder_ders_s.csv')
+    df = pd.read_csv('/home/deras/Desktop/midrar_work_github/cimhub_psu_feeder/midrar_me/DERSHistoricalDataInput/psu_13_feeder_ders_s.csv')
     starting_time = df.loc[0]['Time']
     sim_config = {
         "power_system_config": {
@@ -136,12 +156,11 @@ def create_mrid_files(config_parameters, loads_query):
 
     sim_session = Simulation(gapps_session,config_parameters)
     topic = t.REQUEST_POWERGRID_DATA
-    print(loads_query)
+    print("----> Querying Loads Information <----")
+    pp(loads_query)
     resp = gapps_session.query_data(loads_query)
-    print(resp)
 
     feeder_id.append(resp['data']['results']['bindings'][0]['fdrid']['value'])
-    print(f"\n\n--------\n\n{feeder_id}\n\n----------\n\n")
     for i in range(len(resp['data']['results']['bindings'])):
         phases.append(resp['data']['results']['bindings'][i]['phases']['value'].replace(' ',''))
         names.append(resp['data']['results']['bindings'][i]['name']['value'])
@@ -160,17 +179,18 @@ def create_mrid_files(config_parameters, loads_query):
     return df_files, df_data
 
 def wr_json(sim_config):
-    os.chdir('/home/deras/Desktop/midrar_work_github/midrar_me/Configuration/')
+    os.chdir('/home/deras/Desktop/midrar_work_github/cimhub_psu_feeder/midrar_me/Configuration/')
     with open ('simulation_configuration.json', 'w') as output:
         json.dump(sim_config, output, indent=4)
     
 def wr_df(df_files, df_data):
     
-    df_files.to_csv("/home/deras/Desktop/midrar_work_github/midrar_me/DERScripts/EGoT13_der_psu.txt", mode="w", index=False)
-    df_data.to_csv("/home/deras/Desktop/midrar_work_github/midrar_me/DERScripts/EGoT13_der_psu.txt", mode="a", index=False, quoting=csv.QUOTE_NONE, escapechar=" ")
+    df_files.to_csv("/home/deras/Desktop/midrar_work_github/cimhub_psu_feeder/midrar_me/DERScripts/EGoT13_der_psu.txt", mode="w", index=False)
+    df_data.to_csv("/home/deras/Desktop/midrar_work_github/cimhub_psu_feeder/midrar_me/DERScripts/EGoT13_der_psu.txt", mode="a", index=False, quoting=csv.QUOTE_NONE, escapechar=" ")
 
-def main(current_dir, ckt_name, mytree, sim_start_time):
-    mrids, line_name = get_mrids(mytree)
+def main(current_dir, ckt_name, sim_start_time, dss_name):
+    dss_config_files(dss_name)
+    mrids, line_name = get_mrids()
     query_loads = query_feeder (mrids[2])
     # print(query_loads)
     sim_config = create_config_file (mrids, line_name)
@@ -178,4 +198,4 @@ def main(current_dir, ckt_name, mytree, sim_start_time):
     os.chdir(current_dir)
     wr_json(sim_config)
     wr_df(df_files, df_data)
-main(current_dir, ckt_name, mytree, sim_start_time)
+main(current_dir, ckt_name, sim_start_time,dss_name)
