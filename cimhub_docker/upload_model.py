@@ -3,6 +3,7 @@ import ast
 import csv
 import time
 import json
+import shutil
 import subprocess
 import pandas as pd
 import cimhub.api as cimhub
@@ -30,10 +31,10 @@ path('glm').mkdir(parents=False, exist_ok=True)
 path('config').mkdir(parents=False, exist_ok=True)
 
 
-def dss_config_files(dss_name):
-
+def dss_config_files(dss_name, current_dir):
+    os.chdir(f"{current_dir}/dss/")
     exp_dat_files = open('exp_dss_data.dss', 'w')
-    print(f'redirect {dss_name}.dss', file=exp_dat_files)
+    print(f'redirect {current_dir}/{dss_name}.dss', file=exp_dat_files)
     print(f'solve', file=exp_dat_files)
     print(f'export uuids {dss_name}.json', file=exp_dat_files)
     print(f'export cim100 substation=Fictitious geo=Texas subgeo=Austin file={dss_name}.xml', file=exp_dat_files)
@@ -47,6 +48,7 @@ def dss_config_files(dss_name):
     p1.wait()
 
 def get_mrids (dss_name):
+    
     mytree = et.parse(dss_name+'.xml')
     root = mytree.getroot()
     mrids = []
@@ -63,25 +65,62 @@ def get_mrids (dss_name):
     
     return geo_rgn, sub_geo, fd_mrid
 
-def upload_to_blazegraph(dss_name,fd_mrid):
-    
+def upload_to_blazegraph(dss_name,fd_mrid, current_dir):
+    # os.chdir(current_dir)
     # upload XML version to Blazegraph
-    print("-------------------------------------------------")
     print(f"\n\n----> uploading xml <----\n\n")
     print("-------------------------------------------------")
-    os.system(f'curl -D- -H "Content-Type: application/xml" --upload-file {dss_name}.xml -X POST $DB_URL')
+    os.system(f'curl -D- -H "Content-Type: application/xml" --upload-file {current_dir}/dss/{dss_name}.xml -X POST $DB_URL')
 
     # list feeders in the blazegraph
-    print("-------------------------------------------------")
+    print("\n-------------------------------------------------")
     print(f"\n\n----> listing feeders <----\n\n")
     print("-------------------------------------------------")
-    os.system('java -cp "./target/libs/*:./target/cimhub-0.0.1-SNAPSHOT.jar" gov.pnnl.gridappsd.cimhub.CIMImporter -u=$DB_URL -o=idx test')
+    os.system('java -cp "../target/libs/*:../target/cimhub-0.0.1-SNAPSHOT.jar" gov.pnnl.gridappsd.cimhub.CIMImporter -u=$DB_URL -o=idx test')
 
-    # Create dss and glm files:
     print("-------------------------------------------------")
     print(f"\n\n----> creating dss and glms <----\n\n")
     print("-------------------------------------------------")
-    os.system(f'java -cp "./target/libs/*:./target/cimhub-0.0.1-SNAPSHOT.jar" gov.pnnl.gridappsd.cimhub.CIMImporter -s={fd_mrid} -u=$DB_URL -o=both -l=1.0 -i=1 -h=0 -x=0 -t=1 master')
+    os.system(f'java -cp "../target/libs/*:../target/cimhub-0.0.1-SNAPSHOT.jar" gov.pnnl.gridappsd.cimhub.CIMImporter -s={fd_mrid} -u=$DB_URL -o=both -l=1.0 -i=1 -h=0 -x=0 -t=1 master')
+
+# def fix_exp_glm(current_dir):
+#     '''
+#     The above line will export the glm and dss files into the same folder (/dss/). To fix this, a dive in
+#     the java source code maybe required. A workaround is to move the glm file manually.
+
+#     Also, the exported glm file can't be executed due to two syntax errors. 
+#         1- The clock object definition is not wrapped with single quotes ('')
+#         2- In the include statement, the name of the included file is written in uppercase, which causes 
+#         GridLAB-D compiler to throw an error (No file in directory).
+    
+#     This function fixes the directory issue, as well as the above two errors.
+#     '''
+#     for files in os.listdir(os.getcwd()):
+#         if files.endswith(".glm"):
+#             shutil.move(f"{current_dir}/dss/{files}",f"{current_dir}/glm/{files}")
+    
+#     os.chdir(f'{current_dir}/glm/')
+#     p = open('z.glm', 'w')
+#     with open ('master_run.glm') as f:
+#         content = f.readlines()
+#         for lines in content:
+#             x = lines.strip()
+#             if (x.startswith('starttime')) or (x.startswith('stoptime')) :
+#                 x = x.split(' ')
+#                 if x[0] == 'starttime':
+#                     x[1] = "starttime '2000-01-01 0:00:00';"
+#                     x = x[1]
+#                 if x[0] == 'stoptime':
+#                     x[1] = "stoptime '2000-01-01 0:00:00';"
+#                     x = x[1]
+#             if x.startswith('#include'):
+#                 x = x.split(' ')
+#                 x[1] = '#include "master_base.glm";'
+#                 x = x[1]
+#             if not (x.endswith('{')) and not (x.startswith('}')) and not (x.startswith('#')) and not (x.startswith('};')) and not (x.startswith('module')):
+#                 print(' ' * 4 + x, file=p)
+#             else:
+#                 print(x, file=p)
 
 def query_feeder (fd_mrid):   
     
@@ -211,10 +250,10 @@ def create_mrid_files(config_parameters, loads_query):
 
     return df_files, df_data
 
-def wr_df(df_files, df_data):
+def wr_df(df_files, df_data, me_dir):
     
-    df_files.to_csv("/home/deras/Desktop/midrar_work_github/cimhub_psu_feeder/midrar_me/DERScripts/EGoT13_der_psu.txt", mode="w", index=False)
-    df_data.to_csv("/home/deras/Desktop/midrar_work_github/cimhub_psu_feeder/midrar_me/DERScripts/EGoT13_der_psu.txt", mode="a", index=False, quoting=csv.QUOTE_NONE, escapechar=" ")
+    df_files.to_csv(f"{me_dir}/DERScripts/EGoT13_der_psu.txt", mode="w", index=False)
+    df_data.to_csv(f"{me_dir}/DERScripts/EGoT13_der_psu.txt", mode="a", index=False, quoting=csv.QUOTE_NONE, escapechar=" ")
 
 def wr_json(sim_config, me_dir):
     os.chdir(f'{me_dir}/Configuration/')
@@ -240,12 +279,12 @@ def test_exported_files(current_dir):
     os.chdir(f'{current_dir}/glm/')
 
     glm_run = open('master_run.glm', 'w')
-    print('clock {\n\ttimezone EST+5EDT;\n\tstarttime 2000-01-01 0:00:00;\n\tstoptime 2000-01-01 0:00:00;\n};', file=glm_run)
+    print("clock {\n\ttimezone EST+5EDT;\n\tstarttime '2000-01-01 0:00:00';\n\tstoptime '2000-01-01 0:00:00';\n};", file=glm_run)
     print('#set relax_naming_rules=1\n#set profiler=1', file=glm_run)
     print("module powerflow {\n\tsolver_method NR;\n\tline_capacitance TRUE;\n};", file=glm_run)
     print("module climate;\nmodule generators;\nmodule tape;\nmodule reliability {\n\treport_event_log false;\n};", file=glm_run)
     print("object climate {\n\tname climate;\n\tlatitude 45.0;\n\tsolar_direct 93.4458;\n}", file=glm_run)
-    print('#define VSOURCE=2400\n#include "Master_base.glm";\n#ifdef WANT_VI_DUMP\n', file=glm_run)
+    print('#define VSOURCE=2400\n#include "master_base.glm";\n#ifdef WANT_VI_DUMP\n', file=glm_run)
     print("object voltdump {\n\tfilename Master_volt.csv;\n\tmode POLAR;\n};", file=glm_run)
     print("object currdump {\n\tfilename Master_curr.csv;\n\tmode POLAR;\n};", file=glm_run)
     print("#endif", file=glm_run)
@@ -308,21 +347,17 @@ def list_insert_meas(fd_mrid,me_dir):
     os.chmod("list_measurements.sh",0o775)
     os.chmod("insert_measurements.sh",0o775)
     time.sleep(5)
-    print(f'\n\n----> Running Measurements Scripts <----\n\n')
     p1 = subprocess.Popen('./run_meas.sh', shell=True)
     p1.wait()
 
 def main (dss_name, current_dir, me_dir):
-    dss_config_files(dss_name)
+    dss_config_files(dss_name, current_dir)
     geo_rgn, sub_rgn, fd_mrid = get_mrids (dss_name)
-    print("-------------------------------------------------")
-    print(f"\n\n----> geo rgn {geo_rgn}\n\n----> sub_rgn {sub_rgn}\n\n----> feeder mRID {fd_mrid}\n\n")
-    print("-------------------------------------------------")
-    upload_to_blazegraph(dss_name,fd_mrid)
+    upload_to_blazegraph(dss_name,fd_mrid, current_dir)
     loads_query = query_feeder(fd_mrid)
     config_parameters = create_config_file(geo_rgn, sub_rgn, fd_mrid, me_dir)
     df_files, df_data = create_mrid_files(config_parameters, loads_query)
-    wr_df(df_files, df_data)
+    wr_df(df_files, df_data, me_dir)
     wr_json(config_parameters, me_dir)
     test_exported_files(current_dir)
     list_insert_meas(fd_mrid, me_dir)

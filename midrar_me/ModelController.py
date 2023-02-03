@@ -143,20 +143,12 @@ class EDMCore:
         object_meas = edmCore.gapps_session.get_response(topic, message)
         self.mrid_name_lookup_table = object_meas['data']
         config_api_topic = 'goss.gridappsd.process.request.config'
-        # message = {
-        #     'configurationType': 'CIM Feeder Index',
-        #     'parameters': {'model_id': edmCore.line_mrid}
-        # }
         message = {
             'configurationType': 'CIM Dictionary',
             'parameters': {'model_id': edmCore.line_mrid}
         }
         cim_dict = edmCore.gapps_session.get_response(config_api_topic, message, timeout=20)
-        pp(cim_dict)
-
-        # measdict = cim_dict['data']['feeders'][0]['measurements']
-        measdict = cim_dict['data']['feeders'][0]
-        pp(measdict)
+        measdict = cim_dict['data']['feeders'][0]['measurements']
         self.cim_measurement_dict = measdict
     def get_mrid_name_lookup_table(self):
         """
@@ -590,7 +582,6 @@ class DERSHistoricalDataInput:
             for row in r:
                 row = dict(row)
                 x.append(row)
-        print("\n\n--------------- Historical data file opened--------------- \n\n")
         return x
 
     def read_input_file(self):
@@ -706,18 +697,18 @@ class DERAssignmentHandler:
         self.assignment_lookup_table = None
         self.assignment_table = None
         self.association_table = []
-        self.der_em_mrid_per_bus_query_message = """ 
+        self.der_em_mrid_per_bus_query_message = f'''
         PREFIX r:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         PREFIX c:  <http://iec.ch/TC57/CIM100#>
-        SELECT ?name ?id ?bus ?ratedS ?ratedU ?ipu ?p ?q ?fdrid (group_concat(distinct ?phs;separator="\\n") as ?phases) WHERE {
+        SELECT ?name ?id ?bus ?ratedS ?ratedU ?ipu ?p ?q ?fdrid (group_concat(distinct ?phs;separator="\\n") as ?phases) WHERE {{
          ?s r:type c:BatteryUnit.
          ?s c:IdentifiedObject.name ?name.
           ?s c:IdentifiedObject.mRID ?id.
          ?pec c:PowerElectronicsConnection.PowerElectronicsUnit ?s.
         # feeder selection options - if all commented out, query matches all feeders
-        #VALUES ?fdrid {"_C1C3E687-6FFD-C753-582B-632A27E28507"}  # 123 bus
-        #VALUES ?fdrid {"_49AD8E07-3BF9-A4E2-CB8F-C3722F837B62"}  # 13 bus
-        VALUES ?fdrid {"F234F944-6C06-4D13-8E87-3532CDB095FA"}  # psu_feeder
+        #VALUES ?fdrid {{"_C1C3E687-6FFD-C753-582B-632A27E28507"}}  # 123 bus
+        #VALUES ?fdrid {{"_49AD8E07-3BF9-A4E2-CB8F-C3722F837B62"}}  # 13 bus
+        VALUES ?fdrid {{"_141E8AC3-27BA-4D1D-AEE1-5CEE55D2FC61"}}  # psu_feeder
          ?pec c:Equipment.EquipmentContainer ?fdr.
          ?fdr c:IdentifiedObject.mRID ?fdrid.
          ?pec c:PowerElectronicsConnection.ratedS ?ratedS.
@@ -725,16 +716,16 @@ class DERAssignmentHandler:
          ?pec c:PowerElectronicsConnection.maxIFault ?ipu.
          ?pec c:PowerElectronicsConnection.p ?p.
          ?pec c:PowerElectronicsConnection.q ?q.
-         OPTIONAL {?pecp c:PowerElectronicsConnectionPhase.PowerElectronicsConnection ?pec.
+         OPTIONAL {{?pecp c:PowerElectronicsConnectionPhase.PowerElectronicsConnection ?pec.
          ?pecp c:PowerElectronicsConnectionPhase.phase ?phsraw.
-           bind(strafter(str(?phsraw),"SinglePhaseKind.") as ?phs) }
+           bind(strafter(str(?phsraw),"SinglePhaseKind.") as ?phs) }}
          ?t c:Terminal.ConductingEquipment ?pec.
          ?t c:Terminal.ConnectivityNode ?cn.
          ?cn c:IdentifiedObject.name ?bus
-        }
+        }}
         GROUP by ?name ?id ?bus ?ratedS ?ratedU ?ipu ?p ?q ?fdrid
         ORDER by ?name
-        """
+        '''
 
     def get_assignment_lookup_table(self):
         """
@@ -748,14 +739,15 @@ class DERAssignmentHandler:
         and mRIDs of all DER-EMs on each bus in the current model.
         """
         der_em_mrid_per_bus_query_output = edmCore.gapps_session.query_data(self.der_em_mrid_per_bus_query_message)
+        # print(der_em_mrid_per_bus_query_output)
         x = []
         for i in range(len(der_em_mrid_per_bus_query_output['data']['results']['bindings'])):
             x.append({'Name': der_em_mrid_per_bus_query_output['data']['results']['bindings'][i]['name']['value'],
                       'Bus': der_em_mrid_per_bus_query_output['data']['results']['bindings'][i]['bus']['value'],
                       'mRID': der_em_mrid_per_bus_query_output['data']['results']['bindings'][i]['id']['value']})
         self.assignment_lookup_table = x
-        print(f"\n\n--------- DER Assignment complete --------\n\n{self.association_table}")
-        print(x)
+        # print(f"\n\n--------- DER Assignment complete --------\n\n{self.association_table}")
+        
 
     def assign_all_ders(self):
         """
@@ -775,8 +767,8 @@ class DERAssignmentHandler:
         For a given Bus, checks if a DER-EM exists on that bus and is available for assignment. If so, returns its mRID
         and removes it from the list (so a DER-EM can't be assigned twice).
         """
-        print(f"\n\n--------- Getting mRID for a der on bus --------\n\n{Bus}")
-        print(self.assignment_table)
+        # print(f"\n\n--------- Getting mRID for a der on bus --------\n\n{Bus}")
+        # print(self.assignment_table)
         try:
             next_mrid_on_bus = next(item for item in self.assignment_table if item['Bus'] == str(Bus))
             mrid = next_mrid_on_bus['mRID']
@@ -785,7 +777,7 @@ class DERAssignmentHandler:
             print("FATAL ERROR: Attempting to assign a DER to a nonexistant DER-EM. "
                   "The bus may be wrong, or may not contain enough DER-EMs. Verify test.")
             quit()
-        print(f"\n\n -------- next_mrid_on_bus -------- \n\n{next_mrid_on_bus}")
+        # print(f"\n\n -------- next_mrid_on_bus -------- \n\n{next_mrid_on_bus}")
         return mrid
 
     def append_new_values_to_association_table(self, values):

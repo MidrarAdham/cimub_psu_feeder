@@ -1,4 +1,0 @@
-redirect Master.dss
-solve
-export uuids Master.json
-export cim100 substation=Fictitious geo=Texas subgeo=Austin file=Master.xml

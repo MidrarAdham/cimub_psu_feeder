@@ -1,7 +1,7 @@
 clock {
 	timezone EST+5EDT;
-	starttime 2000-01-01 0:00:00;
-	stoptime 2000-01-01 0:00:00;
+	starttime '2000-01-01 0:00:00';
+	stoptime '2000-01-01 0:00:00';
 };
 #set relax_naming_rules=1
 #set profiler=1
@@ -21,7 +21,7 @@ object climate {
 	solar_direct 93.4458;
 }
 #define VSOURCE=2400
-#include "Master_base.glm";
+#include "master_base.glm";
 #ifdef WANT_VI_DUMP
 
 object voltdump {
