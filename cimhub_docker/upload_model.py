@@ -66,7 +66,7 @@ def get_mrids (dss_name):
     return geo_rgn, sub_geo, fd_mrid
 
 def upload_to_blazegraph(dss_name,fd_mrid, current_dir):
-    # os.chdir(current_dir)
+    
     # upload XML version to Blazegraph
     print(f"\n\n----> uploading xml <----\n\n")
     print("-------------------------------------------------")
@@ -83,44 +83,6 @@ def upload_to_blazegraph(dss_name,fd_mrid, current_dir):
     print("-------------------------------------------------")
     os.system(f'java -cp "../target/libs/*:../target/cimhub-0.0.1-SNAPSHOT.jar" gov.pnnl.gridappsd.cimhub.CIMImporter -s={fd_mrid} -u=$DB_URL -o=both -l=1.0 -i=1 -h=0 -x=0 -t=1 master')
 
-# def fix_exp_glm(current_dir):
-#     '''
-#     The above line will export the glm and dss files into the same folder (/dss/). To fix this, a dive in
-#     the java source code maybe required. A workaround is to move the glm file manually.
-
-#     Also, the exported glm file can't be executed due to two syntax errors. 
-#         1- The clock object definition is not wrapped with single quotes ('')
-#         2- In the include statement, the name of the included file is written in uppercase, which causes 
-#         GridLAB-D compiler to throw an error (No file in directory).
-    
-#     This function fixes the directory issue, as well as the above two errors.
-#     '''
-#     for files in os.listdir(os.getcwd()):
-#         if files.endswith(".glm"):
-#             shutil.move(f"{current_dir}/dss/{files}",f"{current_dir}/glm/{files}")
-    
-#     os.chdir(f'{current_dir}/glm/')
-#     p = open('z.glm', 'w')
-#     with open ('master_run.glm') as f:
-#         content = f.readlines()
-#         for lines in content:
-#             x = lines.strip()
-#             if (x.startswith('starttime')) or (x.startswith('stoptime')) :
-#                 x = x.split(' ')
-#                 if x[0] == 'starttime':
-#                     x[1] = "starttime '2000-01-01 0:00:00';"
-#                     x = x[1]
-#                 if x[0] == 'stoptime':
-#                     x[1] = "stoptime '2000-01-01 0:00:00';"
-#                     x = x[1]
-#             if x.startswith('#include'):
-#                 x = x.split(' ')
-#                 x[1] = '#include "master_base.glm";'
-#                 x = x[1]
-#             if not (x.endswith('{')) and not (x.startswith('}')) and not (x.startswith('#')) and not (x.startswith('};')) and not (x.startswith('module')):
-#                 print(' ' * 4 + x, file=p)
-#             else:
-#                 print(x, file=p)
 
 def query_feeder (fd_mrid):   
     

@@ -39,15 +39,21 @@ os.environ['GRIDAPPSD_PORT'] = '61613'
 gapps_session = GridAPPSD()
 assert gapps_session.connected
 
-def initialize_sim_mrid(self):
+def initialize_sim_mrid(sim_session):
     sim_mrid = sim_session.simulation_id
+    return sim_mrid
 
 line_mrid = config_parameters["power_system_config"]["Line_name"]
 sim_start_time = config_parameters["simulation_config"]["start_time"]
 
 sim_session = Simulation(gapps_session, config_parameters)
+x = initialize_sim_mrid(sim_session)
+print("---------------------------")
+print(x)
 
-print(f"sim_session ---> \n{sim_session}")
+
+
+#print(f"sim_session ---> \n{sim_session.simulation_id}")
 
 
 def query_powergrid_models(topic, message):

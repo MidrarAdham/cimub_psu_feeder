@@ -3,6 +3,7 @@ import os
 import ast
 import csv
 import time
+import json
 import xmltodict
 import pandas as pd
 from dict2xml import dict2xml
@@ -21,12 +22,19 @@ class MCConfiguration:
     def __init__(self):
         self.mc_file_directory = r"/home/deras/Desktop/midrar_work_github/cimhub_psu_feeder/midrar_me/"
         self.config_file_path = self.mc_file_directory + r"Configuration/simulation_configuration.json"
+        # midrar is not using the WH emulators. So remove the RWHDERS and its respective key.
         self.ders_obj_list = {
-            'DERSHistoricalDataInput': 'dersHistoricalDataInput',
-            'RWHDERS': 'rwhDERS'
+            'DERSHistoricalDataInput': 'dersHistoricalDataInput'
+            # 'RWHDERS': 'rwhDERS'
             # ,
             # 'EXAMPLEDERClassName': 'exampleDERObjectName'
         }
+        # self.ders_obj_list = {
+        #     'DERSHistoricalDataInput': 'dersHistoricalDataInput',
+        #     'RWHDERS': 'rwhDERS'
+        #     # ,
+        #     # 'EXAMPLEDERClassName': 'exampleDERObjectName'
+        # }
         self.go_sensor_decision_making_manual_override = True
         self.manual_service_filename = "manually_posted_service_input.xml"
         self.output_log_name = 'Logged Grid State Data/MeasOutputLogs.csv'
@@ -458,8 +466,10 @@ class RWHDERS:
             der_id = key
             der_bus = value['Bus']
             der_mrid = derAssignmentHandler.get_mRID_for_der_on_bus(der_bus)
+            print(der_mrid)
             der_being_assigned = {der_id: der_mrid}
             derAssignmentHandler.append_new_values_to_association_table(der_being_assigned)
+        
 
     def parse_input_file_names_for_assignment(self):
         """
@@ -554,7 +564,6 @@ class DERSHistoricalDataInput:
         for an updated input request, then returns the updated request for use by the MCInputInterface
         """
         self.update_der_em_input_request()
-        print(f"\n\n------------ DER EM INPUT REQUEST------------ \n\n{self.der_em_input_request}")
         return self.der_em_input_request
 
     def assign_der_s_to_der_em(self):
@@ -708,7 +717,7 @@ class DERAssignmentHandler:
         # feeder selection options - if all commented out, query matches all feeders
         #VALUES ?fdrid {{"_C1C3E687-6FFD-C753-582B-632A27E28507"}}  # 123 bus
         #VALUES ?fdrid {{"_49AD8E07-3BF9-A4E2-CB8F-C3722F837B62"}}  # 13 bus
-        VALUES ?fdrid {{"_141E8AC3-27BA-4D1D-AEE1-5CEE55D2FC61"}}  # psu_feeder
+        VALUES ?fdrid {{"_9EC877F7-90C3-4CCA-BA38-AFA9977755EC"}}  # psu_feeder
          ?pec c:Equipment.EquipmentContainer ?fdr.
          ?fdr c:IdentifiedObject.mRID ?fdrid.
          ?pec c:PowerElectronicsConnection.ratedS ?ratedS.
@@ -739,15 +748,18 @@ class DERAssignmentHandler:
         and mRIDs of all DER-EMs on each bus in the current model.
         """
         der_em_mrid_per_bus_query_output = edmCore.gapps_session.query_data(self.der_em_mrid_per_bus_query_message)
-        # print(der_em_mrid_per_bus_query_output)
+        # with open ('simulation_configuration.json', 'w') as output:
+        #     json.dump(der_em_mrid_per_bus_query_output, output, indent=4)
+        # pp(der_em_mrid_per_bus_query_output)
         x = []
         for i in range(len(der_em_mrid_per_bus_query_output['data']['results']['bindings'])):
             x.append({'Name': der_em_mrid_per_bus_query_output['data']['results']['bindings'][i]['name']['value'],
                       'Bus': der_em_mrid_per_bus_query_output['data']['results']['bindings'][i]['bus']['value'],
                       'mRID': der_em_mrid_per_bus_query_output['data']['results']['bindings'][i]['id']['value']})
-        self.assignment_lookup_table = x
-        # print(f"\n\n--------- DER Assignment complete --------\n\n{self.association_table}")
-        
+            # print(f"Name\t{der_em_mrid_per_bus_query_output['data']['results']['bindings'][i]['name']['value']}")
+            # print(f"Bus\t{der_em_mrid_per_bus_query_output['data']['results']['bindings'][i]['bus']['value']}")
+            # print(f"id\t{der_em_mrid_per_bus_query_output['data']['results']['bindings'][i]['id']['value']}")
+        self.assignment_lookup_table = x        
 
     def assign_all_ders(self):
         """
@@ -759,8 +771,6 @@ class DERAssignmentHandler:
         # Object list contains string names of objects. eval() lets us use these to call the methods for the proper obj
         for key, value in mcConfiguration.ders_obj_list.items():
             eval(value).assign_der_s_to_der_em()
-
-        # print(f"\n\n--------- DER Assignment complete --------\n\n{self.association_table}")
 
     def get_mRID_for_der_on_bus(self, Bus):
         """
@@ -777,7 +787,7 @@ class DERAssignmentHandler:
             print("FATAL ERROR: Attempting to assign a DER to a nonexistant DER-EM. "
                   "The bus may be wrong, or may not contain enough DER-EMs. Verify test.")
             quit()
-        # print(f"\n\n -------- next_mrid_on_bus -------- \n\n{next_mrid_on_bus}")
+        
         return mrid
 
     def append_new_values_to_association_table(self, values):
