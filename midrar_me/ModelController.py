@@ -43,6 +43,7 @@ class MCConfiguration:
 class EDMCore:
 
     def __init__(self):
+        print(f"\n\n--------\n\nI am here in edmCore init func\n\n--------\n\n")
         self.gapps_session = None
         self.sim_session = None
         self.sim_start_time = None
@@ -54,14 +55,17 @@ class EDMCore:
         self.cim_measurement_dict = []
 
     def get_sim_start_time(self):
+        print(f"\n\n--------\n\nI am here in edmCore get_sim_start_time\n\n--------\n\n")
 
         return self.sim_start_time
 
     def get_line_mrid(self):
+        print(f"\n\n--------\n\nI am here in edmCore get line mrid func\n\n--------\n\n")
 
         return self.line_mrid
 
     def sim_start_up_process(self):
+        print(f"\n\n--------\n\nI am here in edmCore startup process\n\n--------\n\n")
 
         self.connect_to_gridapps()
         self.load_config_from_file()
@@ -79,12 +83,14 @@ class EDMCore:
         goSensor.load_manual_service_file()
 
     def load_config_from_file(self):
+        print(f"\n\n--------\n\nI am here in edmCore load config from file\n\n--------\n\n")
 
         with open(mcConfiguration.config_file_path) as f:
             config_string = f.read()
             self.config_parameters = ast.literal_eval(config_string)
 
     def connect_to_gridapps(self):
+        print(f"\n\n--------\n\nI am here in edmCore connect to gridappsd func\n\n--------\n\n")
 
         os.environ['GRIDAPPSD_USER'] = 'tutorial_user'
         os.environ['GRIDAPPSD_PASSWORD'] = '12345!'
@@ -98,18 +104,22 @@ class EDMCore:
     def initialize_sim_mrid(self):
 
         self.sim_mrid = self.sim_session.simulation_id
+        print(f"\n\n--------\n\nI am here in edmCore initialize sim mrid\n\n--------\n\n{self.sim_mrid}")
 
     def initialize_line_mrid(self):
 
         self.line_mrid = self.config_parameters["power_system_config"]["Line_name"]
+        print(f"\n\n--------\n\nI am here in edmCore initialize line mrid\n\n--------\n\n{self.line_mrid}")
 
     def initialize_sim_start_time(self):
 
         self.sim_start_time = self.config_parameters["simulation_config"]["start_time"]
+        print(f"\n\n--------\n\nI am here in edmCore initialize sim start time\n\n--------\n\n{self.sim_start_time}")
 
     def connect_to_simulation(self):
 
         self.sim_session = Simulation(self.gapps_session, self.config_parameters)
+        print(f"\n\n--------\n\nI am here in edmCore connect to simulation\n\n--------\n\n")
 
     def create_objects(self):
 
@@ -131,16 +141,18 @@ class EDMCore:
         goOutputInterface = GOOutputInterface()
 
     def initialize_all_der_s(self):
-
+        print(f"\n\n------\n\nI am here initialize_all_der_s\n heading to hist data class.init_der_s\n\n-------\n\n")
         for key, value in mcConfiguration.ders_obj_list.items():
             eval(value).initialize_der_s()
 
     def start_simulation(self):
+        print(f"\n\n--------\n\nI am here in edmCore start_simulation\n\n--------\n\n")
 
         self.initialize_sim_start_time()
         self.sim_session.start_simulation()
 
     def establish_mrid_name_lookup_table(self):
+        print(f"\n\n--------\n\nI am here in edmCore establish mrid name lookup table\n\n--------\n\n")
 
         topic = "goss.gridappsd.process.request.data.powergridmodel"
         message = {
@@ -158,13 +170,18 @@ class EDMCore:
         cim_dict = edmCore.gapps_session.get_response(config_api_topic, message, timeout=20)
         measdict = cim_dict['data']['feeders'][0]['measurements']
         self.cim_measurement_dict = measdict
+        print("--------------")
+        # pp(measdict)
+        print("--------------")
     def get_mrid_name_lookup_table(self):
+        print(f"\n\n--------\n\nI am here in edmCore get mrid name lookup table\n\n--------\n\n")
         """
         ACCESSOR METHOD: Returns the mrid_name_lookup_table.
         """
         return self.mrid_name_lookup_table
 
     def get_cim_measurement_dict(self):
+        print(f"\n\n--------\n\nI am here in edmCore get cim measurement dict\n\n--------\n\n")
         """
         ACCESSOR METHOD: Returns the cim_measurement.dict.
         """
@@ -461,12 +478,13 @@ class RWHDERS:
         bus. This function does those tasks using the input_identification_dict generated in the initialization process
         (see self.parse_input_file_names_for_assignment())
         """
+        print(f"I am here in ")
         print(f"\n\n ------------- input_identification_dict ------------- \n\n{self.input_identification_dict}")
         for key, value in self.input_identification_dict.items():
             der_id = key
             der_bus = value['Bus']
             der_mrid = derAssignmentHandler.get_mRID_for_der_on_bus(der_bus)
-            print(der_mrid)
+            # print(der_mrid)
             der_being_assigned = {der_id: der_mrid}
             derAssignmentHandler.append_new_values_to_association_table(der_being_assigned)
         
@@ -500,7 +518,7 @@ class RWHDERS:
                 der_input_reader = csv.reader(csvfile)
                 for row in der_input_reader:
                     current_der_input = {row[0]: row[1]}
-                    print(f"\n\n---------- current_der_input ---------\n\n{current_der_input}")
+                    # print(f"\n\n---------- current_der_input ---------\n\n{current_der_input}")
             current_der_real_power = current_der_input['P']
             current_der_input_request = {key: current_der_real_power}
             self.der_em_input_request.append(current_der_input_request)
@@ -550,6 +568,7 @@ class DERSHistoricalDataInput:
         self.location_lookup_dictionary = {}
 
     def initialize_der_s(self):
+        print("----\n\nI am here in DERSHistoricalData Inpu, initialize_der_s\n\n-----")
         """
         This function (with this specific name) is required in each DER-S used by the ME. The EDMCore's initialization
         process calls this function for each DER-S activated in MCConfig to perform initialization tasks. This does not
@@ -559,6 +578,7 @@ class DERSHistoricalDataInput:
         self.read_input_file()
 
     def get_input_request(self):
+        print("----\n\nI am here in get_input_request\n\n-----")
         """
         This function (with this specific name) is required in each DER-S used by the ME. Accessor function that calls
         for an updated input request, then returns the updated request for use by the MCInputInterface
@@ -573,10 +593,34 @@ class DERSHistoricalDataInput:
         from each "DER input" for a given DER-S and "associate" them with the mRIDs for DER-EMs in the model. This is
         done using locational data: I.E. a specific DER input should be associated with the mRID of a DER-EM on a given
         bus.
+
+        Midrar Notes:
+
+        - The input_table[0] variable prints all der_loc and der_mag values for a single timestep.
+        
+        - [(location_lookup_dictionary[i])] returns a dictionary that looks like:
+            {'DER0_loc':'DER0_mag',
+            'DER1_loc':'DER1_mag', 
+            }
+        and so forth.
+
+        - In Sean's ME version, der_being_assigned[i] returns the bus location, which is 632
         """
+        print(f"\n\n----------\n\nI am here in dersHistoricalData class, assign_der_s_to_der_input_request\n\n----------\n\n")
+        # print(f"----------\n\ncheck the list of ders\n\n{self.list_of_ders}")
+        # pp(f"\n\n----------\n\ncheck the input table\n\n{self.input_table[0]}")
+        # with open ('assign_der_s_to_der_em_input_table.json', 'w') as output:
+        #     json.dump(self.input_table, output, indent=4)
+        
+        # with open ('assign_der_s_to_der_em_location_lookup_dictionary.json', 'w') as output:
+        #     json.dump(self.location_lookup_dictionary, output, indent=4)
+
+        # with open ('assign_der_s_to_der_em_list_of_ders.json', 'w') as output:
+        #     json.dump(self.list_of_ders, output, indent=4)
         for i in self.list_of_ders:
             der_being_assigned = {}
             der_being_assigned[i] = self.input_table[0][(self.location_lookup_dictionary[i])]
+            pp(der_being_assigned[i])
             der_being_assigned[i] = derAssignmentHandler.get_mRID_for_der_on_bus(der_being_assigned[i])
             assigned_der = dict([(value, key) for value, key in der_being_assigned.items()])
             derAssignmentHandler.append_new_values_to_association_table(assigned_der)
@@ -592,8 +636,10 @@ class DERSHistoricalDataInput:
                 row = dict(row)
                 x.append(row)
         return x
+        
 
     def read_input_file(self):
+        print("----\n\nI am here in read_input_file line 600\n\n-----")
         """
         Reads and parses the input file. Places all the input information in input_table. Also, parses the
         .csv file to determine the names and locations of each DER: when the timestamp column is removed, odd column
@@ -616,6 +662,7 @@ class DERSHistoricalDataInput:
         self.list_of_ders = list(self.location_lookup_dictionary.keys())
 
     def update_der_em_input_request(self):
+        print("----\n\nI am here in update_der_em_input_request\n\n-----")
         """
         Checks the current simulation time against the input table. If a new input exists for the current timestep,
         it is read, converted into an input dictionary, and put in the current der_input_request
@@ -717,7 +764,7 @@ class DERAssignmentHandler:
         # feeder selection options - if all commented out, query matches all feeders
         #VALUES ?fdrid {{"_C1C3E687-6FFD-C753-582B-632A27E28507"}}  # 123 bus
         #VALUES ?fdrid {{"_49AD8E07-3BF9-A4E2-CB8F-C3722F837B62"}}  # 13 bus
-        VALUES ?fdrid {{"_9EC877F7-90C3-4CCA-BA38-AFA9977755EC"}}  # psu_feeder
+        VALUES ?fdrid {{"{edmCore.line_mrid}"}}  # psu_feeder
          ?pec c:Equipment.EquipmentContainer ?fdr.
          ?fdr c:IdentifiedObject.mRID ?fdrid.
          ?pec c:PowerElectronicsConnection.ratedS ?ratedS.
@@ -743,14 +790,15 @@ class DERAssignmentHandler:
         return self.assignment_lookup_table
 
     def create_assignment_lookup_table(self):
+        print("\n\n-------\n\nI am here in create_assignment_lookup_able\n\n-------\n\n")
         """
         Runs an extended SPARQL query on the database and parses it into the assignment lookup table: that is, the names
         and mRIDs of all DER-EMs on each bus in the current model.
         """
         der_em_mrid_per_bus_query_output = edmCore.gapps_session.query_data(self.der_em_mrid_per_bus_query_message)
-        # with open ('simulation_configuration.json', 'w') as output:
-        #     json.dump(der_em_mrid_per_bus_query_output, output, indent=4)
-        # pp(der_em_mrid_per_bus_query_output)
+        print(f"\n\n=========\n\nTesting:\tprinting the query to ensure the correct mrid is being used\n\n")
+        print(self.der_em_mrid_per_bus_query_message)
+        print(f"\n\n=========\n\nend Testing\n\n=======\n\n")
         x = []
         for i in range(len(der_em_mrid_per_bus_query_output['data']['results']['bindings'])):
             x.append({'Name': der_em_mrid_per_bus_query_output['data']['results']['bindings'][i]['name']['value'],
@@ -759,14 +807,19 @@ class DERAssignmentHandler:
             # print(f"Name\t{der_em_mrid_per_bus_query_output['data']['results']['bindings'][i]['name']['value']}")
             # print(f"Bus\t{der_em_mrid_per_bus_query_output['data']['results']['bindings'][i]['bus']['value']}")
             # print(f"id\t{der_em_mrid_per_bus_query_output['data']['results']['bindings'][i]['id']['value']}")
-        self.assignment_lookup_table = x        
+        self.assignment_lookup_table = x     
 
     def assign_all_ders(self):
+        print(f"\n\n-------\n\nI am here in derassignment handler, assign all ders\n\n-------\n\n")
+        print(f"\n\n-------\n\nLet us look at the assignment table\n\n-------\n\n")
         """
         Calls the assignment process for each DER-S. Uses the DER-S list from MCConfiguration, so no additions are
         needed here if new DER-Ss are added.
         """
         self.assignment_table = self.assignment_lookup_table
+
+        with open ('assignment_table_derAssignmentHandler_assign_all_ders.json', 'w') as output:
+            json.dump(self.assignment_table, output, indent=4)
 
         # Object list contains string names of objects. eval() lets us use these to call the methods for the proper obj
         for key, value in mcConfiguration.ders_obj_list.items():
@@ -777,14 +830,16 @@ class DERAssignmentHandler:
         For a given Bus, checks if a DER-EM exists on that bus and is available for assignment. If so, returns its mRID
         and removes it from the list (so a DER-EM can't be assigned twice).
         """
-        # print(f"\n\n--------- Getting mRID for a der on bus --------\n\n{Bus}")
-        # print(self.assignment_table)
+        print(f"\n\n-------\n\nI am here in derassignmenthandler, get mRID for der on bus\n\n-------\n\n")
+        print(Bus)
+        
         try:
+            
             next_mrid_on_bus = next(item for item in self.assignment_table if item['Bus'] == str(Bus))
             mrid = next_mrid_on_bus['mRID']
             self.assignment_table = [i for i in self.assignment_table if not (i['mRID'] == mrid)]
         except StopIteration:
-            print("FATAL ERROR: Attempting to assign a DER to a nonexistant DER-EM. "
+            print("FATAL ERROR: Attempting to assign a DER to a nonexistent DER-EM. "
                   "The bus may be wrong, or may not contain enough DER-EMs. Verify test.")
             quit()
         
@@ -829,12 +884,12 @@ class MCInputInterface:
         Retrieves input requests from all DER-Ss and appends them to a unified input request.
         """
         online_ders = mcConfiguration.ders_obj_list
-        print(f"\n\n------ ONLINE DERs -----\n\n {online_ders} --------")
+        # print(f"\n\n------ ONLINE DERs -----\n\n {online_ders} --------")
         self.current_unified_input_request.clear()
         for key, value in mcConfiguration.ders_obj_list.items():
-            print(f"\n\n------ value in der_obj_list -----\n\n {value} \n\n--------")
+            # print(f"\n\n------ value in der_obj_list -----\n\n {value} \n\n--------")
             self.current_unified_input_request = self.current_unified_input_request + eval(value).get_input_request()
-        print(f"\n\n------ Current unified input request: ------\n\n {self.current_unified_input_request} --------")
+        # print(f"\n\n------ Current unified input request: ------\n\n {self.current_unified_input_request} --------")
         # print(self.current_unified_input_request)
 
     def update_der_ems(self):

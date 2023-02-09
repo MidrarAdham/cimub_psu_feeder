@@ -1,0 +1,4802 @@
+[
+    {
+        "Name": "trip_load_611_c_10_Battery",
+        "Bus": "trip_load_611_c_h_10",
+        "mRID": "_D68E4D32-B8DA-45FA-B805-1BDE06450549"
+    },
+    {
+        "Name": "trip_load_611_c_11_Battery",
+        "Bus": "trip_load_611_c_h_11",
+        "mRID": "_1769195B-9FA9-48A0-A7AB-6A0C5FD9AD6A"
+    },
+    {
+        "Name": "trip_load_611_c_12_Battery",
+        "Bus": "trip_load_611_c_h_12",
+        "mRID": "_BF7D30BB-886F-4CCA-81A6-95620B3E30F8"
+    },
+    {
+        "Name": "trip_load_611_c_13_Battery",
+        "Bus": "trip_load_611_c_h_13",
+        "mRID": "_8291689C-2542-48E5-A7EE-15E2498447C1"
+    },
+    {
+        "Name": "trip_load_611_c_14_Battery",
+        "Bus": "trip_load_611_c_h_14",
+        "mRID": "_3C813804-82B6-405C-B894-D1375121E2C2"
+    },
+    {
+        "Name": "trip_load_611_c_15_Battery",
+        "Bus": "trip_load_611_c_h_15",
+        "mRID": "_25A1EDAF-8A43-4BBE-A2CB-610D73A5134E"
+    },
+    {
+        "Name": "trip_load_611_c_16_Battery",
+        "Bus": "trip_load_611_c_h_16",
+        "mRID": "_16D43C5C-8932-411C-B4B6-009EAA9FCD5B"
+    },
+    {
+        "Name": "trip_load_611_c_17_Battery",
+        "Bus": "trip_load_611_c_h_17",
+        "mRID": "_AE34F9F3-BABA-4782-942F-8A4B1DD0FAC1"
+    },
+    {
+        "Name": "trip_load_611_c_18_Battery",
+        "Bus": "trip_load_611_c_h_18",
+        "mRID": "_7D5DFC7B-16E5-4942-AA7F-8607A3E98D94"
+    },
+    {
+        "Name": "trip_load_611_c_19_Battery",
+        "Bus": "trip_load_611_c_h_19",
+        "mRID": "_84E842C6-E77B-4EE2-9C87-4DD4337B2F70"
+    },
+    {
+        "Name": "trip_load_611_c_1_Battery",
+        "Bus": "trip_load_611_c_h_1",
+        "mRID": "_C279F727-6A2D-4BB8-9FE2-F0BC58F834EC"
+    },
+    {
+        "Name": "trip_load_611_c_20_Battery",
+        "Bus": "trip_load_611_c_h_20",
+        "mRID": "_B41EF8C7-21BC-4702-AF29-4D68B9C5D4AA"
+    },
+    {
+        "Name": "trip_load_611_c_21_Battery",
+        "Bus": "trip_load_611_c_h_21",
+        "mRID": "_667D8334-E592-49D4-8C32-BAD4F63946C8"
+    },
+    {
+        "Name": "trip_load_611_c_22_Battery",
+        "Bus": "trip_load_611_c_h_22",
+        "mRID": "_C6351476-AB78-4C49-BBD3-06B90FAB7683"
+    },
+    {
+        "Name": "trip_load_611_c_23_Battery",
+        "Bus": "trip_load_611_c_h_23",
+        "mRID": "_4816EE93-A0A5-46DA-80B0-4CC218D7DA3A"
+    },
+    {
+        "Name": "trip_load_611_c_24_Battery",
+        "Bus": "trip_load_611_c_h_24",
+        "mRID": "_3E81CF8F-76E4-47EA-8536-995504D36456"
+    },
+    {
+        "Name": "trip_load_611_c_25_Battery",
+        "Bus": "trip_load_611_c_h_25",
+        "mRID": "_D8EDC7CE-2520-41E7-8921-4DC456B64F07"
+    },
+    {
+        "Name": "trip_load_611_c_26_Battery",
+        "Bus": "trip_load_611_c_h_26",
+        "mRID": "_4697759F-C20A-48F8-B922-72CEDA73D59F"
+    },
+    {
+        "Name": "trip_load_611_c_27_Battery",
+        "Bus": "trip_load_611_c_h_27",
+        "mRID": "_C5CC1A25-BEB7-4CDA-8FA6-FC4C4353E447"
+    },
+    {
+        "Name": "trip_load_611_c_28_Battery",
+        "Bus": "trip_load_611_c_h_28",
+        "mRID": "_1C544F76-5A72-4BDE-9E96-6A7B2F831213"
+    },
+    {
+        "Name": "trip_load_611_c_29_Battery",
+        "Bus": "trip_load_611_c_h_29",
+        "mRID": "_92BB624D-B5B8-402E-AA0B-A27E001E56A3"
+    },
+    {
+        "Name": "trip_load_611_c_2_Battery",
+        "Bus": "trip_load_611_c_h_2",
+        "mRID": "_40247831-8121-43E1-B0D7-4E585F78FA14"
+    },
+    {
+        "Name": "trip_load_611_c_30_Battery",
+        "Bus": "trip_load_611_c_h_30",
+        "mRID": "_7347D8EA-C447-4547-A58A-097A7C967E4B"
+    },
+    {
+        "Name": "trip_load_611_c_31_Battery",
+        "Bus": "trip_load_611_c_h_31",
+        "mRID": "_08BDAE5E-6676-43F4-B1E8-4082C8151D28"
+    },
+    {
+        "Name": "trip_load_611_c_32_Battery",
+        "Bus": "trip_load_611_c_h_32",
+        "mRID": "_6B8255BE-D899-4F70-AF7A-D9A8A3A99497"
+    },
+    {
+        "Name": "trip_load_611_c_33_Battery",
+        "Bus": "trip_load_611_c_h_33",
+        "mRID": "_8128B7B7-726A-4ABA-9EA2-6DB35F5CA5F8"
+    },
+    {
+        "Name": "trip_load_611_c_34_Battery",
+        "Bus": "trip_load_611_c_h_34",
+        "mRID": "_C80D93AA-0294-4AB3-89AB-20397DDC88ED"
+    },
+    {
+        "Name": "trip_load_611_c_35_Battery",
+        "Bus": "trip_load_611_c_h_35",
+        "mRID": "_8164B0DA-D998-4A16-838F-C8C532AE6F54"
+    },
+    {
+        "Name": "trip_load_611_c_36_Battery",
+        "Bus": "trip_load_611_c_h_36",
+        "mRID": "_52F18896-5562-4BCD-86E7-6A06E38EBFF0"
+    },
+    {
+        "Name": "trip_load_611_c_37_Battery",
+        "Bus": "trip_load_611_c_h_37",
+        "mRID": "_B871A901-AFB4-4BC6-837D-9773E627B2E2"
+    },
+    {
+        "Name": "trip_load_611_c_38_Battery",
+        "Bus": "trip_load_611_c_h_38",
+        "mRID": "_31F60BD7-A341-4B35-8A1E-231A67C03B2C"
+    },
+    {
+        "Name": "trip_load_611_c_39_Battery",
+        "Bus": "trip_load_611_c_h_39",
+        "mRID": "_0F01C56C-E49C-4469-A774-C616002CC1F3"
+    },
+    {
+        "Name": "trip_load_611_c_3_Battery",
+        "Bus": "trip_load_611_c_h_3",
+        "mRID": "_0B9F3D69-6DC1-460F-982B-C826BB69CD9A"
+    },
+    {
+        "Name": "trip_load_611_c_40_Battery",
+        "Bus": "trip_load_611_c_h_40",
+        "mRID": "_B538517C-B3FA-41D2-B109-1C11ECE5658E"
+    },
+    {
+        "Name": "trip_load_611_c_4_Battery",
+        "Bus": "trip_load_611_c_h_4",
+        "mRID": "_B26AECB4-C9E2-40B8-B216-3503CDA5B1CA"
+    },
+    {
+        "Name": "trip_load_611_c_5_Battery",
+        "Bus": "trip_load_611_c_h_5",
+        "mRID": "_EE03DF37-FB33-4FF7-A547-C7E3B5393B54"
+    },
+    {
+        "Name": "trip_load_611_c_6_Battery",
+        "Bus": "trip_load_611_c_h_6",
+        "mRID": "_B85D6670-87AD-4AD7-8437-D7FE3DC3B3CB"
+    },
+    {
+        "Name": "trip_load_611_c_7_Battery",
+        "Bus": "trip_load_611_c_h_7",
+        "mRID": "_21AD8B69-E1CE-44C2-A9A4-899287DEC118"
+    },
+    {
+        "Name": "trip_load_611_c_8_Battery",
+        "Bus": "trip_load_611_c_h_8",
+        "mRID": "_8C2C0C82-2815-4FB2-8275-8285D962983A"
+    },
+    {
+        "Name": "trip_load_611_c_9_Battery",
+        "Bus": "trip_load_611_c_h_9",
+        "mRID": "_997B3BB9-551A-4099-8312-3BDD12F2EA07"
+    },
+    {
+        "Name": "trip_load_632_a_10_Battery",
+        "Bus": "trip_load_632_a_h_10",
+        "mRID": "_7826A6E3-8585-4E9B-ADCD-FD9FDD9751DB"
+    },
+    {
+        "Name": "trip_load_632_a_11_Battery",
+        "Bus": "trip_load_632_a_h_11",
+        "mRID": "_2FCBB48C-7539-4C3F-A640-7FC44C4300A1"
+    },
+    {
+        "Name": "trip_load_632_a_12_Battery",
+        "Bus": "trip_load_632_a_h_12",
+        "mRID": "_C29CE49E-6F61-4EB9-AB97-45AFCDFAF13F"
+    },
+    {
+        "Name": "trip_load_632_a_13_Battery",
+        "Bus": "trip_load_632_a_h_13",
+        "mRID": "_A5703179-CBB2-45DF-BF84-4BA5E7DE06CD"
+    },
+    {
+        "Name": "trip_load_632_a_14_Battery",
+        "Bus": "trip_load_632_a_h_14",
+        "mRID": "_F8A9B964-DD3A-4D0A-AD64-9DE7ED42C445"
+    },
+    {
+        "Name": "trip_load_632_a_15_Battery",
+        "Bus": "trip_load_632_a_h_15",
+        "mRID": "_DFBCF276-8568-4FC1-9AFA-2491A3A3B19C"
+    },
+    {
+        "Name": "trip_load_632_a_16_Battery",
+        "Bus": "trip_load_632_a_h_16",
+        "mRID": "_1EDD55C7-2FA0-4696-A224-5C91C05CDF61"
+    },
+    {
+        "Name": "trip_load_632_a_17_Battery",
+        "Bus": "trip_load_632_a_h_17",
+        "mRID": "_A3F78E2D-D5BA-43D5-8391-BC361C99D1AF"
+    },
+    {
+        "Name": "trip_load_632_a_18_Battery",
+        "Bus": "trip_load_632_a_h_18",
+        "mRID": "_3E522660-1AF7-4744-BFFE-4A697C9AF8A4"
+    },
+    {
+        "Name": "trip_load_632_a_19_Battery",
+        "Bus": "trip_load_632_a_h_19",
+        "mRID": "_8C415871-6459-4C5C-9DBE-A4CF4D403ABF"
+    },
+    {
+        "Name": "trip_load_632_a_1_Battery",
+        "Bus": "trip_load_632_a_h_1",
+        "mRID": "_DF587765-2744-411B-A6FC-947CB8331E11"
+    },
+    {
+        "Name": "trip_load_632_a_20_Battery",
+        "Bus": "trip_load_632_a_h_20",
+        "mRID": "_C55BE134-85A1-4593-AAD5-803FBBE7CCAB"
+    },
+    {
+        "Name": "trip_load_632_a_21_Battery",
+        "Bus": "trip_load_632_a_h_21",
+        "mRID": "_ED12EACD-358A-4EC6-B87F-481C925ACC2D"
+    },
+    {
+        "Name": "trip_load_632_a_22_Battery",
+        "Bus": "trip_load_632_a_h_22",
+        "mRID": "_98D99D51-F5E6-4077-97A4-DCC8ECBA4DE7"
+    },
+    {
+        "Name": "trip_load_632_a_23_Battery",
+        "Bus": "trip_load_632_a_h_23",
+        "mRID": "_19FBC3C9-A5B3-46F3-9373-3462AFD4FDCE"
+    },
+    {
+        "Name": "trip_load_632_a_24_Battery",
+        "Bus": "trip_load_632_a_h_24",
+        "mRID": "_6C685F50-F243-41D4-884D-BD08B0544179"
+    },
+    {
+        "Name": "trip_load_632_a_25_Battery",
+        "Bus": "trip_load_632_a_h_25",
+        "mRID": "_23115FAD-5B2F-433A-B8C0-181723132210"
+    },
+    {
+        "Name": "trip_load_632_a_26_Battery",
+        "Bus": "trip_load_632_a_h_26",
+        "mRID": "_0906F997-7443-48CE-AE23-FFD2F3C0CFA0"
+    },
+    {
+        "Name": "trip_load_632_a_27_Battery",
+        "Bus": "trip_load_632_a_h_27",
+        "mRID": "_315BF074-3F2F-4601-9D2A-1FF5AA2CDB59"
+    },
+    {
+        "Name": "trip_load_632_a_28_Battery",
+        "Bus": "trip_load_632_a_h_28",
+        "mRID": "_279179B2-76C9-4FE9-8AEF-82FD4906AA1C"
+    },
+    {
+        "Name": "trip_load_632_a_29_Battery",
+        "Bus": "trip_load_632_a_h_29",
+        "mRID": "_1E34B1AF-F354-4480-8EE8-156C7860A255"
+    },
+    {
+        "Name": "trip_load_632_a_2_Battery",
+        "Bus": "trip_load_632_a_h_2",
+        "mRID": "_2EC356AD-1BBE-4A9F-BBF8-5BEA50B2799E"
+    },
+    {
+        "Name": "trip_load_632_a_30_Battery",
+        "Bus": "trip_load_632_a_h_30",
+        "mRID": "_0CEE4772-C7E8-47A8-8C52-4CE2B137B4F6"
+    },
+    {
+        "Name": "trip_load_632_a_31_Battery",
+        "Bus": "trip_load_632_a_h_31",
+        "mRID": "_37E0C389-8F76-4BF7-BC27-35D4C214FE6B"
+    },
+    {
+        "Name": "trip_load_632_a_32_Battery",
+        "Bus": "trip_load_632_a_h_32",
+        "mRID": "_41CA56C8-E1D0-4021-8940-827D04A86153"
+    },
+    {
+        "Name": "trip_load_632_a_33_Battery",
+        "Bus": "trip_load_632_a_h_33",
+        "mRID": "_D68003D3-BA3F-4E3B-85A5-2E6FEAB2F67E"
+    },
+    {
+        "Name": "trip_load_632_a_34_Battery",
+        "Bus": "trip_load_632_a_h_34",
+        "mRID": "_9ED49DF2-F75F-4E3A-85E2-0779D6A18D45"
+    },
+    {
+        "Name": "trip_load_632_a_35_Battery",
+        "Bus": "trip_load_632_a_h_35",
+        "mRID": "_23EBF78E-7D13-4B0C-9538-EAAA2D5E7EBA"
+    },
+    {
+        "Name": "trip_load_632_a_36_Battery",
+        "Bus": "trip_load_632_a_h_36",
+        "mRID": "_AC7647C0-2FEA-4C25-BD35-979811A894B0"
+    },
+    {
+        "Name": "trip_load_632_a_37_Battery",
+        "Bus": "trip_load_632_a_h_37",
+        "mRID": "_DF8E4C1F-FB0C-4183-96C1-8CF69C82FAE6"
+    },
+    {
+        "Name": "trip_load_632_a_38_Battery",
+        "Bus": "trip_load_632_a_h_38",
+        "mRID": "_EAE7F8D5-0DAA-4E01-925E-8AC4FDEE25BD"
+    },
+    {
+        "Name": "trip_load_632_a_39_Battery",
+        "Bus": "trip_load_632_a_h_39",
+        "mRID": "_37C3A48E-A72F-4702-8925-8AD589BFF85E"
+    },
+    {
+        "Name": "trip_load_632_a_3_Battery",
+        "Bus": "trip_load_632_a_h_3",
+        "mRID": "_329D36AF-765E-4DDD-AF21-FBB52AA7E1ED"
+    },
+    {
+        "Name": "trip_load_632_a_40_Battery",
+        "Bus": "trip_load_632_a_h_40",
+        "mRID": "_558BAE56-3154-438D-9993-CED61D0485FB"
+    },
+    {
+        "Name": "trip_load_632_a_4_Battery",
+        "Bus": "trip_load_632_a_h_4",
+        "mRID": "_0033487C-77CB-4F58-BE50-F60B915B5BE2"
+    },
+    {
+        "Name": "trip_load_632_a_5_Battery",
+        "Bus": "trip_load_632_a_h_5",
+        "mRID": "_9AAAA9E3-1EF5-4F95-B6D2-168D4B27CB00"
+    },
+    {
+        "Name": "trip_load_632_a_6_Battery",
+        "Bus": "trip_load_632_a_h_6",
+        "mRID": "_899ED833-2EBC-491C-816F-B1C370D90DD4"
+    },
+    {
+        "Name": "trip_load_632_a_7_Battery",
+        "Bus": "trip_load_632_a_h_7",
+        "mRID": "_31923C5B-F6B3-440D-9850-6B0A12D3D8DF"
+    },
+    {
+        "Name": "trip_load_632_a_8_Battery",
+        "Bus": "trip_load_632_a_h_8",
+        "mRID": "_006328F6-E6CD-452F-B2A2-83CCA7CC6C28"
+    },
+    {
+        "Name": "trip_load_632_a_9_Battery",
+        "Bus": "trip_load_632_a_h_9",
+        "mRID": "_30C93CB8-420D-4A8F-94D9-70916AE94140"
+    },
+    {
+        "Name": "trip_load_632_b_10_Battery",
+        "Bus": "trip_load_632_b_h_10",
+        "mRID": "_DEB3BF2E-D0BC-4DD3-89D8-5C580A0EC096"
+    },
+    {
+        "Name": "trip_load_632_b_11_Battery",
+        "Bus": "trip_load_632_b_h_11",
+        "mRID": "_126EFD01-59CB-4B61-A1EE-81D6B4527A08"
+    },
+    {
+        "Name": "trip_load_632_b_12_Battery",
+        "Bus": "trip_load_632_b_h_12",
+        "mRID": "_E12BA36B-6DEC-45D6-B58A-189FA0C9EBA4"
+    },
+    {
+        "Name": "trip_load_632_b_13_Battery",
+        "Bus": "trip_load_632_b_h_13",
+        "mRID": "_1141F28F-3299-448D-9699-6198209A6936"
+    },
+    {
+        "Name": "trip_load_632_b_14_Battery",
+        "Bus": "trip_load_632_b_h_14",
+        "mRID": "_ACEB3716-FB45-4F66-99AA-B6D002913126"
+    },
+    {
+        "Name": "trip_load_632_b_15_Battery",
+        "Bus": "trip_load_632_b_h_15",
+        "mRID": "_2C8BFADB-105F-4374-A784-852A7857ECDA"
+    },
+    {
+        "Name": "trip_load_632_b_16_Battery",
+        "Bus": "trip_load_632_b_h_16",
+        "mRID": "_98EC5BB3-09EB-453C-8FA7-A96C2F2129F2"
+    },
+    {
+        "Name": "trip_load_632_b_17_Battery",
+        "Bus": "trip_load_632_b_h_17",
+        "mRID": "_48955BF3-ED89-4621-9605-210F20B47741"
+    },
+    {
+        "Name": "trip_load_632_b_18_Battery",
+        "Bus": "trip_load_632_b_h_18",
+        "mRID": "_57445828-F73A-4D14-B883-A744E504AAD1"
+    },
+    {
+        "Name": "trip_load_632_b_19_Battery",
+        "Bus": "trip_load_632_b_h_19",
+        "mRID": "_5239A605-99AD-4AD7-875F-DD145E39E2A9"
+    },
+    {
+        "Name": "trip_load_632_b_1_Battery",
+        "Bus": "trip_load_632_b_h_1",
+        "mRID": "_E39E5CC6-B37A-4C7E-ADF7-0611544E231A"
+    },
+    {
+        "Name": "trip_load_632_b_20_Battery",
+        "Bus": "trip_load_632_b_h_20",
+        "mRID": "_E709A0DF-FD4E-453C-81D2-FA477E721584"
+    },
+    {
+        "Name": "trip_load_632_b_21_Battery",
+        "Bus": "trip_load_632_b_h_21",
+        "mRID": "_5D207A7C-00D2-459E-91D7-29E4EF9316F6"
+    },
+    {
+        "Name": "trip_load_632_b_22_Battery",
+        "Bus": "trip_load_632_b_h_22",
+        "mRID": "_8659D742-6129-4827-8E96-2E712573FFD2"
+    },
+    {
+        "Name": "trip_load_632_b_23_Battery",
+        "Bus": "trip_load_632_b_h_23",
+        "mRID": "_144B932C-C137-449D-8EB5-3AF4E53AC343"
+    },
+    {
+        "Name": "trip_load_632_b_24_Battery",
+        "Bus": "trip_load_632_b_h_24",
+        "mRID": "_238BC3B0-A1F6-4639-A03D-A00C88C86465"
+    },
+    {
+        "Name": "trip_load_632_b_25_Battery",
+        "Bus": "trip_load_632_b_h_25",
+        "mRID": "_D3F40558-5721-4AA2-B7E1-C86DC1049B1B"
+    },
+    {
+        "Name": "trip_load_632_b_26_Battery",
+        "Bus": "trip_load_632_b_h_26",
+        "mRID": "_3FE0B73A-7717-4DF2-8CDB-94E8E853384D"
+    },
+    {
+        "Name": "trip_load_632_b_27_Battery",
+        "Bus": "trip_load_632_b_h_27",
+        "mRID": "_8AC21C59-95DD-4CCC-8486-C472048F557F"
+    },
+    {
+        "Name": "trip_load_632_b_28_Battery",
+        "Bus": "trip_load_632_b_h_28",
+        "mRID": "_DF7F914A-D91C-40D8-947D-E4894161A3A8"
+    },
+    {
+        "Name": "trip_load_632_b_29_Battery",
+        "Bus": "trip_load_632_b_h_29",
+        "mRID": "_289D5821-8F4B-4A35-BF08-86FE1546402A"
+    },
+    {
+        "Name": "trip_load_632_b_2_Battery",
+        "Bus": "trip_load_632_b_h_2",
+        "mRID": "_7EE6FC94-1B4E-4980-831F-3A88DB726CD8"
+    },
+    {
+        "Name": "trip_load_632_b_30_Battery",
+        "Bus": "trip_load_632_b_h_30",
+        "mRID": "_291F645E-53F6-4A5A-A37C-3762D9C32017"
+    },
+    {
+        "Name": "trip_load_632_b_31_Battery",
+        "Bus": "trip_load_632_b_h_31",
+        "mRID": "_35315D6F-96D2-4DE4-B3E2-D97F909866F1"
+    },
+    {
+        "Name": "trip_load_632_b_32_Battery",
+        "Bus": "trip_load_632_b_h_32",
+        "mRID": "_EE0EB1ED-442C-42EE-A815-2BC05DEA4D03"
+    },
+    {
+        "Name": "trip_load_632_b_33_Battery",
+        "Bus": "trip_load_632_b_h_33",
+        "mRID": "_A813F294-4D86-49AA-8AF9-1A3836DB801B"
+    },
+    {
+        "Name": "trip_load_632_b_34_Battery",
+        "Bus": "trip_load_632_b_h_34",
+        "mRID": "_2DEAD092-5C0C-4869-BC9A-FC418C797D93"
+    },
+    {
+        "Name": "trip_load_632_b_35_Battery",
+        "Bus": "trip_load_632_b_h_35",
+        "mRID": "_D5CC8673-A42A-4C74-9F8B-96655816C5D6"
+    },
+    {
+        "Name": "trip_load_632_b_36_Battery",
+        "Bus": "trip_load_632_b_h_36",
+        "mRID": "_0FC94220-7C38-4B10-9004-45D957312335"
+    },
+    {
+        "Name": "trip_load_632_b_37_Battery",
+        "Bus": "trip_load_632_b_h_37",
+        "mRID": "_E8301D83-4220-4038-A8CA-3F7B371EBECF"
+    },
+    {
+        "Name": "trip_load_632_b_38_Battery",
+        "Bus": "trip_load_632_b_h_38",
+        "mRID": "_E33706FA-FB6C-43B4-9E36-0D4C9F4A5757"
+    },
+    {
+        "Name": "trip_load_632_b_39_Battery",
+        "Bus": "trip_load_632_b_h_39",
+        "mRID": "_BE8B883B-C571-48BE-BEB5-6C9F621C9362"
+    },
+    {
+        "Name": "trip_load_632_b_3_Battery",
+        "Bus": "trip_load_632_b_h_3",
+        "mRID": "_0AE4A082-5D84-497D-BC04-534F2D7D89E1"
+    },
+    {
+        "Name": "trip_load_632_b_40_Battery",
+        "Bus": "trip_load_632_b_h_40",
+        "mRID": "_6FC1A0FE-8A8E-4B49-8309-C4CB8BE79CAD"
+    },
+    {
+        "Name": "trip_load_632_b_4_Battery",
+        "Bus": "trip_load_632_b_h_4",
+        "mRID": "_3BE7E177-C084-4AD7-9540-05F5E15B7AB7"
+    },
+    {
+        "Name": "trip_load_632_b_5_Battery",
+        "Bus": "trip_load_632_b_h_5",
+        "mRID": "_F7D45DBB-CC2F-48F2-B71E-B2F5E9BE713A"
+    },
+    {
+        "Name": "trip_load_632_b_6_Battery",
+        "Bus": "trip_load_632_b_h_6",
+        "mRID": "_D820B54F-FD65-40E8-BF7F-5D440EC00E59"
+    },
+    {
+        "Name": "trip_load_632_b_7_Battery",
+        "Bus": "trip_load_632_b_h_7",
+        "mRID": "_E6B97E8E-03A1-4F5F-B638-5118DC53290D"
+    },
+    {
+        "Name": "trip_load_632_b_8_Battery",
+        "Bus": "trip_load_632_b_h_8",
+        "mRID": "_26B0E46C-E267-4E99-8F39-DC6B0B60F33B"
+    },
+    {
+        "Name": "trip_load_632_b_9_Battery",
+        "Bus": "trip_load_632_b_h_9",
+        "mRID": "_81858F2C-ACF5-4AF3-937F-583303F91242"
+    },
+    {
+        "Name": "trip_load_632_c_10_Battery",
+        "Bus": "trip_load_632_c_h_10",
+        "mRID": "_1639890C-9B06-4D78-910B-6EDDFE8F0981"
+    },
+    {
+        "Name": "trip_load_632_c_11_Battery",
+        "Bus": "trip_load_632_c_h_11",
+        "mRID": "_61F29403-829A-4630-BBC7-A1B44AD9B6BD"
+    },
+    {
+        "Name": "trip_load_632_c_12_Battery",
+        "Bus": "trip_load_632_c_h_12",
+        "mRID": "_B5844FD6-3F98-4C09-ABFB-7ED09BC26884"
+    },
+    {
+        "Name": "trip_load_632_c_13_Battery",
+        "Bus": "trip_load_632_c_h_13",
+        "mRID": "_65F33B93-5B06-4F75-8A6B-4C15FF375915"
+    },
+    {
+        "Name": "trip_load_632_c_14_Battery",
+        "Bus": "trip_load_632_c_h_14",
+        "mRID": "_9EC061E1-0C95-4F35-B219-D43072D53AE4"
+    },
+    {
+        "Name": "trip_load_632_c_15_Battery",
+        "Bus": "trip_load_632_c_h_15",
+        "mRID": "_7017972F-65DA-43B7-9E21-31573C17E778"
+    },
+    {
+        "Name": "trip_load_632_c_16_Battery",
+        "Bus": "trip_load_632_c_h_16",
+        "mRID": "_5AF384F0-97AD-4790-94FF-EB75AB04F896"
+    },
+    {
+        "Name": "trip_load_632_c_17_Battery",
+        "Bus": "trip_load_632_c_h_17",
+        "mRID": "_4F9FBB69-EEF6-4DD5-A9F4-D8309F1F6F7B"
+    },
+    {
+        "Name": "trip_load_632_c_18_Battery",
+        "Bus": "trip_load_632_c_h_18",
+        "mRID": "_3A4380E2-8CDF-4B3E-81F5-579E0CF99C7A"
+    },
+    {
+        "Name": "trip_load_632_c_19_Battery",
+        "Bus": "trip_load_632_c_h_19",
+        "mRID": "_B67B456A-3C2B-4EF9-9803-4C02047113D2"
+    },
+    {
+        "Name": "trip_load_632_c_1_Battery",
+        "Bus": "trip_load_632_c_h_1",
+        "mRID": "_5636FEED-C7F6-4A98-BA63-6772FDEF18ED"
+    },
+    {
+        "Name": "trip_load_632_c_20_Battery",
+        "Bus": "trip_load_632_c_h_20",
+        "mRID": "_A8F898D8-413D-4F94-93D1-24F095C94673"
+    },
+    {
+        "Name": "trip_load_632_c_21_Battery",
+        "Bus": "trip_load_632_c_h_21",
+        "mRID": "_495A24DE-929B-4A73-B6F3-3A111C9C44EF"
+    },
+    {
+        "Name": "trip_load_632_c_22_Battery",
+        "Bus": "trip_load_632_c_h_22",
+        "mRID": "_455F8687-2F45-4C31-974A-A18B1214BA38"
+    },
+    {
+        "Name": "trip_load_632_c_23_Battery",
+        "Bus": "trip_load_632_c_h_23",
+        "mRID": "_682A0516-7228-4C9C-B0B8-77BA11DBD334"
+    },
+    {
+        "Name": "trip_load_632_c_24_Battery",
+        "Bus": "trip_load_632_c_h_24",
+        "mRID": "_63585F1A-E3F7-46A4-8911-4B764091CEC9"
+    },
+    {
+        "Name": "trip_load_632_c_25_Battery",
+        "Bus": "trip_load_632_c_h_25",
+        "mRID": "_84A3CE8E-3675-4C13-AC3C-C6AF4D886FC4"
+    },
+    {
+        "Name": "trip_load_632_c_26_Battery",
+        "Bus": "trip_load_632_c_h_26",
+        "mRID": "_63030BDB-5367-4467-9611-1F4135394E6D"
+    },
+    {
+        "Name": "trip_load_632_c_27_Battery",
+        "Bus": "trip_load_632_c_h_27",
+        "mRID": "_F986AA54-62CC-43B2-A01C-EEB56A41D921"
+    },
+    {
+        "Name": "trip_load_632_c_28_Battery",
+        "Bus": "trip_load_632_c_h_28",
+        "mRID": "_E4B98A6D-9D04-49C9-820D-2042E1A6CBC6"
+    },
+    {
+        "Name": "trip_load_632_c_29_Battery",
+        "Bus": "trip_load_632_c_h_29",
+        "mRID": "_F07817BC-9CE1-442E-9118-119FDC041D2C"
+    },
+    {
+        "Name": "trip_load_632_c_2_Battery",
+        "Bus": "trip_load_632_c_h_2",
+        "mRID": "_ED951DE0-B167-4259-8330-97E86527B1DF"
+    },
+    {
+        "Name": "trip_load_632_c_30_Battery",
+        "Bus": "trip_load_632_c_h_30",
+        "mRID": "_19D1EBE7-70B0-4922-BFB6-120C13E7FC9C"
+    },
+    {
+        "Name": "trip_load_632_c_31_Battery",
+        "Bus": "trip_load_632_c_h_31",
+        "mRID": "_004292F2-C936-4438-B73C-5A821165D4A4"
+    },
+    {
+        "Name": "trip_load_632_c_32_Battery",
+        "Bus": "trip_load_632_c_h_32",
+        "mRID": "_B0F027EF-6432-4A22-9DBC-C18AE307F23B"
+    },
+    {
+        "Name": "trip_load_632_c_33_Battery",
+        "Bus": "trip_load_632_c_h_33",
+        "mRID": "_27CB87BA-A9FD-4044-AAC1-D177A6E93538"
+    },
+    {
+        "Name": "trip_load_632_c_34_Battery",
+        "Bus": "trip_load_632_c_h_34",
+        "mRID": "_2197600E-18CB-4B18-ABD9-4B09C7A1CA8F"
+    },
+    {
+        "Name": "trip_load_632_c_35_Battery",
+        "Bus": "trip_load_632_c_h_35",
+        "mRID": "_CA22B751-6526-43D6-B9C7-7FDB3CA6F3CE"
+    },
+    {
+        "Name": "trip_load_632_c_36_Battery",
+        "Bus": "trip_load_632_c_h_36",
+        "mRID": "_E0605C32-BE02-4E8A-80EC-0F8B26019CF4"
+    },
+    {
+        "Name": "trip_load_632_c_37_Battery",
+        "Bus": "trip_load_632_c_h_37",
+        "mRID": "_C1D32348-CF42-4F60-A817-0684B9EFCE6C"
+    },
+    {
+        "Name": "trip_load_632_c_38_Battery",
+        "Bus": "trip_load_632_c_h_38",
+        "mRID": "_973184A6-F147-4252-9827-4CADAFD82F3B"
+    },
+    {
+        "Name": "trip_load_632_c_39_Battery",
+        "Bus": "trip_load_632_c_h_39",
+        "mRID": "_0A5A12A3-CB6D-4439-B7E8-F2432C58929B"
+    },
+    {
+        "Name": "trip_load_632_c_3_Battery",
+        "Bus": "trip_load_632_c_h_3",
+        "mRID": "_225B907E-7E35-4F53-B81A-19E0EA9E5542"
+    },
+    {
+        "Name": "trip_load_632_c_40_Battery",
+        "Bus": "trip_load_632_c_h_40",
+        "mRID": "_AAF1B039-F14A-474E-AC4E-5E3B7FD8BD55"
+    },
+    {
+        "Name": "trip_load_632_c_4_Battery",
+        "Bus": "trip_load_632_c_h_4",
+        "mRID": "_68D0A5BB-9B72-4807-BF2E-3B00D6DE5F7C"
+    },
+    {
+        "Name": "trip_load_632_c_5_Battery",
+        "Bus": "trip_load_632_c_h_5",
+        "mRID": "_9AD505C9-63A8-41F8-B478-253588A4A155"
+    },
+    {
+        "Name": "trip_load_632_c_6_Battery",
+        "Bus": "trip_load_632_c_h_6",
+        "mRID": "_1948DCD0-1C91-4D64-9A96-9D38A9D025F2"
+    },
+    {
+        "Name": "trip_load_632_c_7_Battery",
+        "Bus": "trip_load_632_c_h_7",
+        "mRID": "_8FEA875D-4B9E-4F51-A401-FF9E9EE4865D"
+    },
+    {
+        "Name": "trip_load_632_c_8_Battery",
+        "Bus": "trip_load_632_c_h_8",
+        "mRID": "_15F96EEE-351E-4CF7-822C-1A15A2385BF3"
+    },
+    {
+        "Name": "trip_load_632_c_9_Battery",
+        "Bus": "trip_load_632_c_h_9",
+        "mRID": "_BCF2D093-24BA-4BFA-BE7D-A25C57D1713B"
+    },
+    {
+        "Name": "trip_load_633_a_10_Battery",
+        "Bus": "trip_load_633_a_h_10",
+        "mRID": "_E503B1EF-6F90-4A13-8602-1CD8519865DF"
+    },
+    {
+        "Name": "trip_load_633_a_11_Battery",
+        "Bus": "trip_load_633_a_h_11",
+        "mRID": "_BBA3A34F-C8B4-4EF2-A703-80693F5D254F"
+    },
+    {
+        "Name": "trip_load_633_a_12_Battery",
+        "Bus": "trip_load_633_a_h_12",
+        "mRID": "_7E445688-39C6-4A13-98B5-63511186BB33"
+    },
+    {
+        "Name": "trip_load_633_a_13_Battery",
+        "Bus": "trip_load_633_a_h_13",
+        "mRID": "_91CFBB11-808D-4490-AE42-FE75B6B41348"
+    },
+    {
+        "Name": "trip_load_633_a_14_Battery",
+        "Bus": "trip_load_633_a_h_14",
+        "mRID": "_81776F93-D683-4F17-9E8A-1755DE00B2C8"
+    },
+    {
+        "Name": "trip_load_633_a_15_Battery",
+        "Bus": "trip_load_633_a_h_15",
+        "mRID": "_4633A6C6-E494-46A9-A89E-3318C3AA53EE"
+    },
+    {
+        "Name": "trip_load_633_a_16_Battery",
+        "Bus": "trip_load_633_a_h_16",
+        "mRID": "_85FB372A-E034-4EF2-B0F6-5680CFED59AD"
+    },
+    {
+        "Name": "trip_load_633_a_17_Battery",
+        "Bus": "trip_load_633_a_h_17",
+        "mRID": "_FADA2E4D-0799-436F-A412-7CAE46A02E56"
+    },
+    {
+        "Name": "trip_load_633_a_18_Battery",
+        "Bus": "trip_load_633_a_h_18",
+        "mRID": "_9A854092-0EFF-4EF5-9E06-D18A595CA812"
+    },
+    {
+        "Name": "trip_load_633_a_19_Battery",
+        "Bus": "trip_load_633_a_h_19",
+        "mRID": "_AEE38AD3-FDE2-4319-AFA8-D9F82AB87903"
+    },
+    {
+        "Name": "trip_load_633_a_1_Battery",
+        "Bus": "trip_load_633_a_h_1",
+        "mRID": "_47D35C03-07F1-4855-B6EC-114265469072"
+    },
+    {
+        "Name": "trip_load_633_a_20_Battery",
+        "Bus": "trip_load_633_a_h_20",
+        "mRID": "_2A7D6848-9903-4A75-B366-CB3FFCD8E849"
+    },
+    {
+        "Name": "trip_load_633_a_21_Battery",
+        "Bus": "trip_load_633_a_h_21",
+        "mRID": "_B78F4118-3542-4DBD-BECF-74331E9F0DF1"
+    },
+    {
+        "Name": "trip_load_633_a_22_Battery",
+        "Bus": "trip_load_633_a_h_22",
+        "mRID": "_DA42D99E-97D4-440D-B63F-F700E30621B1"
+    },
+    {
+        "Name": "trip_load_633_a_23_Battery",
+        "Bus": "trip_load_633_a_h_23",
+        "mRID": "_1DA0BEA7-5A2D-4753-8DB5-FAFECD7127DB"
+    },
+    {
+        "Name": "trip_load_633_a_24_Battery",
+        "Bus": "trip_load_633_a_h_24",
+        "mRID": "_6755D8AD-6235-4695-8191-5660A832C687"
+    },
+    {
+        "Name": "trip_load_633_a_25_Battery",
+        "Bus": "trip_load_633_a_h_25",
+        "mRID": "_8E397137-A3E4-4A74-8543-3412D5B11318"
+    },
+    {
+        "Name": "trip_load_633_a_26_Battery",
+        "Bus": "trip_load_633_a_h_26",
+        "mRID": "_75A87848-55DF-4AA9-9AC5-80864C69B45A"
+    },
+    {
+        "Name": "trip_load_633_a_27_Battery",
+        "Bus": "trip_load_633_a_h_27",
+        "mRID": "_74E8A3DF-FBAC-4093-9463-553E14EBA33A"
+    },
+    {
+        "Name": "trip_load_633_a_28_Battery",
+        "Bus": "trip_load_633_a_h_28",
+        "mRID": "_C0737612-D981-4753-A732-76008FC71806"
+    },
+    {
+        "Name": "trip_load_633_a_29_Battery",
+        "Bus": "trip_load_633_a_h_29",
+        "mRID": "_D92BD54B-54CA-4F4C-B626-D8E2D2A62302"
+    },
+    {
+        "Name": "trip_load_633_a_2_Battery",
+        "Bus": "trip_load_633_a_h_2",
+        "mRID": "_B6815FBD-8B26-403B-8321-C950666E0373"
+    },
+    {
+        "Name": "trip_load_633_a_30_Battery",
+        "Bus": "trip_load_633_a_h_30",
+        "mRID": "_0BA93FAE-A06E-4319-9EEB-183D246BA1C6"
+    },
+    {
+        "Name": "trip_load_633_a_31_Battery",
+        "Bus": "trip_load_633_a_h_31",
+        "mRID": "_9E481F97-DF35-44D3-B5F1-A5541F43EB7F"
+    },
+    {
+        "Name": "trip_load_633_a_32_Battery",
+        "Bus": "trip_load_633_a_h_32",
+        "mRID": "_A91A8605-25DF-4118-B299-C8C9C0C7D24C"
+    },
+    {
+        "Name": "trip_load_633_a_33_Battery",
+        "Bus": "trip_load_633_a_h_33",
+        "mRID": "_44541F6C-EE3D-444A-9E9E-4C94002732F9"
+    },
+    {
+        "Name": "trip_load_633_a_34_Battery",
+        "Bus": "trip_load_633_a_h_34",
+        "mRID": "_613673E8-2496-43B2-A261-B15CDC867CA0"
+    },
+    {
+        "Name": "trip_load_633_a_35_Battery",
+        "Bus": "trip_load_633_a_h_35",
+        "mRID": "_F2407081-F52E-40A7-A92D-F756D213AEE4"
+    },
+    {
+        "Name": "trip_load_633_a_36_Battery",
+        "Bus": "trip_load_633_a_h_36",
+        "mRID": "_469F3959-5B87-4C7A-92C8-EFAF62F42927"
+    },
+    {
+        "Name": "trip_load_633_a_37_Battery",
+        "Bus": "trip_load_633_a_h_37",
+        "mRID": "_0198DA12-93BF-4C79-AA6F-6E5C1A16BEAD"
+    },
+    {
+        "Name": "trip_load_633_a_38_Battery",
+        "Bus": "trip_load_633_a_h_38",
+        "mRID": "_4DB8EB9C-65E4-412E-9F37-C56E0F7BEFD6"
+    },
+    {
+        "Name": "trip_load_633_a_39_Battery",
+        "Bus": "trip_load_633_a_h_39",
+        "mRID": "_FE5F8A8B-D750-42A3-BAB2-BA3AF629CECE"
+    },
+    {
+        "Name": "trip_load_633_a_3_Battery",
+        "Bus": "trip_load_633_a_h_3",
+        "mRID": "_69F8E163-C0F7-4D7F-A33B-9EE86642992F"
+    },
+    {
+        "Name": "trip_load_633_a_40_Battery",
+        "Bus": "trip_load_633_a_h_40",
+        "mRID": "_EB574B05-9E09-4B8C-99F4-2178D0DD3AA4"
+    },
+    {
+        "Name": "trip_load_633_a_4_Battery",
+        "Bus": "trip_load_633_a_h_4",
+        "mRID": "_250D2559-7DB0-47BD-A20D-9C2C3100A5C2"
+    },
+    {
+        "Name": "trip_load_633_a_5_Battery",
+        "Bus": "trip_load_633_a_h_5",
+        "mRID": "_72B84AAE-C441-4B7F-B254-93A4831AA968"
+    },
+    {
+        "Name": "trip_load_633_a_6_Battery",
+        "Bus": "trip_load_633_a_h_6",
+        "mRID": "_19086B31-5E77-4761-BA3F-7E37AB46B852"
+    },
+    {
+        "Name": "trip_load_633_a_7_Battery",
+        "Bus": "trip_load_633_a_h_7",
+        "mRID": "_F1F71B72-14F4-486E-B221-39A64A883C95"
+    },
+    {
+        "Name": "trip_load_633_a_8_Battery",
+        "Bus": "trip_load_633_a_h_8",
+        "mRID": "_9004CD3A-CB20-4A07-936E-F4FA496C108F"
+    },
+    {
+        "Name": "trip_load_633_a_9_Battery",
+        "Bus": "trip_load_633_a_h_9",
+        "mRID": "_F3616136-03ED-4606-B2D6-FDEABA2A0F8A"
+    },
+    {
+        "Name": "trip_load_633_b_10_Battery",
+        "Bus": "trip_load_633_b_h_10",
+        "mRID": "_8C3D37DE-9D5A-468D-85E3-6505587F0360"
+    },
+    {
+        "Name": "trip_load_633_b_11_Battery",
+        "Bus": "trip_load_633_b_h_11",
+        "mRID": "_8177A241-25DF-4759-A1E8-FD7BA36DB10B"
+    },
+    {
+        "Name": "trip_load_633_b_12_Battery",
+        "Bus": "trip_load_633_b_h_12",
+        "mRID": "_3A90202D-91DD-4617-90F2-C87C41436242"
+    },
+    {
+        "Name": "trip_load_633_b_13_Battery",
+        "Bus": "trip_load_633_b_h_13",
+        "mRID": "_DF9D48DC-CFD2-41A6-9C7F-54C652E680C1"
+    },
+    {
+        "Name": "trip_load_633_b_14_Battery",
+        "Bus": "trip_load_633_b_h_14",
+        "mRID": "_59B83A4E-77BD-451F-958A-9D124C77EA53"
+    },
+    {
+        "Name": "trip_load_633_b_15_Battery",
+        "Bus": "trip_load_633_b_h_15",
+        "mRID": "_78853D99-9181-4401-8C4C-0819C36489A8"
+    },
+    {
+        "Name": "trip_load_633_b_16_Battery",
+        "Bus": "trip_load_633_b_h_16",
+        "mRID": "_9ED022C4-F2C0-481A-A869-3F1E8B2251FA"
+    },
+    {
+        "Name": "trip_load_633_b_17_Battery",
+        "Bus": "trip_load_633_b_h_17",
+        "mRID": "_43E798C8-E1B6-44C3-AE66-8114C838189A"
+    },
+    {
+        "Name": "trip_load_633_b_18_Battery",
+        "Bus": "trip_load_633_b_h_18",
+        "mRID": "_11F9CAE8-0FDD-4AE7-92DF-CBA0953A9ED8"
+    },
+    {
+        "Name": "trip_load_633_b_19_Battery",
+        "Bus": "trip_load_633_b_h_19",
+        "mRID": "_EC8F0DFA-65B5-4B7E-A963-93EBFB234DE1"
+    },
+    {
+        "Name": "trip_load_633_b_1_Battery",
+        "Bus": "trip_load_633_b_h_1",
+        "mRID": "_D4DF2068-08BE-4DAD-A443-6008FB00274F"
+    },
+    {
+        "Name": "trip_load_633_b_20_Battery",
+        "Bus": "trip_load_633_b_h_20",
+        "mRID": "_EF9706AD-27B3-47B8-A4A6-C6BDE8E5CED4"
+    },
+    {
+        "Name": "trip_load_633_b_21_Battery",
+        "Bus": "trip_load_633_b_h_21",
+        "mRID": "_889977D2-5487-419A-B9E4-C3C6086065C2"
+    },
+    {
+        "Name": "trip_load_633_b_22_Battery",
+        "Bus": "trip_load_633_b_h_22",
+        "mRID": "_02E4C725-533D-4D5A-963B-A9D228477D7A"
+    },
+    {
+        "Name": "trip_load_633_b_23_Battery",
+        "Bus": "trip_load_633_b_h_23",
+        "mRID": "_79E8968C-4102-4C8B-941F-87E20EEF4ABB"
+    },
+    {
+        "Name": "trip_load_633_b_24_Battery",
+        "Bus": "trip_load_633_b_h_24",
+        "mRID": "_C09E3DCD-E3DE-4812-B87C-19976E954E33"
+    },
+    {
+        "Name": "trip_load_633_b_25_Battery",
+        "Bus": "trip_load_633_b_h_25",
+        "mRID": "_B26DA80E-0E98-4221-AEC6-E903DA02B707"
+    },
+    {
+        "Name": "trip_load_633_b_26_Battery",
+        "Bus": "trip_load_633_b_h_26",
+        "mRID": "_FD67B316-E38F-441D-B59D-67B433AA3046"
+    },
+    {
+        "Name": "trip_load_633_b_27_Battery",
+        "Bus": "trip_load_633_b_h_27",
+        "mRID": "_9F59FA29-DE95-46F5-9911-568A091A9D31"
+    },
+    {
+        "Name": "trip_load_633_b_28_Battery",
+        "Bus": "trip_load_633_b_h_28",
+        "mRID": "_EC7C8F11-BD3D-4AC8-9403-1300117988F3"
+    },
+    {
+        "Name": "trip_load_633_b_29_Battery",
+        "Bus": "trip_load_633_b_h_29",
+        "mRID": "_7E54DA27-0D67-41F6-99DC-48987BB8A44C"
+    },
+    {
+        "Name": "trip_load_633_b_2_Battery",
+        "Bus": "trip_load_633_b_h_2",
+        "mRID": "_0414DEBF-73B3-4687-BA34-AAE7EFF09B6A"
+    },
+    {
+        "Name": "trip_load_633_b_30_Battery",
+        "Bus": "trip_load_633_b_h_30",
+        "mRID": "_CC0542F3-52B7-4C16-98C5-788920EDE9B5"
+    },
+    {
+        "Name": "trip_load_633_b_31_Battery",
+        "Bus": "trip_load_633_b_h_31",
+        "mRID": "_942B44BC-9072-4C34-98DB-DEB5B28EA2B3"
+    },
+    {
+        "Name": "trip_load_633_b_32_Battery",
+        "Bus": "trip_load_633_b_h_32",
+        "mRID": "_80EAE9D9-18E6-44FF-BF0B-2FB73A0F2777"
+    },
+    {
+        "Name": "trip_load_633_b_33_Battery",
+        "Bus": "trip_load_633_b_h_33",
+        "mRID": "_FEA866D0-E69A-44C4-89F0-811BD7B85387"
+    },
+    {
+        "Name": "trip_load_633_b_34_Battery",
+        "Bus": "trip_load_633_b_h_34",
+        "mRID": "_B0DFC740-87D0-409D-87DE-2D43436A8D07"
+    },
+    {
+        "Name": "trip_load_633_b_35_Battery",
+        "Bus": "trip_load_633_b_h_35",
+        "mRID": "_5D9A8F18-48DB-4DB7-B89D-A909AB11DDE5"
+    },
+    {
+        "Name": "trip_load_633_b_36_Battery",
+        "Bus": "trip_load_633_b_h_36",
+        "mRID": "_AF0BF875-1513-4066-83A1-74A7145E7DEF"
+    },
+    {
+        "Name": "trip_load_633_b_37_Battery",
+        "Bus": "trip_load_633_b_h_37",
+        "mRID": "_AE2CCC14-6657-4449-86AC-E4F1515E68C5"
+    },
+    {
+        "Name": "trip_load_633_b_38_Battery",
+        "Bus": "trip_load_633_b_h_38",
+        "mRID": "_18E33D91-AF81-4A0C-8005-CA15DC1AC3CE"
+    },
+    {
+        "Name": "trip_load_633_b_39_Battery",
+        "Bus": "trip_load_633_b_h_39",
+        "mRID": "_BF4F182F-00CC-4BFD-AE33-0B794E49E167"
+    },
+    {
+        "Name": "trip_load_633_b_3_Battery",
+        "Bus": "trip_load_633_b_h_3",
+        "mRID": "_3A9F6F57-E830-4E4D-BAF0-FDD9C1A41542"
+    },
+    {
+        "Name": "trip_load_633_b_40_Battery",
+        "Bus": "trip_load_633_b_h_40",
+        "mRID": "_AEF29418-6E45-4F45-88DF-26D61BEC6B76"
+    },
+    {
+        "Name": "trip_load_633_b_4_Battery",
+        "Bus": "trip_load_633_b_h_4",
+        "mRID": "_0EBA9359-D702-4AC9-B34C-64B35F993B8E"
+    },
+    {
+        "Name": "trip_load_633_b_5_Battery",
+        "Bus": "trip_load_633_b_h_5",
+        "mRID": "_51BD88E6-6829-4D9A-AA9F-BCBB3116A8C7"
+    },
+    {
+        "Name": "trip_load_633_b_6_Battery",
+        "Bus": "trip_load_633_b_h_6",
+        "mRID": "_D2D299F2-D182-4EBF-8C84-985C2BDAD60A"
+    },
+    {
+        "Name": "trip_load_633_b_7_Battery",
+        "Bus": "trip_load_633_b_h_7",
+        "mRID": "_37D321DD-66E9-4B21-A97A-42611028E9B4"
+    },
+    {
+        "Name": "trip_load_633_b_8_Battery",
+        "Bus": "trip_load_633_b_h_8",
+        "mRID": "_29F9B334-56FA-4740-A3A3-ED5B3955239B"
+    },
+    {
+        "Name": "trip_load_633_b_9_Battery",
+        "Bus": "trip_load_633_b_h_9",
+        "mRID": "_DC6400DC-9378-4631-9B8B-D6501461B7B1"
+    },
+    {
+        "Name": "trip_load_633_c_10_Battery",
+        "Bus": "trip_load_633_c_h_10",
+        "mRID": "_7A98C99E-5CBE-4773-B42D-A007FA83187E"
+    },
+    {
+        "Name": "trip_load_633_c_11_Battery",
+        "Bus": "trip_load_633_c_h_11",
+        "mRID": "_6E9C9715-81C2-4720-91F6-7745FEA07E64"
+    },
+    {
+        "Name": "trip_load_633_c_12_Battery",
+        "Bus": "trip_load_633_c_h_12",
+        "mRID": "_F4EC8092-B771-44CF-8F9D-8D3CBE31BFE7"
+    },
+    {
+        "Name": "trip_load_633_c_13_Battery",
+        "Bus": "trip_load_633_c_h_13",
+        "mRID": "_0F8EB4D9-0D04-44B5-811F-792BA3A09F91"
+    },
+    {
+        "Name": "trip_load_633_c_14_Battery",
+        "Bus": "trip_load_633_c_h_14",
+        "mRID": "_94737C01-B8D6-4326-8DB7-53BA97D4834E"
+    },
+    {
+        "Name": "trip_load_633_c_15_Battery",
+        "Bus": "trip_load_633_c_h_15",
+        "mRID": "_8A9F6D75-B16C-4C7D-BFF3-18F55325A9BE"
+    },
+    {
+        "Name": "trip_load_633_c_16_Battery",
+        "Bus": "trip_load_633_c_h_16",
+        "mRID": "_443FA22D-4B4A-4D82-A52B-29BF8BFE5410"
+    },
+    {
+        "Name": "trip_load_633_c_17_Battery",
+        "Bus": "trip_load_633_c_h_17",
+        "mRID": "_5EBBFAE7-0EFB-4340-9A97-AF710A24F3AA"
+    },
+    {
+        "Name": "trip_load_633_c_18_Battery",
+        "Bus": "trip_load_633_c_h_18",
+        "mRID": "_31094F6F-6BE9-483A-8847-DA452E0AC73F"
+    },
+    {
+        "Name": "trip_load_633_c_19_Battery",
+        "Bus": "trip_load_633_c_h_19",
+        "mRID": "_4790E67E-0811-4FD6-9E51-1E1F617D3083"
+    },
+    {
+        "Name": "trip_load_633_c_1_Battery",
+        "Bus": "trip_load_633_c_h_1",
+        "mRID": "_435ED49A-69C2-46AB-9AD7-FB73A448114D"
+    },
+    {
+        "Name": "trip_load_633_c_20_Battery",
+        "Bus": "trip_load_633_c_h_20",
+        "mRID": "_3F52262F-D3D3-47AA-9E81-6BD31312F6D2"
+    },
+    {
+        "Name": "trip_load_633_c_21_Battery",
+        "Bus": "trip_load_633_c_h_21",
+        "mRID": "_0931ABD7-34D5-4437-985C-85EB2C0D865D"
+    },
+    {
+        "Name": "trip_load_633_c_22_Battery",
+        "Bus": "trip_load_633_c_h_22",
+        "mRID": "_69FAB447-0EC4-4180-882D-4B7DBB5E3DCB"
+    },
+    {
+        "Name": "trip_load_633_c_23_Battery",
+        "Bus": "trip_load_633_c_h_23",
+        "mRID": "_0615B447-3213-4AC8-86F0-94D410035286"
+    },
+    {
+        "Name": "trip_load_633_c_24_Battery",
+        "Bus": "trip_load_633_c_h_24",
+        "mRID": "_AE7C025D-FF66-4520-B319-380829E8A7A4"
+    },
+    {
+        "Name": "trip_load_633_c_25_Battery",
+        "Bus": "trip_load_633_c_h_25",
+        "mRID": "_982DF297-2907-47FA-A939-B3E4DB488DF3"
+    },
+    {
+        "Name": "trip_load_633_c_26_Battery",
+        "Bus": "trip_load_633_c_h_26",
+        "mRID": "_4AB3E7BB-D611-4B83-84A9-3D46BA2654C0"
+    },
+    {
+        "Name": "trip_load_633_c_27_Battery",
+        "Bus": "trip_load_633_c_h_27",
+        "mRID": "_82D787D8-A532-4D7F-BD4C-4C51A7F50252"
+    },
+    {
+        "Name": "trip_load_633_c_28_Battery",
+        "Bus": "trip_load_633_c_h_28",
+        "mRID": "_1D1CD041-15E0-42C6-B17C-CC06FB219764"
+    },
+    {
+        "Name": "trip_load_633_c_29_Battery",
+        "Bus": "trip_load_633_c_h_29",
+        "mRID": "_E163933D-068F-4B4F-A8F2-BE93B071E574"
+    },
+    {
+        "Name": "trip_load_633_c_2_Battery",
+        "Bus": "trip_load_633_c_h_2",
+        "mRID": "_1EF1107D-E0F2-430E-A29F-6286D855180D"
+    },
+    {
+        "Name": "trip_load_633_c_30_Battery",
+        "Bus": "trip_load_633_c_h_30",
+        "mRID": "_5844B9EB-55B5-4B20-B8B0-837FE5A70D4C"
+    },
+    {
+        "Name": "trip_load_633_c_31_Battery",
+        "Bus": "trip_load_633_c_h_31",
+        "mRID": "_331E43DE-2B19-4901-9765-944F63B36C0F"
+    },
+    {
+        "Name": "trip_load_633_c_32_Battery",
+        "Bus": "trip_load_633_c_h_32",
+        "mRID": "_980EE4E7-F2D1-4E99-827C-07BD2ACAA68A"
+    },
+    {
+        "Name": "trip_load_633_c_33_Battery",
+        "Bus": "trip_load_633_c_h_33",
+        "mRID": "_6EE3DB7E-B85D-48FD-A1FE-3641FABA99C3"
+    },
+    {
+        "Name": "trip_load_633_c_34_Battery",
+        "Bus": "trip_load_633_c_h_34",
+        "mRID": "_B1BE90AD-C39D-47D6-945F-305A94F587C2"
+    },
+    {
+        "Name": "trip_load_633_c_35_Battery",
+        "Bus": "trip_load_633_c_h_35",
+        "mRID": "_27DA93D1-577C-42DF-B303-3D798176BDF7"
+    },
+    {
+        "Name": "trip_load_633_c_36_Battery",
+        "Bus": "trip_load_633_c_h_36",
+        "mRID": "_D1DB3AB0-5B66-4618-8D6D-F0D08C1ACD73"
+    },
+    {
+        "Name": "trip_load_633_c_37_Battery",
+        "Bus": "trip_load_633_c_h_37",
+        "mRID": "_725D4BF7-2CD0-47E4-9F3E-7CA9CC12082E"
+    },
+    {
+        "Name": "trip_load_633_c_38_Battery",
+        "Bus": "trip_load_633_c_h_38",
+        "mRID": "_2B619D2A-F371-42B5-BFBB-B6D0097E94A2"
+    },
+    {
+        "Name": "trip_load_633_c_39_Battery",
+        "Bus": "trip_load_633_c_h_39",
+        "mRID": "_461B3B2B-D694-4095-928A-87412D3FBC59"
+    },
+    {
+        "Name": "trip_load_633_c_3_Battery",
+        "Bus": "trip_load_633_c_h_3",
+        "mRID": "_47C87E60-6CDE-4C12-B781-FDB59C6794A6"
+    },
+    {
+        "Name": "trip_load_633_c_40_Battery",
+        "Bus": "trip_load_633_c_h_40",
+        "mRID": "_3F3D7E78-99EB-4D1E-910C-88D08819D502"
+    },
+    {
+        "Name": "trip_load_633_c_4_Battery",
+        "Bus": "trip_load_633_c_h_4",
+        "mRID": "_4852BF55-589A-4758-B47F-26FE5B368FE3"
+    },
+    {
+        "Name": "trip_load_633_c_5_Battery",
+        "Bus": "trip_load_633_c_h_5",
+        "mRID": "_5008DF6D-8142-4F06-8633-018F6620A903"
+    },
+    {
+        "Name": "trip_load_633_c_6_Battery",
+        "Bus": "trip_load_633_c_h_6",
+        "mRID": "_1E95F04C-C983-4FE6-879D-F5ED07C06C14"
+    },
+    {
+        "Name": "trip_load_633_c_7_Battery",
+        "Bus": "trip_load_633_c_h_7",
+        "mRID": "_2E4C7AF5-117C-4D8E-A4DE-D7454DB1AB02"
+    },
+    {
+        "Name": "trip_load_633_c_8_Battery",
+        "Bus": "trip_load_633_c_h_8",
+        "mRID": "_6DF83471-875D-426B-BF67-3B25940B2B08"
+    },
+    {
+        "Name": "trip_load_633_c_9_Battery",
+        "Bus": "trip_load_633_c_h_9",
+        "mRID": "_F45F4E72-A4B4-4A77-AD10-CC49C47C8246"
+    },
+    {
+        "Name": "trip_load_645_b_10_Battery",
+        "Bus": "trip_load_645_b_h_10",
+        "mRID": "_4BC8F003-DD5F-4B08-A3DA-5BCC0A145562"
+    },
+    {
+        "Name": "trip_load_645_b_11_Battery",
+        "Bus": "trip_load_645_b_h_11",
+        "mRID": "_F4038219-D3E8-4615-B3F7-FC006E7073A6"
+    },
+    {
+        "Name": "trip_load_645_b_12_Battery",
+        "Bus": "trip_load_645_b_h_12",
+        "mRID": "_42234B9F-FEF6-49FC-9D61-A393D610189C"
+    },
+    {
+        "Name": "trip_load_645_b_13_Battery",
+        "Bus": "trip_load_645_b_h_13",
+        "mRID": "_E610B052-9519-4FA2-BDC8-C2195C1547AE"
+    },
+    {
+        "Name": "trip_load_645_b_14_Battery",
+        "Bus": "trip_load_645_b_h_14",
+        "mRID": "_5AB51F31-BFDE-43FB-86A5-613861E9DE42"
+    },
+    {
+        "Name": "trip_load_645_b_15_Battery",
+        "Bus": "trip_load_645_b_h_15",
+        "mRID": "_EAADF82A-39FC-4E74-9CE9-94C79752E1F9"
+    },
+    {
+        "Name": "trip_load_645_b_16_Battery",
+        "Bus": "trip_load_645_b_h_16",
+        "mRID": "_2AECD5B9-B442-4856-A1E9-688898B30732"
+    },
+    {
+        "Name": "trip_load_645_b_17_Battery",
+        "Bus": "trip_load_645_b_h_17",
+        "mRID": "_4E1122A2-FA74-42AC-95D6-71A9C22F07DF"
+    },
+    {
+        "Name": "trip_load_645_b_18_Battery",
+        "Bus": "trip_load_645_b_h_18",
+        "mRID": "_06C91463-5ADE-4CAD-B2C2-6C81C18EB65F"
+    },
+    {
+        "Name": "trip_load_645_b_19_Battery",
+        "Bus": "trip_load_645_b_h_19",
+        "mRID": "_DE79810B-1E1B-4CAD-813E-922A35341A3C"
+    },
+    {
+        "Name": "trip_load_645_b_1_Battery",
+        "Bus": "trip_load_645_b_h_1",
+        "mRID": "_6E4BC2EB-867D-404E-82BA-60B631F72784"
+    },
+    {
+        "Name": "trip_load_645_b_20_Battery",
+        "Bus": "trip_load_645_b_h_20",
+        "mRID": "_B5B736EB-C2C3-427A-8EDD-FD2FF155C30C"
+    },
+    {
+        "Name": "trip_load_645_b_21_Battery",
+        "Bus": "trip_load_645_b_h_21",
+        "mRID": "_2C015777-751E-4991-9FA1-79A1AD5B9305"
+    },
+    {
+        "Name": "trip_load_645_b_22_Battery",
+        "Bus": "trip_load_645_b_h_22",
+        "mRID": "_1197160D-9049-44A8-8D32-290E02D99A51"
+    },
+    {
+        "Name": "trip_load_645_b_23_Battery",
+        "Bus": "trip_load_645_b_h_23",
+        "mRID": "_E6FD3CC0-4540-46FB-A8F6-62EEFB414AD3"
+    },
+    {
+        "Name": "trip_load_645_b_24_Battery",
+        "Bus": "trip_load_645_b_h_24",
+        "mRID": "_4D9A8076-A022-458D-979C-D67F12C3430F"
+    },
+    {
+        "Name": "trip_load_645_b_25_Battery",
+        "Bus": "trip_load_645_b_h_25",
+        "mRID": "_58EA11BF-51B1-4816-918A-A058B22420C6"
+    },
+    {
+        "Name": "trip_load_645_b_26_Battery",
+        "Bus": "trip_load_645_b_h_26",
+        "mRID": "_9F7E08AB-E158-4716-A13B-2CA7C4E2874F"
+    },
+    {
+        "Name": "trip_load_645_b_27_Battery",
+        "Bus": "trip_load_645_b_h_27",
+        "mRID": "_3457C763-8054-43A3-94E9-D9714AC35E4D"
+    },
+    {
+        "Name": "trip_load_645_b_28_Battery",
+        "Bus": "trip_load_645_b_h_28",
+        "mRID": "_A8B6B0B8-2B4B-4CEE-A4DE-57A3039CC999"
+    },
+    {
+        "Name": "trip_load_645_b_29_Battery",
+        "Bus": "trip_load_645_b_h_29",
+        "mRID": "_5928621D-2BF8-41EC-8E29-566B7BA3705C"
+    },
+    {
+        "Name": "trip_load_645_b_2_Battery",
+        "Bus": "trip_load_645_b_h_2",
+        "mRID": "_41AE688F-F0A4-4317-84CC-732616A445D9"
+    },
+    {
+        "Name": "trip_load_645_b_30_Battery",
+        "Bus": "trip_load_645_b_h_30",
+        "mRID": "_FB8A1330-2389-4967-B1B8-23322ACFA8C7"
+    },
+    {
+        "Name": "trip_load_645_b_31_Battery",
+        "Bus": "trip_load_645_b_h_31",
+        "mRID": "_9C1A812A-1F45-4603-8875-EF07294EAB22"
+    },
+    {
+        "Name": "trip_load_645_b_32_Battery",
+        "Bus": "trip_load_645_b_h_32",
+        "mRID": "_B7D0BEB4-A780-494A-8321-7A7DEAF76683"
+    },
+    {
+        "Name": "trip_load_645_b_33_Battery",
+        "Bus": "trip_load_645_b_h_33",
+        "mRID": "_F63DFBA7-6540-4F3C-B242-0BD070FD3A0C"
+    },
+    {
+        "Name": "trip_load_645_b_34_Battery",
+        "Bus": "trip_load_645_b_h_34",
+        "mRID": "_30DD014B-5641-4303-ABCC-EBFAFD442260"
+    },
+    {
+        "Name": "trip_load_645_b_35_Battery",
+        "Bus": "trip_load_645_b_h_35",
+        "mRID": "_A899FD18-6EA5-44D4-8823-C5C6202CF281"
+    },
+    {
+        "Name": "trip_load_645_b_36_Battery",
+        "Bus": "trip_load_645_b_h_36",
+        "mRID": "_68B7AE82-8C40-4233-9636-2BC120C3E2C0"
+    },
+    {
+        "Name": "trip_load_645_b_37_Battery",
+        "Bus": "trip_load_645_b_h_37",
+        "mRID": "_4BB2ACB7-D82E-4207-BA00-FBF02F3D32CF"
+    },
+    {
+        "Name": "trip_load_645_b_38_Battery",
+        "Bus": "trip_load_645_b_h_38",
+        "mRID": "_FD29EF49-C8F6-49B5-B189-67553B0C7A43"
+    },
+    {
+        "Name": "trip_load_645_b_39_Battery",
+        "Bus": "trip_load_645_b_h_39",
+        "mRID": "_9490EDE8-F873-4D9B-B58E-86F9AFB85622"
+    },
+    {
+        "Name": "trip_load_645_b_3_Battery",
+        "Bus": "trip_load_645_b_h_3",
+        "mRID": "_A1717E06-994A-4757-9B98-4DD29352A642"
+    },
+    {
+        "Name": "trip_load_645_b_40_Battery",
+        "Bus": "trip_load_645_b_h_40",
+        "mRID": "_4D4E6B96-B008-4606-872D-6579BC33A524"
+    },
+    {
+        "Name": "trip_load_645_b_4_Battery",
+        "Bus": "trip_load_645_b_h_4",
+        "mRID": "_DC29D3BE-023C-43E5-ACF3-53737BEC6B6F"
+    },
+    {
+        "Name": "trip_load_645_b_5_Battery",
+        "Bus": "trip_load_645_b_h_5",
+        "mRID": "_0FEBCDB1-2317-4390-BFA4-4B8A8554E657"
+    },
+    {
+        "Name": "trip_load_645_b_6_Battery",
+        "Bus": "trip_load_645_b_h_6",
+        "mRID": "_41CBA650-7772-4A82-B1D0-08C31F05BDB6"
+    },
+    {
+        "Name": "trip_load_645_b_7_Battery",
+        "Bus": "trip_load_645_b_h_7",
+        "mRID": "_1DFBBF2E-8158-40B2-8BF7-F460AE27AFBD"
+    },
+    {
+        "Name": "trip_load_645_b_8_Battery",
+        "Bus": "trip_load_645_b_h_8",
+        "mRID": "_90F1FF6E-7579-4E8C-B853-541F4EC5C26A"
+    },
+    {
+        "Name": "trip_load_645_b_9_Battery",
+        "Bus": "trip_load_645_b_h_9",
+        "mRID": "_8DCFF620-F57B-407B-983C-FA7C47CA0DBB"
+    },
+    {
+        "Name": "trip_load_645_c_10_Battery",
+        "Bus": "trip_load_645_c_h_10",
+        "mRID": "_53A1BC10-F81F-4395-AF60-0481422B698B"
+    },
+    {
+        "Name": "trip_load_645_c_11_Battery",
+        "Bus": "trip_load_645_c_h_11",
+        "mRID": "_C48C020C-A925-4B68-B997-39C0C0483C21"
+    },
+    {
+        "Name": "trip_load_645_c_12_Battery",
+        "Bus": "trip_load_645_c_h_12",
+        "mRID": "_050ACBC5-3382-4095-826B-D350E0485E30"
+    },
+    {
+        "Name": "trip_load_645_c_13_Battery",
+        "Bus": "trip_load_645_c_h_13",
+        "mRID": "_4771D9CB-89D0-42A4-B68E-7C637C469390"
+    },
+    {
+        "Name": "trip_load_645_c_14_Battery",
+        "Bus": "trip_load_645_c_h_14",
+        "mRID": "_109F8BF9-4F7E-4A42-B226-7D0BD35B2A6D"
+    },
+    {
+        "Name": "trip_load_645_c_15_Battery",
+        "Bus": "trip_load_645_c_h_15",
+        "mRID": "_3EE53EAD-1E83-416E-9B5F-2804E1046582"
+    },
+    {
+        "Name": "trip_load_645_c_16_Battery",
+        "Bus": "trip_load_645_c_h_16",
+        "mRID": "_0FC12881-F0F1-423B-9ED1-E66BC83833E0"
+    },
+    {
+        "Name": "trip_load_645_c_17_Battery",
+        "Bus": "trip_load_645_c_h_17",
+        "mRID": "_E66D41CC-E99D-469E-B660-26126FA1B386"
+    },
+    {
+        "Name": "trip_load_645_c_18_Battery",
+        "Bus": "trip_load_645_c_h_18",
+        "mRID": "_78E4D111-97E3-47E3-8759-F58972863080"
+    },
+    {
+        "Name": "trip_load_645_c_19_Battery",
+        "Bus": "trip_load_645_c_h_19",
+        "mRID": "_8EF9F7D0-CCA6-4C7C-8334-CB233EB000AB"
+    },
+    {
+        "Name": "trip_load_645_c_1_Battery",
+        "Bus": "trip_load_645_c_h_1",
+        "mRID": "_658117BA-F769-4494-B3C9-6ADB41C4ECB3"
+    },
+    {
+        "Name": "trip_load_645_c_20_Battery",
+        "Bus": "trip_load_645_c_h_20",
+        "mRID": "_8BF7AD04-BC64-42BC-B9DA-F2EE1FB8552E"
+    },
+    {
+        "Name": "trip_load_645_c_21_Battery",
+        "Bus": "trip_load_645_c_h_21",
+        "mRID": "_869F2D0F-7656-4FA2-B12B-C882B83A1AA3"
+    },
+    {
+        "Name": "trip_load_645_c_22_Battery",
+        "Bus": "trip_load_645_c_h_22",
+        "mRID": "_BEDB341D-1E30-4C1B-9EA0-CA51821D4364"
+    },
+    {
+        "Name": "trip_load_645_c_23_Battery",
+        "Bus": "trip_load_645_c_h_23",
+        "mRID": "_61B2BA34-15B8-4044-8678-AAEAB0125F0F"
+    },
+    {
+        "Name": "trip_load_645_c_24_Battery",
+        "Bus": "trip_load_645_c_h_24",
+        "mRID": "_DCDFC5BD-36C3-454F-B18D-B472A4BDF6F2"
+    },
+    {
+        "Name": "trip_load_645_c_25_Battery",
+        "Bus": "trip_load_645_c_h_25",
+        "mRID": "_2EE8E718-8493-46A0-B702-AAB185A85ABB"
+    },
+    {
+        "Name": "trip_load_645_c_26_Battery",
+        "Bus": "trip_load_645_c_h_26",
+        "mRID": "_F9E358D8-BD66-4F0D-BC93-CB311BA36817"
+    },
+    {
+        "Name": "trip_load_645_c_27_Battery",
+        "Bus": "trip_load_645_c_h_27",
+        "mRID": "_2D141331-BDED-468D-B60C-4533451888D6"
+    },
+    {
+        "Name": "trip_load_645_c_28_Battery",
+        "Bus": "trip_load_645_c_h_28",
+        "mRID": "_7969B04E-7E54-431C-B6B3-DB7AFE154E5D"
+    },
+    {
+        "Name": "trip_load_645_c_29_Battery",
+        "Bus": "trip_load_645_c_h_29",
+        "mRID": "_AA20CEEC-2DD7-477F-B897-8487F2B256BB"
+    },
+    {
+        "Name": "trip_load_645_c_2_Battery",
+        "Bus": "trip_load_645_c_h_2",
+        "mRID": "_38ABCC92-A3E9-4EA9-9599-A3745ECF129B"
+    },
+    {
+        "Name": "trip_load_645_c_30_Battery",
+        "Bus": "trip_load_645_c_h_30",
+        "mRID": "_3669D078-4D58-4C33-8CBE-DF20DA07DCAB"
+    },
+    {
+        "Name": "trip_load_645_c_31_Battery",
+        "Bus": "trip_load_645_c_h_31",
+        "mRID": "_0831A0CC-BF7F-452E-AB4D-DD50B7429342"
+    },
+    {
+        "Name": "trip_load_645_c_32_Battery",
+        "Bus": "trip_load_645_c_h_32",
+        "mRID": "_E0AC0BF4-255D-41C5-ACA8-1E5640558353"
+    },
+    {
+        "Name": "trip_load_645_c_33_Battery",
+        "Bus": "trip_load_645_c_h_33",
+        "mRID": "_57BC922C-4931-4BB5-8825-AE5F3DF157F6"
+    },
+    {
+        "Name": "trip_load_645_c_34_Battery",
+        "Bus": "trip_load_645_c_h_34",
+        "mRID": "_665E0F66-3E3F-46D2-8978-4D6CF1114784"
+    },
+    {
+        "Name": "trip_load_645_c_35_Battery",
+        "Bus": "trip_load_645_c_h_35",
+        "mRID": "_C7ACF355-3251-4403-9F6E-10F3E141AA44"
+    },
+    {
+        "Name": "trip_load_645_c_36_Battery",
+        "Bus": "trip_load_645_c_h_36",
+        "mRID": "_AA578672-342D-4EEC-A7DA-86EFBBA29AD9"
+    },
+    {
+        "Name": "trip_load_645_c_37_Battery",
+        "Bus": "trip_load_645_c_h_37",
+        "mRID": "_FBFD664C-4A67-41E0-9E20-1C39652F68B9"
+    },
+    {
+        "Name": "trip_load_645_c_38_Battery",
+        "Bus": "trip_load_645_c_h_38",
+        "mRID": "_7C1E7E98-F933-4521-B424-353D98079B41"
+    },
+    {
+        "Name": "trip_load_645_c_39_Battery",
+        "Bus": "trip_load_645_c_h_39",
+        "mRID": "_8A9F22F1-A8C7-4D3F-BC9A-96C53CB2F806"
+    },
+    {
+        "Name": "trip_load_645_c_3_Battery",
+        "Bus": "trip_load_645_c_h_3",
+        "mRID": "_E8854743-F978-4458-B0D5-5D184FD5D80C"
+    },
+    {
+        "Name": "trip_load_645_c_40_Battery",
+        "Bus": "trip_load_645_c_h_40",
+        "mRID": "_D040A9E2-8E04-4930-ABD0-5EC052819EFC"
+    },
+    {
+        "Name": "trip_load_645_c_4_Battery",
+        "Bus": "trip_load_645_c_h_4",
+        "mRID": "_0E533E41-4643-495F-AECC-5AF9393E55F3"
+    },
+    {
+        "Name": "trip_load_645_c_5_Battery",
+        "Bus": "trip_load_645_c_h_5",
+        "mRID": "_AA63EA56-0630-48D6-AA73-47E06DF06309"
+    },
+    {
+        "Name": "trip_load_645_c_6_Battery",
+        "Bus": "trip_load_645_c_h_6",
+        "mRID": "_439E2C5B-6466-45B3-A94E-806B091533E0"
+    },
+    {
+        "Name": "trip_load_645_c_7_Battery",
+        "Bus": "trip_load_645_c_h_7",
+        "mRID": "_E27175AD-B5E6-4356-9FFE-0A91695328A5"
+    },
+    {
+        "Name": "trip_load_645_c_8_Battery",
+        "Bus": "trip_load_645_c_h_8",
+        "mRID": "_C10C2563-18B5-431B-AE5E-22EF8D4B1257"
+    },
+    {
+        "Name": "trip_load_645_c_9_Battery",
+        "Bus": "trip_load_645_c_h_9",
+        "mRID": "_48263393-2F4E-4F28-80C9-928492C2BECD"
+    },
+    {
+        "Name": "trip_load_652_a_10_Battery",
+        "Bus": "trip_load_652_a_h_10",
+        "mRID": "_82E4CC43-D68D-463E-8D3A-59B7C8785D5F"
+    },
+    {
+        "Name": "trip_load_652_a_11_Battery",
+        "Bus": "trip_load_652_a_h_11",
+        "mRID": "_7E12FDD3-408F-4A12-84A8-1B2BCB7C4FBF"
+    },
+    {
+        "Name": "trip_load_652_a_12_Battery",
+        "Bus": "trip_load_652_a_h_12",
+        "mRID": "_9F546514-52BE-4D2B-9B3B-EF1EF3ED9828"
+    },
+    {
+        "Name": "trip_load_652_a_13_Battery",
+        "Bus": "trip_load_652_a_h_13",
+        "mRID": "_7AD183C3-D825-44CA-9199-8F96F96EED4B"
+    },
+    {
+        "Name": "trip_load_652_a_14_Battery",
+        "Bus": "trip_load_652_a_h_14",
+        "mRID": "_C01C5C1A-4825-4DF5-97EC-792A74B467BC"
+    },
+    {
+        "Name": "trip_load_652_a_15_Battery",
+        "Bus": "trip_load_652_a_h_15",
+        "mRID": "_9228504B-B304-440F-9D09-8C0772D4513F"
+    },
+    {
+        "Name": "trip_load_652_a_16_Battery",
+        "Bus": "trip_load_652_a_h_16",
+        "mRID": "_4574C59C-F7D5-4970-94C0-25768A0BAAA8"
+    },
+    {
+        "Name": "trip_load_652_a_17_Battery",
+        "Bus": "trip_load_652_a_h_17",
+        "mRID": "_8A10D2E3-1DEC-4EA5-AAAE-04BE30FCB736"
+    },
+    {
+        "Name": "trip_load_652_a_18_Battery",
+        "Bus": "trip_load_652_a_h_18",
+        "mRID": "_D82A4E57-AC85-4DDA-9A19-20681FDADB6F"
+    },
+    {
+        "Name": "trip_load_652_a_19_Battery",
+        "Bus": "trip_load_652_a_h_19",
+        "mRID": "_47DFDD19-4036-46E2-80CB-A7B2A7AB9EDF"
+    },
+    {
+        "Name": "trip_load_652_a_1_Battery",
+        "Bus": "trip_load_652_a_h_1",
+        "mRID": "_110114ED-DB6F-470D-B1B1-7459C6C65C7C"
+    },
+    {
+        "Name": "trip_load_652_a_20_Battery",
+        "Bus": "trip_load_652_a_h_20",
+        "mRID": "_7631B895-5D68-4886-9E27-A04435B76787"
+    },
+    {
+        "Name": "trip_load_652_a_21_Battery",
+        "Bus": "trip_load_652_a_h_21",
+        "mRID": "_B9B979B3-255D-4972-AEC9-80AF0BB8C4C8"
+    },
+    {
+        "Name": "trip_load_652_a_22_Battery",
+        "Bus": "trip_load_652_a_h_22",
+        "mRID": "_AEFEC0CD-1651-476B-85FC-5E5ECA9715FC"
+    },
+    {
+        "Name": "trip_load_652_a_23_Battery",
+        "Bus": "trip_load_652_a_h_23",
+        "mRID": "_7A612621-5DB7-485C-9545-818E9EBFE404"
+    },
+    {
+        "Name": "trip_load_652_a_24_Battery",
+        "Bus": "trip_load_652_a_h_24",
+        "mRID": "_70AB3E45-F37D-48F8-8023-4DE498428583"
+    },
+    {
+        "Name": "trip_load_652_a_25_Battery",
+        "Bus": "trip_load_652_a_h_25",
+        "mRID": "_3A496D34-B059-4585-895B-B578A6B9F10B"
+    },
+    {
+        "Name": "trip_load_652_a_26_Battery",
+        "Bus": "trip_load_652_a_h_26",
+        "mRID": "_241BC128-56B6-4674-881E-EE61320EC09D"
+    },
+    {
+        "Name": "trip_load_652_a_27_Battery",
+        "Bus": "trip_load_652_a_h_27",
+        "mRID": "_B2DD1BF8-79E1-48F0-B8F2-8FD19EBC95D0"
+    },
+    {
+        "Name": "trip_load_652_a_28_Battery",
+        "Bus": "trip_load_652_a_h_28",
+        "mRID": "_8CD0EFB7-6401-43BA-83F6-8B2698D43BC2"
+    },
+    {
+        "Name": "trip_load_652_a_29_Battery",
+        "Bus": "trip_load_652_a_h_29",
+        "mRID": "_6B36E80E-3574-4DC5-ACAF-1F3E08E8C05A"
+    },
+    {
+        "Name": "trip_load_652_a_2_Battery",
+        "Bus": "trip_load_652_a_h_2",
+        "mRID": "_38F3223F-2F89-4A70-98DF-7FADA2508539"
+    },
+    {
+        "Name": "trip_load_652_a_30_Battery",
+        "Bus": "trip_load_652_a_h_30",
+        "mRID": "_DCF3648B-438A-45E4-91BD-C71B8CED86CA"
+    },
+    {
+        "Name": "trip_load_652_a_31_Battery",
+        "Bus": "trip_load_652_a_h_31",
+        "mRID": "_EA2988D7-286B-4551-A422-1EE251F239C0"
+    },
+    {
+        "Name": "trip_load_652_a_32_Battery",
+        "Bus": "trip_load_652_a_h_32",
+        "mRID": "_DF1A5B61-2099-486A-A2A9-09CB4BCECCF8"
+    },
+    {
+        "Name": "trip_load_652_a_33_Battery",
+        "Bus": "trip_load_652_a_h_33",
+        "mRID": "_3E772475-2B8C-4FA2-B9C0-86C5CA6747EE"
+    },
+    {
+        "Name": "trip_load_652_a_34_Battery",
+        "Bus": "trip_load_652_a_h_34",
+        "mRID": "_8CF4C79E-96D8-43B9-BADD-DA90FD85C5E7"
+    },
+    {
+        "Name": "trip_load_652_a_35_Battery",
+        "Bus": "trip_load_652_a_h_35",
+        "mRID": "_35280135-EDBF-4F23-85F5-99412F4E9F58"
+    },
+    {
+        "Name": "trip_load_652_a_36_Battery",
+        "Bus": "trip_load_652_a_h_36",
+        "mRID": "_FBF70EE5-AD92-4D2D-B0F0-C8D89EECC488"
+    },
+    {
+        "Name": "trip_load_652_a_37_Battery",
+        "Bus": "trip_load_652_a_h_37",
+        "mRID": "_A7E97724-DD55-4C2E-A5AC-028B2103210A"
+    },
+    {
+        "Name": "trip_load_652_a_38_Battery",
+        "Bus": "trip_load_652_a_h_38",
+        "mRID": "_31201464-F1B4-4481-B79C-09C6B2505991"
+    },
+    {
+        "Name": "trip_load_652_a_39_Battery",
+        "Bus": "trip_load_652_a_h_39",
+        "mRID": "_8B7C38D9-87A2-4C1F-A9B2-F09D7CEE4998"
+    },
+    {
+        "Name": "trip_load_652_a_3_Battery",
+        "Bus": "trip_load_652_a_h_3",
+        "mRID": "_E8BDE0D4-2F24-4365-B8C7-014C2C302592"
+    },
+    {
+        "Name": "trip_load_652_a_40_Battery",
+        "Bus": "trip_load_652_a_h_40",
+        "mRID": "_5D9DAB7E-B61F-4F49-AC63-05EA47F64C21"
+    },
+    {
+        "Name": "trip_load_652_a_4_Battery",
+        "Bus": "trip_load_652_a_h_4",
+        "mRID": "_A71DE1AB-DBA9-462E-AB5B-70D6AB0E89B9"
+    },
+    {
+        "Name": "trip_load_652_a_5_Battery",
+        "Bus": "trip_load_652_a_h_5",
+        "mRID": "_FA46731D-8568-488E-879C-435A42231CB5"
+    },
+    {
+        "Name": "trip_load_652_a_6_Battery",
+        "Bus": "trip_load_652_a_h_6",
+        "mRID": "_69D63BC8-0E6F-47F1-88B3-A58FC8FD35ED"
+    },
+    {
+        "Name": "trip_load_652_a_7_Battery",
+        "Bus": "trip_load_652_a_h_7",
+        "mRID": "_C6F7DAFE-B500-4FE0-8136-8B187A5A740E"
+    },
+    {
+        "Name": "trip_load_652_a_8_Battery",
+        "Bus": "trip_load_652_a_h_8",
+        "mRID": "_D8AF175E-8B32-4F0E-99EA-882A30AE73E9"
+    },
+    {
+        "Name": "trip_load_652_a_9_Battery",
+        "Bus": "trip_load_652_a_h_9",
+        "mRID": "_30FD1EA8-375A-49D1-BF95-43A62848FF07"
+    },
+    {
+        "Name": "trip_load_671_a_10_Battery",
+        "Bus": "trip_load_671_a_h_10",
+        "mRID": "_BAF0519E-B8FA-483A-85A9-35B59E3361A4"
+    },
+    {
+        "Name": "trip_load_671_a_11_Battery",
+        "Bus": "trip_load_671_a_h_11",
+        "mRID": "_0B43C6A6-F408-4ADF-8A13-32895FBAE490"
+    },
+    {
+        "Name": "trip_load_671_a_12_Battery",
+        "Bus": "trip_load_671_a_h_12",
+        "mRID": "_4D3DD95D-D734-4C3B-BCED-994785083D11"
+    },
+    {
+        "Name": "trip_load_671_a_13_Battery",
+        "Bus": "trip_load_671_a_h_13",
+        "mRID": "_AA91A1A5-3F69-4DED-95D4-51B6ED619326"
+    },
+    {
+        "Name": "trip_load_671_a_14_Battery",
+        "Bus": "trip_load_671_a_h_14",
+        "mRID": "_68B65A95-3B83-4EE6-932C-E2410FB3BEB1"
+    },
+    {
+        "Name": "trip_load_671_a_15_Battery",
+        "Bus": "trip_load_671_a_h_15",
+        "mRID": "_6FDA5262-394A-4EAC-B932-09C50A3F9165"
+    },
+    {
+        "Name": "trip_load_671_a_16_Battery",
+        "Bus": "trip_load_671_a_h_16",
+        "mRID": "_AFF3F91C-02BB-404E-B168-BE85011D0FB3"
+    },
+    {
+        "Name": "trip_load_671_a_17_Battery",
+        "Bus": "trip_load_671_a_h_17",
+        "mRID": "_29FF472C-0F69-4C70-94FB-C63014E0EA6E"
+    },
+    {
+        "Name": "trip_load_671_a_18_Battery",
+        "Bus": "trip_load_671_a_h_18",
+        "mRID": "_05AC933B-F769-4B68-9BC5-5693D0CD4F8F"
+    },
+    {
+        "Name": "trip_load_671_a_19_Battery",
+        "Bus": "trip_load_671_a_h_19",
+        "mRID": "_BED1E3A8-7BD5-471D-BEB1-9B40C78946B6"
+    },
+    {
+        "Name": "trip_load_671_a_1_Battery",
+        "Bus": "trip_load_671_a_h_1",
+        "mRID": "_2EB0E712-6645-4ABE-9805-CF84587BE789"
+    },
+    {
+        "Name": "trip_load_671_a_20_Battery",
+        "Bus": "trip_load_671_a_h_20",
+        "mRID": "_DD1E5B66-0753-4CEA-BC08-66FAB6A39C83"
+    },
+    {
+        "Name": "trip_load_671_a_21_Battery",
+        "Bus": "trip_load_671_a_h_21",
+        "mRID": "_4A523122-AD99-403F-85CC-626816B57D2B"
+    },
+    {
+        "Name": "trip_load_671_a_22_Battery",
+        "Bus": "trip_load_671_a_h_22",
+        "mRID": "_FAA24AA2-1AE3-4199-92DE-70EB4636298C"
+    },
+    {
+        "Name": "trip_load_671_a_23_Battery",
+        "Bus": "trip_load_671_a_h_23",
+        "mRID": "_4547E0AB-CF5C-4D64-8B65-6F3F29EE49AF"
+    },
+    {
+        "Name": "trip_load_671_a_24_Battery",
+        "Bus": "trip_load_671_a_h_24",
+        "mRID": "_251A8AEB-3D5F-4A27-9938-DF70722CB98C"
+    },
+    {
+        "Name": "trip_load_671_a_25_Battery",
+        "Bus": "trip_load_671_a_h_25",
+        "mRID": "_BBF817FD-940C-4B6B-9DD7-8131E6F52035"
+    },
+    {
+        "Name": "trip_load_671_a_26_Battery",
+        "Bus": "trip_load_671_a_h_26",
+        "mRID": "_015D4B10-8DA9-4C3E-A196-C774FA2E7462"
+    },
+    {
+        "Name": "trip_load_671_a_27_Battery",
+        "Bus": "trip_load_671_a_h_27",
+        "mRID": "_A9509452-E81C-4C58-9DEC-2E0E256BF453"
+    },
+    {
+        "Name": "trip_load_671_a_28_Battery",
+        "Bus": "trip_load_671_a_h_28",
+        "mRID": "_6513694E-9A60-45AD-9FE7-8DD1FBF72BC9"
+    },
+    {
+        "Name": "trip_load_671_a_29_Battery",
+        "Bus": "trip_load_671_a_h_29",
+        "mRID": "_F972471F-DFF2-4947-AF2D-329C4F1448BA"
+    },
+    {
+        "Name": "trip_load_671_a_2_Battery",
+        "Bus": "trip_load_671_a_h_2",
+        "mRID": "_C5C502E1-A991-4F98-924C-68BE1A9257F0"
+    },
+    {
+        "Name": "trip_load_671_a_30_Battery",
+        "Bus": "trip_load_671_a_h_30",
+        "mRID": "_912C4FDB-70F2-4C32-B163-F918A0F4E8ED"
+    },
+    {
+        "Name": "trip_load_671_a_31_Battery",
+        "Bus": "trip_load_671_a_h_31",
+        "mRID": "_BE322B56-3E3D-4819-8326-EDC45E77090A"
+    },
+    {
+        "Name": "trip_load_671_a_32_Battery",
+        "Bus": "trip_load_671_a_h_32",
+        "mRID": "_7440A0D5-F7D9-4F20-9EC3-73031E6D762F"
+    },
+    {
+        "Name": "trip_load_671_a_33_Battery",
+        "Bus": "trip_load_671_a_h_33",
+        "mRID": "_54E3956B-638E-4745-8795-86298DB9EDCD"
+    },
+    {
+        "Name": "trip_load_671_a_34_Battery",
+        "Bus": "trip_load_671_a_h_34",
+        "mRID": "_0D5DF711-786B-41B0-B99C-96854D1BD9A1"
+    },
+    {
+        "Name": "trip_load_671_a_35_Battery",
+        "Bus": "trip_load_671_a_h_35",
+        "mRID": "_A8F5EBA7-DFAC-48D4-BE0B-1982BBD41735"
+    },
+    {
+        "Name": "trip_load_671_a_36_Battery",
+        "Bus": "trip_load_671_a_h_36",
+        "mRID": "_43575DD9-D32D-40A5-BDA7-77167F13BB89"
+    },
+    {
+        "Name": "trip_load_671_a_37_Battery",
+        "Bus": "trip_load_671_a_h_37",
+        "mRID": "_A03047FC-67B3-4397-9A1F-E2E6076E6067"
+    },
+    {
+        "Name": "trip_load_671_a_38_Battery",
+        "Bus": "trip_load_671_a_h_38",
+        "mRID": "_864D508F-6D5C-4C75-9BD6-65CB27D9D9D0"
+    },
+    {
+        "Name": "trip_load_671_a_39_Battery",
+        "Bus": "trip_load_671_a_h_39",
+        "mRID": "_65E1C330-E863-49C0-A2D4-F51B5A621AA3"
+    },
+    {
+        "Name": "trip_load_671_a_3_Battery",
+        "Bus": "trip_load_671_a_h_3",
+        "mRID": "_EB5CC635-BABE-4771-86FA-C9C10C8D6718"
+    },
+    {
+        "Name": "trip_load_671_a_40_Battery",
+        "Bus": "trip_load_671_a_h_40",
+        "mRID": "_D919148E-8875-4E8C-A203-A9A3B46986C2"
+    },
+    {
+        "Name": "trip_load_671_a_4_Battery",
+        "Bus": "trip_load_671_a_h_4",
+        "mRID": "_CCE7D319-3AF2-4B81-A22B-485CC7703975"
+    },
+    {
+        "Name": "trip_load_671_a_5_Battery",
+        "Bus": "trip_load_671_a_h_5",
+        "mRID": "_85B8172D-ED51-4028-8FCB-CC8FC414B40A"
+    },
+    {
+        "Name": "trip_load_671_a_6_Battery",
+        "Bus": "trip_load_671_a_h_6",
+        "mRID": "_13202D18-4959-428F-86D3-D58B3AA5E0F3"
+    },
+    {
+        "Name": "trip_load_671_a_7_Battery",
+        "Bus": "trip_load_671_a_h_7",
+        "mRID": "_7239D298-79B1-49F8-9094-1D1369D4BF25"
+    },
+    {
+        "Name": "trip_load_671_a_8_Battery",
+        "Bus": "trip_load_671_a_h_8",
+        "mRID": "_BE59E899-C7D2-4BE9-90C1-316A7843D6DF"
+    },
+    {
+        "Name": "trip_load_671_a_9_Battery",
+        "Bus": "trip_load_671_a_h_9",
+        "mRID": "_3F4E74EF-59DC-4ABC-9311-29242CDED577"
+    },
+    {
+        "Name": "trip_load_671_b_10_Battery",
+        "Bus": "trip_load_671_b_h_10",
+        "mRID": "_81BF363D-7360-48CD-99EE-25B183D13027"
+    },
+    {
+        "Name": "trip_load_671_b_11_Battery",
+        "Bus": "trip_load_671_b_h_11",
+        "mRID": "_E78C30F8-B423-4448-A526-503DDE8293B8"
+    },
+    {
+        "Name": "trip_load_671_b_12_Battery",
+        "Bus": "trip_load_671_b_h_12",
+        "mRID": "_0C1CD7EA-17C9-49B2-8579-75F8EB9BBADA"
+    },
+    {
+        "Name": "trip_load_671_b_13_Battery",
+        "Bus": "trip_load_671_b_h_13",
+        "mRID": "_678CA593-E882-48E5-920F-8F225A95E7DF"
+    },
+    {
+        "Name": "trip_load_671_b_14_Battery",
+        "Bus": "trip_load_671_b_h_14",
+        "mRID": "_25A04A2C-85E7-4FE2-8F5D-DD16524690D0"
+    },
+    {
+        "Name": "trip_load_671_b_15_Battery",
+        "Bus": "trip_load_671_b_h_15",
+        "mRID": "_9D8FE8FC-75C1-468A-944A-B9B5EA8CB857"
+    },
+    {
+        "Name": "trip_load_671_b_16_Battery",
+        "Bus": "trip_load_671_b_h_16",
+        "mRID": "_DCADE964-FF7A-4EF2-877A-B26036003123"
+    },
+    {
+        "Name": "trip_load_671_b_17_Battery",
+        "Bus": "trip_load_671_b_h_17",
+        "mRID": "_B1DD58EA-C290-4701-A6C8-2B33A7ED536F"
+    },
+    {
+        "Name": "trip_load_671_b_18_Battery",
+        "Bus": "trip_load_671_b_h_18",
+        "mRID": "_A912E2E7-AFB5-420A-B677-6E941851762D"
+    },
+    {
+        "Name": "trip_load_671_b_19_Battery",
+        "Bus": "trip_load_671_b_h_19",
+        "mRID": "_799D69D5-87F1-427B-AEA3-580B79B4BF9D"
+    },
+    {
+        "Name": "trip_load_671_b_1_Battery",
+        "Bus": "trip_load_671_b_h_1",
+        "mRID": "_0447B34A-3CD7-4ABA-A1F1-5B984D6289EF"
+    },
+    {
+        "Name": "trip_load_671_b_20_Battery",
+        "Bus": "trip_load_671_b_h_20",
+        "mRID": "_01A1D8DA-5E04-4CEE-A7E2-61FAADB97DDD"
+    },
+    {
+        "Name": "trip_load_671_b_21_Battery",
+        "Bus": "trip_load_671_b_h_21",
+        "mRID": "_F2B0A2D0-0E9F-45FC-BADA-70FBEA33BDB3"
+    },
+    {
+        "Name": "trip_load_671_b_22_Battery",
+        "Bus": "trip_load_671_b_h_22",
+        "mRID": "_24A4AAC6-42A1-4B59-99E5-DDF329035FFC"
+    },
+    {
+        "Name": "trip_load_671_b_23_Battery",
+        "Bus": "trip_load_671_b_h_23",
+        "mRID": "_E347ACCC-1B36-4316-AE22-C6AA2E51F990"
+    },
+    {
+        "Name": "trip_load_671_b_24_Battery",
+        "Bus": "trip_load_671_b_h_24",
+        "mRID": "_0A9FA80A-81E4-4CCD-A94F-CAA80581C959"
+    },
+    {
+        "Name": "trip_load_671_b_25_Battery",
+        "Bus": "trip_load_671_b_h_25",
+        "mRID": "_CD7951FE-99AB-4FD5-97BD-B1BF3DF12144"
+    },
+    {
+        "Name": "trip_load_671_b_26_Battery",
+        "Bus": "trip_load_671_b_h_26",
+        "mRID": "_B40769FA-5EA5-480E-A837-0121DF152384"
+    },
+    {
+        "Name": "trip_load_671_b_27_Battery",
+        "Bus": "trip_load_671_b_h_27",
+        "mRID": "_37DA665F-54B5-4E18-A5A6-67E561D04DB0"
+    },
+    {
+        "Name": "trip_load_671_b_28_Battery",
+        "Bus": "trip_load_671_b_h_28",
+        "mRID": "_68B310A6-25CF-4F8A-8EE7-2EA686202F3C"
+    },
+    {
+        "Name": "trip_load_671_b_29_Battery",
+        "Bus": "trip_load_671_b_h_29",
+        "mRID": "_0301934E-0449-473F-9845-7941442AE1CE"
+    },
+    {
+        "Name": "trip_load_671_b_2_Battery",
+        "Bus": "trip_load_671_b_h_2",
+        "mRID": "_3B09D988-C7C8-4D59-BBB3-0764D43E9EB6"
+    },
+    {
+        "Name": "trip_load_671_b_30_Battery",
+        "Bus": "trip_load_671_b_h_30",
+        "mRID": "_7972EE92-1FC4-4933-9822-8CA1631E7380"
+    },
+    {
+        "Name": "trip_load_671_b_31_Battery",
+        "Bus": "trip_load_671_b_h_31",
+        "mRID": "_4674E8D9-4781-4546-9B17-F5EBB22EE36D"
+    },
+    {
+        "Name": "trip_load_671_b_32_Battery",
+        "Bus": "trip_load_671_b_h_32",
+        "mRID": "_F4D7AA20-61A5-41C7-B7CC-854505E86464"
+    },
+    {
+        "Name": "trip_load_671_b_33_Battery",
+        "Bus": "trip_load_671_b_h_33",
+        "mRID": "_4F25B530-C715-4468-82E3-8B0A57C2BEFD"
+    },
+    {
+        "Name": "trip_load_671_b_34_Battery",
+        "Bus": "trip_load_671_b_h_34",
+        "mRID": "_9097D3D1-1545-4DA5-B157-3C64C0FA379E"
+    },
+    {
+        "Name": "trip_load_671_b_35_Battery",
+        "Bus": "trip_load_671_b_h_35",
+        "mRID": "_2C141BD7-76C4-44F8-8790-D8788BB7893B"
+    },
+    {
+        "Name": "trip_load_671_b_36_Battery",
+        "Bus": "trip_load_671_b_h_36",
+        "mRID": "_22FEFCAB-6F6B-46C3-BA72-D49F0EF64081"
+    },
+    {
+        "Name": "trip_load_671_b_37_Battery",
+        "Bus": "trip_load_671_b_h_37",
+        "mRID": "_29A72CE4-E1F4-4294-8D3E-FB9C711CEEA1"
+    },
+    {
+        "Name": "trip_load_671_b_38_Battery",
+        "Bus": "trip_load_671_b_h_38",
+        "mRID": "_22DA7CF2-D7CC-407A-A85B-A47A2C4E86A1"
+    },
+    {
+        "Name": "trip_load_671_b_39_Battery",
+        "Bus": "trip_load_671_b_h_39",
+        "mRID": "_F872B0F6-22E6-4DAC-B317-067B2326D7CE"
+    },
+    {
+        "Name": "trip_load_671_b_3_Battery",
+        "Bus": "trip_load_671_b_h_3",
+        "mRID": "_7DB61450-B0B3-454C-B7DF-947CACB5C644"
+    },
+    {
+        "Name": "trip_load_671_b_40_Battery",
+        "Bus": "trip_load_671_b_h_40",
+        "mRID": "_236C0A68-068F-4CD7-8A0F-AEA9F8D03B51"
+    },
+    {
+        "Name": "trip_load_671_b_4_Battery",
+        "Bus": "trip_load_671_b_h_4",
+        "mRID": "_102C3243-2D85-4BDC-BE71-2F2110AA6C21"
+    },
+    {
+        "Name": "trip_load_671_b_5_Battery",
+        "Bus": "trip_load_671_b_h_5",
+        "mRID": "_A9B794A7-47F0-4880-99FA-61B6AB21783D"
+    },
+    {
+        "Name": "trip_load_671_b_6_Battery",
+        "Bus": "trip_load_671_b_h_6",
+        "mRID": "_BD377948-670C-4DD0-A3D4-D584D705B4D7"
+    },
+    {
+        "Name": "trip_load_671_b_7_Battery",
+        "Bus": "trip_load_671_b_h_7",
+        "mRID": "_64A2972F-0C8C-421A-9AF1-9E1FC47FBD33"
+    },
+    {
+        "Name": "trip_load_671_b_8_Battery",
+        "Bus": "trip_load_671_b_h_8",
+        "mRID": "_13D1D858-F3BC-44A3-BCE1-FBC98F794B8C"
+    },
+    {
+        "Name": "trip_load_671_b_9_Battery",
+        "Bus": "trip_load_671_b_h_9",
+        "mRID": "_3E0480B4-B75E-4AC5-B7E3-7D22D013494B"
+    },
+    {
+        "Name": "trip_load_671_c_10_Battery",
+        "Bus": "trip_load_671_c_h_10",
+        "mRID": "_958CEC3F-5387-4E7D-B21E-0108BF00587F"
+    },
+    {
+        "Name": "trip_load_671_c_11_Battery",
+        "Bus": "trip_load_671_c_h_11",
+        "mRID": "_12E7E0E8-1249-45D3-BD09-F25D64539262"
+    },
+    {
+        "Name": "trip_load_671_c_12_Battery",
+        "Bus": "trip_load_671_c_h_12",
+        "mRID": "_68417BD7-7F3E-4399-83B7-6C4CF9590D97"
+    },
+    {
+        "Name": "trip_load_671_c_13_Battery",
+        "Bus": "trip_load_671_c_h_13",
+        "mRID": "_396E2277-1870-48E8-B697-9F5C5578FD5A"
+    },
+    {
+        "Name": "trip_load_671_c_14_Battery",
+        "Bus": "trip_load_671_c_h_14",
+        "mRID": "_34869399-9104-4B95-ADC0-BB0ABC068E45"
+    },
+    {
+        "Name": "trip_load_671_c_15_Battery",
+        "Bus": "trip_load_671_c_h_15",
+        "mRID": "_E5D7E915-45DA-4161-8F23-CBC77095A5F2"
+    },
+    {
+        "Name": "trip_load_671_c_16_Battery",
+        "Bus": "trip_load_671_c_h_16",
+        "mRID": "_262DA7DC-4E05-4E7A-ACDD-64BBEB20AB15"
+    },
+    {
+        "Name": "trip_load_671_c_17_Battery",
+        "Bus": "trip_load_671_c_h_17",
+        "mRID": "_7D7A46B9-30ED-405C-A76E-70B2888A22CE"
+    },
+    {
+        "Name": "trip_load_671_c_18_Battery",
+        "Bus": "trip_load_671_c_h_18",
+        "mRID": "_D852F446-ED89-47D2-8F80-AD4C32990486"
+    },
+    {
+        "Name": "trip_load_671_c_19_Battery",
+        "Bus": "trip_load_671_c_h_19",
+        "mRID": "_9B81A9B5-B474-463A-8FB4-B850F48AF9E8"
+    },
+    {
+        "Name": "trip_load_671_c_1_Battery",
+        "Bus": "trip_load_671_c_h_1",
+        "mRID": "_0525955B-FF23-4E2C-AF2B-DD70038CCA3D"
+    },
+    {
+        "Name": "trip_load_671_c_20_Battery",
+        "Bus": "trip_load_671_c_h_20",
+        "mRID": "_121A85A2-B6CE-4CA6-B43C-C8F09D68B066"
+    },
+    {
+        "Name": "trip_load_671_c_21_Battery",
+        "Bus": "trip_load_671_c_h_21",
+        "mRID": "_36C5BB3E-FB0E-408B-B516-0E3251CFC2F9"
+    },
+    {
+        "Name": "trip_load_671_c_22_Battery",
+        "Bus": "trip_load_671_c_h_22",
+        "mRID": "_AEBF80D9-315D-4B54-A98D-14DDE6F90BF9"
+    },
+    {
+        "Name": "trip_load_671_c_23_Battery",
+        "Bus": "trip_load_671_c_h_23",
+        "mRID": "_82202678-3AFC-41F7-9C95-B059C3BA018A"
+    },
+    {
+        "Name": "trip_load_671_c_24_Battery",
+        "Bus": "trip_load_671_c_h_24",
+        "mRID": "_EFABD99E-8647-4C4F-B8B4-F68FE48061A4"
+    },
+    {
+        "Name": "trip_load_671_c_25_Battery",
+        "Bus": "trip_load_671_c_h_25",
+        "mRID": "_F7786643-8AE1-43D3-87FA-B648BD675D9B"
+    },
+    {
+        "Name": "trip_load_671_c_26_Battery",
+        "Bus": "trip_load_671_c_h_26",
+        "mRID": "_BAF00E82-4F2B-4911-A52D-8530F5C68ADB"
+    },
+    {
+        "Name": "trip_load_671_c_27_Battery",
+        "Bus": "trip_load_671_c_h_27",
+        "mRID": "_13A9B8BC-0024-4B6C-B46B-A16F209A66DE"
+    },
+    {
+        "Name": "trip_load_671_c_28_Battery",
+        "Bus": "trip_load_671_c_h_28",
+        "mRID": "_DD54DB51-EB18-45E4-A766-AE8630873501"
+    },
+    {
+        "Name": "trip_load_671_c_29_Battery",
+        "Bus": "trip_load_671_c_h_29",
+        "mRID": "_3F325CB4-E7C3-4667-A8D8-1E47A686993E"
+    },
+    {
+        "Name": "trip_load_671_c_2_Battery",
+        "Bus": "trip_load_671_c_h_2",
+        "mRID": "_EEB29836-8BEE-4F8D-82A3-6A47F9FF4703"
+    },
+    {
+        "Name": "trip_load_671_c_30_Battery",
+        "Bus": "trip_load_671_c_h_30",
+        "mRID": "_F220B288-CEBF-4EC4-9543-933CB18E9D49"
+    },
+    {
+        "Name": "trip_load_671_c_31_Battery",
+        "Bus": "trip_load_671_c_h_31",
+        "mRID": "_86E8E809-A74F-422E-BB6C-CF258A1C94EB"
+    },
+    {
+        "Name": "trip_load_671_c_32_Battery",
+        "Bus": "trip_load_671_c_h_32",
+        "mRID": "_D47A7DA2-3908-4E2D-9D4D-84E6151CDF4C"
+    },
+    {
+        "Name": "trip_load_671_c_33_Battery",
+        "Bus": "trip_load_671_c_h_33",
+        "mRID": "_4CE2CF2B-180C-43AC-AA0F-C49C1067267A"
+    },
+    {
+        "Name": "trip_load_671_c_34_Battery",
+        "Bus": "trip_load_671_c_h_34",
+        "mRID": "_E9AA027D-8929-45DA-B835-7CB7111739B6"
+    },
+    {
+        "Name": "trip_load_671_c_35_Battery",
+        "Bus": "trip_load_671_c_h_35",
+        "mRID": "_0592D9F7-0F18-4CF5-A49B-93A84BB40B92"
+    },
+    {
+        "Name": "trip_load_671_c_36_Battery",
+        "Bus": "trip_load_671_c_h_36",
+        "mRID": "_18C4E52A-4575-44D2-8618-0A25AFF53275"
+    },
+    {
+        "Name": "trip_load_671_c_37_Battery",
+        "Bus": "trip_load_671_c_h_37",
+        "mRID": "_D4EB478B-2588-403C-8B72-1E0F5063F8C1"
+    },
+    {
+        "Name": "trip_load_671_c_38_Battery",
+        "Bus": "trip_load_671_c_h_38",
+        "mRID": "_674AA8FF-6F2D-4B9D-AACC-D7F45A45B8B4"
+    },
+    {
+        "Name": "trip_load_671_c_39_Battery",
+        "Bus": "trip_load_671_c_h_39",
+        "mRID": "_C027A7F0-EEBA-487D-B85D-1E909D8D3167"
+    },
+    {
+        "Name": "trip_load_671_c_3_Battery",
+        "Bus": "trip_load_671_c_h_3",
+        "mRID": "_893BC4E9-9117-4FDC-83DC-FD43AEA82E80"
+    },
+    {
+        "Name": "trip_load_671_c_40_Battery",
+        "Bus": "trip_load_671_c_h_40",
+        "mRID": "_06E01135-49C2-4598-81FE-B628DCAFEE07"
+    },
+    {
+        "Name": "trip_load_671_c_4_Battery",
+        "Bus": "trip_load_671_c_h_4",
+        "mRID": "_8A9F8B5F-D193-40F3-A532-6F5BBF9CD7EA"
+    },
+    {
+        "Name": "trip_load_671_c_5_Battery",
+        "Bus": "trip_load_671_c_h_5",
+        "mRID": "_4CD6B81A-EACB-43D6-A015-3E9309A5ADFE"
+    },
+    {
+        "Name": "trip_load_671_c_6_Battery",
+        "Bus": "trip_load_671_c_h_6",
+        "mRID": "_2D3D24E5-EF0E-46B5-AF45-8C7E25CEFB0A"
+    },
+    {
+        "Name": "trip_load_671_c_7_Battery",
+        "Bus": "trip_load_671_c_h_7",
+        "mRID": "_7DAB6AC1-293B-4BB1-990A-0C4322E70655"
+    },
+    {
+        "Name": "trip_load_671_c_8_Battery",
+        "Bus": "trip_load_671_c_h_8",
+        "mRID": "_14E119B3-E3DD-4AE0-879F-9226FE1F5818"
+    },
+    {
+        "Name": "trip_load_671_c_9_Battery",
+        "Bus": "trip_load_671_c_h_9",
+        "mRID": "_700139EA-6989-4FCA-9202-5B65A4C524F5"
+    },
+    {
+        "Name": "trip_load_675_a_10_Battery",
+        "Bus": "trip_load_675_a_h_10",
+        "mRID": "_FC0955E9-C672-4340-882B-ED992C3456DA"
+    },
+    {
+        "Name": "trip_load_675_a_11_Battery",
+        "Bus": "trip_load_675_a_h_11",
+        "mRID": "_794CA0CE-5D02-4174-8340-024EF3D245D8"
+    },
+    {
+        "Name": "trip_load_675_a_12_Battery",
+        "Bus": "trip_load_675_a_h_12",
+        "mRID": "_7983BB28-E2B2-4172-A304-8FBE60074399"
+    },
+    {
+        "Name": "trip_load_675_a_13_Battery",
+        "Bus": "trip_load_675_a_h_13",
+        "mRID": "_E7250CA7-9B47-466D-9CBE-DB1BA6E5E90D"
+    },
+    {
+        "Name": "trip_load_675_a_14_Battery",
+        "Bus": "trip_load_675_a_h_14",
+        "mRID": "_E24CAA08-1579-4624-819E-9C0F961EC72B"
+    },
+    {
+        "Name": "trip_load_675_a_15_Battery",
+        "Bus": "trip_load_675_a_h_15",
+        "mRID": "_4BA5007D-3648-404B-88F6-824BDEDFF6EE"
+    },
+    {
+        "Name": "trip_load_675_a_16_Battery",
+        "Bus": "trip_load_675_a_h_16",
+        "mRID": "_94783CAB-D667-4B4F-B35E-3A46975597A7"
+    },
+    {
+        "Name": "trip_load_675_a_17_Battery",
+        "Bus": "trip_load_675_a_h_17",
+        "mRID": "_3702CF66-CB3D-4A9C-B685-B864D61B6B27"
+    },
+    {
+        "Name": "trip_load_675_a_18_Battery",
+        "Bus": "trip_load_675_a_h_18",
+        "mRID": "_54C4AB32-0D97-4FD8-A7DA-58D00ED08BC7"
+    },
+    {
+        "Name": "trip_load_675_a_19_Battery",
+        "Bus": "trip_load_675_a_h_19",
+        "mRID": "_B1147901-CEFC-4C96-994F-DDA43BF18160"
+    },
+    {
+        "Name": "trip_load_675_a_1_Battery",
+        "Bus": "trip_load_675_a_h_1",
+        "mRID": "_9015B871-4292-41A1-A1F8-59A85DFE6072"
+    },
+    {
+        "Name": "trip_load_675_a_20_Battery",
+        "Bus": "trip_load_675_a_h_20",
+        "mRID": "_87E45D45-E9F8-42DF-9B8F-B6E896C13D91"
+    },
+    {
+        "Name": "trip_load_675_a_21_Battery",
+        "Bus": "trip_load_675_a_h_21",
+        "mRID": "_3052507C-7290-4C4F-9728-A049A2A0EF1D"
+    },
+    {
+        "Name": "trip_load_675_a_22_Battery",
+        "Bus": "trip_load_675_a_h_22",
+        "mRID": "_B07B437E-0655-4F08-ACBD-101543F0B2E5"
+    },
+    {
+        "Name": "trip_load_675_a_23_Battery",
+        "Bus": "trip_load_675_a_h_23",
+        "mRID": "_B693EEF4-7296-463E-932D-0335E3FAF92B"
+    },
+    {
+        "Name": "trip_load_675_a_24_Battery",
+        "Bus": "trip_load_675_a_h_24",
+        "mRID": "_D502C800-5F46-46A3-A0A5-2F4A4A379F15"
+    },
+    {
+        "Name": "trip_load_675_a_25_Battery",
+        "Bus": "trip_load_675_a_h_25",
+        "mRID": "_CDD1A9E2-E9B6-4217-9241-C67DCEA37333"
+    },
+    {
+        "Name": "trip_load_675_a_26_Battery",
+        "Bus": "trip_load_675_a_h_26",
+        "mRID": "_7E8FC874-306C-4E35-B2E1-7B507AC54FEB"
+    },
+    {
+        "Name": "trip_load_675_a_27_Battery",
+        "Bus": "trip_load_675_a_h_27",
+        "mRID": "_7C990092-2393-4DDF-86B2-315F34096E54"
+    },
+    {
+        "Name": "trip_load_675_a_28_Battery",
+        "Bus": "trip_load_675_a_h_28",
+        "mRID": "_F9E0259A-0908-493A-ACF3-187F7325B99D"
+    },
+    {
+        "Name": "trip_load_675_a_29_Battery",
+        "Bus": "trip_load_675_a_h_29",
+        "mRID": "_A01F21C4-05F6-46F2-A26B-7239B694DDC3"
+    },
+    {
+        "Name": "trip_load_675_a_2_Battery",
+        "Bus": "trip_load_675_a_h_2",
+        "mRID": "_97F36548-67C1-4AD5-B4D3-20D81122F753"
+    },
+    {
+        "Name": "trip_load_675_a_30_Battery",
+        "Bus": "trip_load_675_a_h_30",
+        "mRID": "_2A8B36F6-DD94-4C9B-B7EF-8F031BB0A1D3"
+    },
+    {
+        "Name": "trip_load_675_a_31_Battery",
+        "Bus": "trip_load_675_a_h_31",
+        "mRID": "_5F2C9DA5-F9BB-43DE-B0A2-625F5F6CCBF7"
+    },
+    {
+        "Name": "trip_load_675_a_32_Battery",
+        "Bus": "trip_load_675_a_h_32",
+        "mRID": "_70F2F207-BD0F-421D-8938-EE251A03B20B"
+    },
+    {
+        "Name": "trip_load_675_a_33_Battery",
+        "Bus": "trip_load_675_a_h_33",
+        "mRID": "_1A6CAE9B-E569-4EA6-86F9-7F4423A27777"
+    },
+    {
+        "Name": "trip_load_675_a_34_Battery",
+        "Bus": "trip_load_675_a_h_34",
+        "mRID": "_632AAD76-E7F2-4F54-BB74-BDC73AAF3B66"
+    },
+    {
+        "Name": "trip_load_675_a_35_Battery",
+        "Bus": "trip_load_675_a_h_35",
+        "mRID": "_215F196D-7E18-4151-9F90-A45DF4CA71A6"
+    },
+    {
+        "Name": "trip_load_675_a_36_Battery",
+        "Bus": "trip_load_675_a_h_36",
+        "mRID": "_3465B9A2-CCB5-4916-A88D-146AE51087BB"
+    },
+    {
+        "Name": "trip_load_675_a_37_Battery",
+        "Bus": "trip_load_675_a_h_37",
+        "mRID": "_411C8470-3CC9-4705-84C1-D4CE9E7622C1"
+    },
+    {
+        "Name": "trip_load_675_a_38_Battery",
+        "Bus": "trip_load_675_a_h_38",
+        "mRID": "_C8F573D3-5760-47A1-9B2C-FC47488EFE59"
+    },
+    {
+        "Name": "trip_load_675_a_39_Battery",
+        "Bus": "trip_load_675_a_h_39",
+        "mRID": "_FEAAF132-FAE8-4330-9A07-770E8E6F7FA5"
+    },
+    {
+        "Name": "trip_load_675_a_3_Battery",
+        "Bus": "trip_load_675_a_h_3",
+        "mRID": "_3C937B6C-F137-451D-BF25-8EB52B90C663"
+    },
+    {
+        "Name": "trip_load_675_a_40_Battery",
+        "Bus": "trip_load_675_a_h_40",
+        "mRID": "_8FDEB64D-9BAF-4A8B-8820-5D655E8F554B"
+    },
+    {
+        "Name": "trip_load_675_a_4_Battery",
+        "Bus": "trip_load_675_a_h_4",
+        "mRID": "_BE4E59B5-C8CF-4243-AB09-BFA877B4E898"
+    },
+    {
+        "Name": "trip_load_675_a_5_Battery",
+        "Bus": "trip_load_675_a_h_5",
+        "mRID": "_C41F8A9F-F334-4C0A-B690-67FE24F97A4D"
+    },
+    {
+        "Name": "trip_load_675_a_6_Battery",
+        "Bus": "trip_load_675_a_h_6",
+        "mRID": "_560F790C-70CB-48DC-A16E-3AD9C6DDC5B2"
+    },
+    {
+        "Name": "trip_load_675_a_7_Battery",
+        "Bus": "trip_load_675_a_h_7",
+        "mRID": "_7BA9F24D-26B2-49E6-B144-61D9A6427B1D"
+    },
+    {
+        "Name": "trip_load_675_a_8_Battery",
+        "Bus": "trip_load_675_a_h_8",
+        "mRID": "_529ABBBE-A2DF-47DA-B2CA-C3CC5FA785BC"
+    },
+    {
+        "Name": "trip_load_675_a_9_Battery",
+        "Bus": "trip_load_675_a_h_9",
+        "mRID": "_F19BA76E-B3CB-4BC1-BAD9-3690E1755164"
+    },
+    {
+        "Name": "trip_load_675_b_10_Battery",
+        "Bus": "trip_load_675_b_h_10",
+        "mRID": "_468C98F1-4A57-4DBF-B21A-3F8226521730"
+    },
+    {
+        "Name": "trip_load_675_b_11_Battery",
+        "Bus": "trip_load_675_b_h_11",
+        "mRID": "_E1E25D09-16A7-4832-BECD-F7CE4AC76C1F"
+    },
+    {
+        "Name": "trip_load_675_b_12_Battery",
+        "Bus": "trip_load_675_b_h_12",
+        "mRID": "_2F2257F6-CB7E-4EA0-9769-8BBB3EBC20C3"
+    },
+    {
+        "Name": "trip_load_675_b_13_Battery",
+        "Bus": "trip_load_675_b_h_13",
+        "mRID": "_54EDDD0F-D9E9-4101-B2F1-EBCE168F5A36"
+    },
+    {
+        "Name": "trip_load_675_b_14_Battery",
+        "Bus": "trip_load_675_b_h_14",
+        "mRID": "_BF02E02A-9D0B-4572-99AA-164A77B89724"
+    },
+    {
+        "Name": "trip_load_675_b_15_Battery",
+        "Bus": "trip_load_675_b_h_15",
+        "mRID": "_C76AF121-CF5A-4E8A-80B6-AC8E8F2632AC"
+    },
+    {
+        "Name": "trip_load_675_b_16_Battery",
+        "Bus": "trip_load_675_b_h_16",
+        "mRID": "_38503586-9C08-4CA4-8FEE-3B62CB59C50C"
+    },
+    {
+        "Name": "trip_load_675_b_17_Battery",
+        "Bus": "trip_load_675_b_h_17",
+        "mRID": "_D2DDF5C8-3D73-48B3-A359-8B1B6E717FD1"
+    },
+    {
+        "Name": "trip_load_675_b_18_Battery",
+        "Bus": "trip_load_675_b_h_18",
+        "mRID": "_2D61DB5F-D27F-474F-9B01-CC6CC7309488"
+    },
+    {
+        "Name": "trip_load_675_b_19_Battery",
+        "Bus": "trip_load_675_b_h_19",
+        "mRID": "_33C378B6-D342-4FDC-A5A3-716D77659D04"
+    },
+    {
+        "Name": "trip_load_675_b_1_Battery",
+        "Bus": "trip_load_675_b_h_1",
+        "mRID": "_19F6FDAD-5AC5-44A2-B4AE-8B143CC107B0"
+    },
+    {
+        "Name": "trip_load_675_b_20_Battery",
+        "Bus": "trip_load_675_b_h_20",
+        "mRID": "_76D06F2F-25AA-4016-933A-5291C72B92C8"
+    },
+    {
+        "Name": "trip_load_675_b_21_Battery",
+        "Bus": "trip_load_675_b_h_21",
+        "mRID": "_BA666A5E-F353-49C4-8631-DFBD2DD3F313"
+    },
+    {
+        "Name": "trip_load_675_b_22_Battery",
+        "Bus": "trip_load_675_b_h_22",
+        "mRID": "_A7049A41-739C-4B59-B92E-95A7BB6D83FA"
+    },
+    {
+        "Name": "trip_load_675_b_23_Battery",
+        "Bus": "trip_load_675_b_h_23",
+        "mRID": "_F03D1334-3EE2-4ECA-9FC7-FDB7DA2B3A10"
+    },
+    {
+        "Name": "trip_load_675_b_24_Battery",
+        "Bus": "trip_load_675_b_h_24",
+        "mRID": "_97DBF71C-A855-49B9-92DB-F2204E5AEBF6"
+    },
+    {
+        "Name": "trip_load_675_b_25_Battery",
+        "Bus": "trip_load_675_b_h_25",
+        "mRID": "_FFAFEE83-B2CD-477E-B997-D7359CD00EAB"
+    },
+    {
+        "Name": "trip_load_675_b_26_Battery",
+        "Bus": "trip_load_675_b_h_26",
+        "mRID": "_28E44D55-D75D-4340-9734-817C534DEEB8"
+    },
+    {
+        "Name": "trip_load_675_b_27_Battery",
+        "Bus": "trip_load_675_b_h_27",
+        "mRID": "_D9DC7B7E-5C7F-47FB-8559-40D0B415225E"
+    },
+    {
+        "Name": "trip_load_675_b_28_Battery",
+        "Bus": "trip_load_675_b_h_28",
+        "mRID": "_643B9B96-0186-4BFC-98AE-19A3202E6382"
+    },
+    {
+        "Name": "trip_load_675_b_29_Battery",
+        "Bus": "trip_load_675_b_h_29",
+        "mRID": "_5F6B6A7F-8374-44BF-95D9-3398575A6CF4"
+    },
+    {
+        "Name": "trip_load_675_b_2_Battery",
+        "Bus": "trip_load_675_b_h_2",
+        "mRID": "_5461C38A-086B-42CF-A8C2-51E932348A09"
+    },
+    {
+        "Name": "trip_load_675_b_30_Battery",
+        "Bus": "trip_load_675_b_h_30",
+        "mRID": "_BCB09F95-F398-49B3-B2FB-82AF40116B19"
+    },
+    {
+        "Name": "trip_load_675_b_31_Battery",
+        "Bus": "trip_load_675_b_h_31",
+        "mRID": "_EBA2021B-6481-4658-A569-60EB312C813C"
+    },
+    {
+        "Name": "trip_load_675_b_32_Battery",
+        "Bus": "trip_load_675_b_h_32",
+        "mRID": "_DB83323D-56F0-41DA-9EA2-665865E3989B"
+    },
+    {
+        "Name": "trip_load_675_b_33_Battery",
+        "Bus": "trip_load_675_b_h_33",
+        "mRID": "_7339D26A-0294-410A-AFE1-463FA4C3BBF8"
+    },
+    {
+        "Name": "trip_load_675_b_34_Battery",
+        "Bus": "trip_load_675_b_h_34",
+        "mRID": "_E3A60613-F6DA-4D20-B63D-464613871D32"
+    },
+    {
+        "Name": "trip_load_675_b_35_Battery",
+        "Bus": "trip_load_675_b_h_35",
+        "mRID": "_D826D651-AA3E-4C34-AFFF-5FADC1C369D6"
+    },
+    {
+        "Name": "trip_load_675_b_36_Battery",
+        "Bus": "trip_load_675_b_h_36",
+        "mRID": "_2D14304F-9C15-4691-96B4-F7ADE1E6833C"
+    },
+    {
+        "Name": "trip_load_675_b_37_Battery",
+        "Bus": "trip_load_675_b_h_37",
+        "mRID": "_7CA0E0EF-B015-48B3-AE2E-F6A30BBA33F6"
+    },
+    {
+        "Name": "trip_load_675_b_38_Battery",
+        "Bus": "trip_load_675_b_h_38",
+        "mRID": "_7A9E1161-9175-40F9-BC82-F26B1890DB4E"
+    },
+    {
+        "Name": "trip_load_675_b_39_Battery",
+        "Bus": "trip_load_675_b_h_39",
+        "mRID": "_6DB7B27B-DA55-4649-BBD0-439409459E83"
+    },
+    {
+        "Name": "trip_load_675_b_3_Battery",
+        "Bus": "trip_load_675_b_h_3",
+        "mRID": "_AF84A31E-1E34-444E-A1C4-581EE22DB903"
+    },
+    {
+        "Name": "trip_load_675_b_40_Battery",
+        "Bus": "trip_load_675_b_h_40",
+        "mRID": "_CDBB79E6-C958-4E4F-A062-B74CCE881FF0"
+    },
+    {
+        "Name": "trip_load_675_b_4_Battery",
+        "Bus": "trip_load_675_b_h_4",
+        "mRID": "_9DF1C9D1-2BF8-4100-B2A6-B1403BE43DEF"
+    },
+    {
+        "Name": "trip_load_675_b_5_Battery",
+        "Bus": "trip_load_675_b_h_5",
+        "mRID": "_2C110375-CB06-4A01-8275-03716D140E2A"
+    },
+    {
+        "Name": "trip_load_675_b_6_Battery",
+        "Bus": "trip_load_675_b_h_6",
+        "mRID": "_A70BBBFF-3C78-439E-AAF9-59BA9D441F29"
+    },
+    {
+        "Name": "trip_load_675_b_7_Battery",
+        "Bus": "trip_load_675_b_h_7",
+        "mRID": "_A1885BA4-1712-4B29-A992-01B3D527E389"
+    },
+    {
+        "Name": "trip_load_675_b_8_Battery",
+        "Bus": "trip_load_675_b_h_8",
+        "mRID": "_894F9D33-6B39-4D97-B9FE-02C1BD00B2D6"
+    },
+    {
+        "Name": "trip_load_675_b_9_Battery",
+        "Bus": "trip_load_675_b_h_9",
+        "mRID": "_0279E3A1-374C-4178-AA25-4626C541ABDE"
+    },
+    {
+        "Name": "trip_load_675_c_10_Battery",
+        "Bus": "trip_load_675_c_h_10",
+        "mRID": "_7B9CD8BE-D09A-4AD8-B626-2B0E9214A158"
+    },
+    {
+        "Name": "trip_load_675_c_11_Battery",
+        "Bus": "trip_load_675_c_h_11",
+        "mRID": "_ADAC0732-9358-4EDC-B92D-6A194C00D1A1"
+    },
+    {
+        "Name": "trip_load_675_c_12_Battery",
+        "Bus": "trip_load_675_c_h_12",
+        "mRID": "_DBBE66A6-565E-4BC7-A96C-6092BE002AF6"
+    },
+    {
+        "Name": "trip_load_675_c_13_Battery",
+        "Bus": "trip_load_675_c_h_13",
+        "mRID": "_104351C7-16B9-45DD-B8A2-B3617E0F7364"
+    },
+    {
+        "Name": "trip_load_675_c_14_Battery",
+        "Bus": "trip_load_675_c_h_14",
+        "mRID": "_2FCA6EF4-9224-46D7-BE05-574A8DB0A75F"
+    },
+    {
+        "Name": "trip_load_675_c_15_Battery",
+        "Bus": "trip_load_675_c_h_15",
+        "mRID": "_5035AB45-135C-497C-895F-7A0D1354E9B8"
+    },
+    {
+        "Name": "trip_load_675_c_16_Battery",
+        "Bus": "trip_load_675_c_h_16",
+        "mRID": "_239FC4AF-D6DF-4BD1-A0DC-F8D7F4DB6022"
+    },
+    {
+        "Name": "trip_load_675_c_17_Battery",
+        "Bus": "trip_load_675_c_h_17",
+        "mRID": "_70996054-45B5-45DC-AF29-F28C0BEAD9AE"
+    },
+    {
+        "Name": "trip_load_675_c_18_Battery",
+        "Bus": "trip_load_675_c_h_18",
+        "mRID": "_27C53E1E-7EB8-4914-A255-527BC884E1E9"
+    },
+    {
+        "Name": "trip_load_675_c_19_Battery",
+        "Bus": "trip_load_675_c_h_19",
+        "mRID": "_390C08FC-782F-4AEA-873B-C891F6659204"
+    },
+    {
+        "Name": "trip_load_675_c_1_Battery",
+        "Bus": "trip_load_675_c_h_1",
+        "mRID": "_5EF51C9A-095A-4A4F-AE75-FE195828B392"
+    },
+    {
+        "Name": "trip_load_675_c_20_Battery",
+        "Bus": "trip_load_675_c_h_20",
+        "mRID": "_4C7876A8-9CE8-40E5-AA61-82077F5CFCB3"
+    },
+    {
+        "Name": "trip_load_675_c_21_Battery",
+        "Bus": "trip_load_675_c_h_21",
+        "mRID": "_ACE9F2C2-956A-4483-A83E-56762935D68F"
+    },
+    {
+        "Name": "trip_load_675_c_22_Battery",
+        "Bus": "trip_load_675_c_h_22",
+        "mRID": "_74E286A1-935C-4277-9993-D011D9429B07"
+    },
+    {
+        "Name": "trip_load_675_c_23_Battery",
+        "Bus": "trip_load_675_c_h_23",
+        "mRID": "_4F8E1ECE-910F-4793-B537-8BD0CBE06922"
+    },
+    {
+        "Name": "trip_load_675_c_24_Battery",
+        "Bus": "trip_load_675_c_h_24",
+        "mRID": "_AFA2518F-91FC-4707-AE6D-2BD4A77461D5"
+    },
+    {
+        "Name": "trip_load_675_c_25_Battery",
+        "Bus": "trip_load_675_c_h_25",
+        "mRID": "_F6CD748F-F5B9-407E-84CA-AAEAB28AC0EC"
+    },
+    {
+        "Name": "trip_load_675_c_26_Battery",
+        "Bus": "trip_load_675_c_h_26",
+        "mRID": "_F580C732-B845-49AE-9936-E79D4AC28390"
+    },
+    {
+        "Name": "trip_load_675_c_27_Battery",
+        "Bus": "trip_load_675_c_h_27",
+        "mRID": "_8D0BEB0A-8840-4C82-B93B-7623F4859EC3"
+    },
+    {
+        "Name": "trip_load_675_c_28_Battery",
+        "Bus": "trip_load_675_c_h_28",
+        "mRID": "_4B0F91A7-3490-4F1E-9A91-19AE7886E802"
+    },
+    {
+        "Name": "trip_load_675_c_29_Battery",
+        "Bus": "trip_load_675_c_h_29",
+        "mRID": "_B7CBBF53-03F2-4A66-ADC5-88554A27C1FF"
+    },
+    {
+        "Name": "trip_load_675_c_2_Battery",
+        "Bus": "trip_load_675_c_h_2",
+        "mRID": "_3D89EFD5-D0D0-4705-AFAE-EB802D4BF05B"
+    },
+    {
+        "Name": "trip_load_675_c_30_Battery",
+        "Bus": "trip_load_675_c_h_30",
+        "mRID": "_D330C3E4-7560-4F70-9AAB-ADD7F412EF04"
+    },
+    {
+        "Name": "trip_load_675_c_31_Battery",
+        "Bus": "trip_load_675_c_h_31",
+        "mRID": "_4653076B-3DB6-438F-9788-ED6BABF4DFCC"
+    },
+    {
+        "Name": "trip_load_675_c_32_Battery",
+        "Bus": "trip_load_675_c_h_32",
+        "mRID": "_796BE2E0-8597-4773-91DF-FA7253472868"
+    },
+    {
+        "Name": "trip_load_675_c_33_Battery",
+        "Bus": "trip_load_675_c_h_33",
+        "mRID": "_251E0706-A2A0-4F73-8F0E-4F12DE98BAEC"
+    },
+    {
+        "Name": "trip_load_675_c_34_Battery",
+        "Bus": "trip_load_675_c_h_34",
+        "mRID": "_EC12DA88-E8D5-4FCC-B776-A6CC808AC1DD"
+    },
+    {
+        "Name": "trip_load_675_c_35_Battery",
+        "Bus": "trip_load_675_c_h_35",
+        "mRID": "_082AD8DD-3C5C-4862-A4FD-C478D9ED158B"
+    },
+    {
+        "Name": "trip_load_675_c_36_Battery",
+        "Bus": "trip_load_675_c_h_36",
+        "mRID": "_198F9ADA-F5DC-42FC-B7CB-1B2AE8C64C12"
+    },
+    {
+        "Name": "trip_load_675_c_37_Battery",
+        "Bus": "trip_load_675_c_h_37",
+        "mRID": "_B8433C9C-8619-443E-B9D8-3B6ECEB24821"
+    },
+    {
+        "Name": "trip_load_675_c_38_Battery",
+        "Bus": "trip_load_675_c_h_38",
+        "mRID": "_49D5990E-2CDA-41CA-A68D-77B096C5F92D"
+    },
+    {
+        "Name": "trip_load_675_c_39_Battery",
+        "Bus": "trip_load_675_c_h_39",
+        "mRID": "_3DD97C46-716C-449D-A5B5-246DD38AA063"
+    },
+    {
+        "Name": "trip_load_675_c_3_Battery",
+        "Bus": "trip_load_675_c_h_3",
+        "mRID": "_88CD5084-33DC-4C4C-9917-B964C76D8FC6"
+    },
+    {
+        "Name": "trip_load_675_c_40_Battery",
+        "Bus": "trip_load_675_c_h_40",
+        "mRID": "_8E8479CE-46E6-4F79-A833-903546F44223"
+    },
+    {
+        "Name": "trip_load_675_c_4_Battery",
+        "Bus": "trip_load_675_c_h_4",
+        "mRID": "_2EB391BD-B893-46D3-9C78-A552E809BA37"
+    },
+    {
+        "Name": "trip_load_675_c_5_Battery",
+        "Bus": "trip_load_675_c_h_5",
+        "mRID": "_315C077B-87CE-4796-A8CF-94EC080DC41C"
+    },
+    {
+        "Name": "trip_load_675_c_6_Battery",
+        "Bus": "trip_load_675_c_h_6",
+        "mRID": "_6B419B28-3920-4EB7-8360-F2FE3E078A52"
+    },
+    {
+        "Name": "trip_load_675_c_7_Battery",
+        "Bus": "trip_load_675_c_h_7",
+        "mRID": "_EA77AEF0-51A8-4394-BF02-9A6B166DFDBD"
+    },
+    {
+        "Name": "trip_load_675_c_8_Battery",
+        "Bus": "trip_load_675_c_h_8",
+        "mRID": "_405F3F4F-5982-4097-A12D-C5F7C6C999EE"
+    },
+    {
+        "Name": "trip_load_675_c_9_Battery",
+        "Bus": "trip_load_675_c_h_9",
+        "mRID": "_9B65B27B-62DA-45EF-B8D3-8ED0A9838857"
+    },
+    {
+        "Name": "trip_load_680_a_10_Battery",
+        "Bus": "trip_load_680_a_h_10",
+        "mRID": "_81ADB454-3BD0-4336-87AE-7C8F8DB985F3"
+    },
+    {
+        "Name": "trip_load_680_a_11_Battery",
+        "Bus": "trip_load_680_a_h_11",
+        "mRID": "_6AE369A0-CCC7-4805-A6BE-3F9835818A6C"
+    },
+    {
+        "Name": "trip_load_680_a_12_Battery",
+        "Bus": "trip_load_680_a_h_12",
+        "mRID": "_9FA8C675-778F-461C-9253-D790DE3548D2"
+    },
+    {
+        "Name": "trip_load_680_a_13_Battery",
+        "Bus": "trip_load_680_a_h_13",
+        "mRID": "_250DCA1C-8518-403E-B931-9656D3D5F94C"
+    },
+    {
+        "Name": "trip_load_680_a_14_Battery",
+        "Bus": "trip_load_680_a_h_14",
+        "mRID": "_8C1FF603-9D87-47D8-9068-BB6C8A9B0073"
+    },
+    {
+        "Name": "trip_load_680_a_15_Battery",
+        "Bus": "trip_load_680_a_h_15",
+        "mRID": "_D119E800-AE84-4695-9C79-31EB03DF8D29"
+    },
+    {
+        "Name": "trip_load_680_a_16_Battery",
+        "Bus": "trip_load_680_a_h_16",
+        "mRID": "_D833A54E-EFE0-4261-A85C-F19324F894F4"
+    },
+    {
+        "Name": "trip_load_680_a_17_Battery",
+        "Bus": "trip_load_680_a_h_17",
+        "mRID": "_1BA84A56-1BC8-4553-B72E-3AA6259F97BA"
+    },
+    {
+        "Name": "trip_load_680_a_18_Battery",
+        "Bus": "trip_load_680_a_h_18",
+        "mRID": "_3E8C9A35-54D3-438B-BA02-FD753DD8148C"
+    },
+    {
+        "Name": "trip_load_680_a_19_Battery",
+        "Bus": "trip_load_680_a_h_19",
+        "mRID": "_AF365759-DD80-401D-A47B-D8C46D0E7443"
+    },
+    {
+        "Name": "trip_load_680_a_1_Battery",
+        "Bus": "trip_load_680_a_h_1",
+        "mRID": "_00C34AF2-9B93-4C33-B040-A4A514612810"
+    },
+    {
+        "Name": "trip_load_680_a_20_Battery",
+        "Bus": "trip_load_680_a_h_20",
+        "mRID": "_DB0FD0DC-A7A0-4511-BA5C-2E67A4E54352"
+    },
+    {
+        "Name": "trip_load_680_a_21_Battery",
+        "Bus": "trip_load_680_a_h_21",
+        "mRID": "_C3B6E46C-FC30-47E6-90B1-26DBEC5C34DA"
+    },
+    {
+        "Name": "trip_load_680_a_22_Battery",
+        "Bus": "trip_load_680_a_h_22",
+        "mRID": "_BE76E423-2BAA-4F40-8157-6C378DCF8A8F"
+    },
+    {
+        "Name": "trip_load_680_a_23_Battery",
+        "Bus": "trip_load_680_a_h_23",
+        "mRID": "_D0EC227C-EB85-47BC-BBB0-A1CF346E1E88"
+    },
+    {
+        "Name": "trip_load_680_a_24_Battery",
+        "Bus": "trip_load_680_a_h_24",
+        "mRID": "_F0DAE417-7965-4B9B-8076-4F0764E1B3E0"
+    },
+    {
+        "Name": "trip_load_680_a_25_Battery",
+        "Bus": "trip_load_680_a_h_25",
+        "mRID": "_B7925892-49A6-4EDC-9996-D214A1DB383D"
+    },
+    {
+        "Name": "trip_load_680_a_26_Battery",
+        "Bus": "trip_load_680_a_h_26",
+        "mRID": "_859A44B8-5AF8-49B3-9DEB-162D6D58BC15"
+    },
+    {
+        "Name": "trip_load_680_a_27_Battery",
+        "Bus": "trip_load_680_a_h_27",
+        "mRID": "_48CA7E12-0018-48D8-995D-92EB0BFFC08B"
+    },
+    {
+        "Name": "trip_load_680_a_28_Battery",
+        "Bus": "trip_load_680_a_h_28",
+        "mRID": "_4298D612-1E91-46AA-8C1D-FFB0566D8A29"
+    },
+    {
+        "Name": "trip_load_680_a_29_Battery",
+        "Bus": "trip_load_680_a_h_29",
+        "mRID": "_F2297D0F-A431-4F69-8BA1-558565E05A00"
+    },
+    {
+        "Name": "trip_load_680_a_2_Battery",
+        "Bus": "trip_load_680_a_h_2",
+        "mRID": "_E31F9960-F204-4C1D-9530-D2096D147669"
+    },
+    {
+        "Name": "trip_load_680_a_30_Battery",
+        "Bus": "trip_load_680_a_h_30",
+        "mRID": "_B8B53923-338D-49FD-8C1D-EDE43ED4B9BF"
+    },
+    {
+        "Name": "trip_load_680_a_31_Battery",
+        "Bus": "trip_load_680_a_h_31",
+        "mRID": "_C9744D35-CD03-4C15-AFA3-03E9C9B05FBA"
+    },
+    {
+        "Name": "trip_load_680_a_32_Battery",
+        "Bus": "trip_load_680_a_h_32",
+        "mRID": "_01579428-A4A0-4AC3-8F04-53016326DE23"
+    },
+    {
+        "Name": "trip_load_680_a_33_Battery",
+        "Bus": "trip_load_680_a_h_33",
+        "mRID": "_61583C54-136E-4862-9431-69E071192F0A"
+    },
+    {
+        "Name": "trip_load_680_a_34_Battery",
+        "Bus": "trip_load_680_a_h_34",
+        "mRID": "_3D4AEAD8-4CB0-4125-BB60-473AEE393B40"
+    },
+    {
+        "Name": "trip_load_680_a_35_Battery",
+        "Bus": "trip_load_680_a_h_35",
+        "mRID": "_1F0E20B1-515B-4661-BD54-DE452B25EF51"
+    },
+    {
+        "Name": "trip_load_680_a_36_Battery",
+        "Bus": "trip_load_680_a_h_36",
+        "mRID": "_C9FC6F36-ED0A-45B5-8609-67CDF8F70FBA"
+    },
+    {
+        "Name": "trip_load_680_a_37_Battery",
+        "Bus": "trip_load_680_a_h_37",
+        "mRID": "_D4569B51-8817-4A9C-BBD1-68013FFAA573"
+    },
+    {
+        "Name": "trip_load_680_a_38_Battery",
+        "Bus": "trip_load_680_a_h_38",
+        "mRID": "_D1660DBA-CE1A-49FF-9FE6-625F8C803F64"
+    },
+    {
+        "Name": "trip_load_680_a_39_Battery",
+        "Bus": "trip_load_680_a_h_39",
+        "mRID": "_523BEFF7-6699-4931-97DB-C3F36A0BA9A4"
+    },
+    {
+        "Name": "trip_load_680_a_3_Battery",
+        "Bus": "trip_load_680_a_h_3",
+        "mRID": "_6F6E7286-277D-4A62-AC97-D3171C40E958"
+    },
+    {
+        "Name": "trip_load_680_a_40_Battery",
+        "Bus": "trip_load_680_a_h_40",
+        "mRID": "_4285B0AB-DDFA-467B-AF9A-10F7081D7961"
+    },
+    {
+        "Name": "trip_load_680_a_4_Battery",
+        "Bus": "trip_load_680_a_h_4",
+        "mRID": "_8933D9FE-66C9-4CF8-AB3B-1900ECAF5504"
+    },
+    {
+        "Name": "trip_load_680_a_5_Battery",
+        "Bus": "trip_load_680_a_h_5",
+        "mRID": "_AA6E9516-2B51-4FAE-8D02-527DF7C941C0"
+    },
+    {
+        "Name": "trip_load_680_a_6_Battery",
+        "Bus": "trip_load_680_a_h_6",
+        "mRID": "_EFD30187-BB4F-4FE3-B794-727A62D4EF43"
+    },
+    {
+        "Name": "trip_load_680_a_7_Battery",
+        "Bus": "trip_load_680_a_h_7",
+        "mRID": "_D72475C4-1649-44AD-ABAC-083F1A1BEE20"
+    },
+    {
+        "Name": "trip_load_680_a_8_Battery",
+        "Bus": "trip_load_680_a_h_8",
+        "mRID": "_D5AEA135-FD3E-4A28-B282-F675056D9F1D"
+    },
+    {
+        "Name": "trip_load_680_a_9_Battery",
+        "Bus": "trip_load_680_a_h_9",
+        "mRID": "_686D677F-19C5-4A30-94FB-A339385AD874"
+    },
+    {
+        "Name": "trip_load_680_b_10_Battery",
+        "Bus": "trip_load_680_b_h_10",
+        "mRID": "_7F39FC8F-F2E8-4802-9D1B-E71699BE3E0A"
+    },
+    {
+        "Name": "trip_load_680_b_11_Battery",
+        "Bus": "trip_load_680_b_h_11",
+        "mRID": "_5EC9A851-DED0-4AD3-92A5-1C298F077891"
+    },
+    {
+        "Name": "trip_load_680_b_12_Battery",
+        "Bus": "trip_load_680_b_h_12",
+        "mRID": "_982BB060-2A23-4536-A51C-C011862A3A08"
+    },
+    {
+        "Name": "trip_load_680_b_13_Battery",
+        "Bus": "trip_load_680_b_h_13",
+        "mRID": "_DD36BF9E-7E5C-474D-A950-C5F69E37A6CE"
+    },
+    {
+        "Name": "trip_load_680_b_14_Battery",
+        "Bus": "trip_load_680_b_h_14",
+        "mRID": "_4537FEE4-70F7-4BD3-956A-37B424418296"
+    },
+    {
+        "Name": "trip_load_680_b_15_Battery",
+        "Bus": "trip_load_680_b_h_15",
+        "mRID": "_64DC24A3-3283-4C1A-A51B-258E12D003F4"
+    },
+    {
+        "Name": "trip_load_680_b_16_Battery",
+        "Bus": "trip_load_680_b_h_16",
+        "mRID": "_1ADF588E-1554-447F-AEB7-8A49BD4D1810"
+    },
+    {
+        "Name": "trip_load_680_b_17_Battery",
+        "Bus": "trip_load_680_b_h_17",
+        "mRID": "_3D4F3FE9-D29B-46EE-9C0A-AA4311BE55C8"
+    },
+    {
+        "Name": "trip_load_680_b_18_Battery",
+        "Bus": "trip_load_680_b_h_18",
+        "mRID": "_CA52727F-4EAB-4201-A639-2724E4FC696C"
+    },
+    {
+        "Name": "trip_load_680_b_19_Battery",
+        "Bus": "trip_load_680_b_h_19",
+        "mRID": "_25882AC5-D33F-4B57-ACBE-3EBFDDBA9FA2"
+    },
+    {
+        "Name": "trip_load_680_b_1_Battery",
+        "Bus": "trip_load_680_b_h_1",
+        "mRID": "_F8A7207C-6AD9-4E5E-BF89-C948220038BC"
+    },
+    {
+        "Name": "trip_load_680_b_20_Battery",
+        "Bus": "trip_load_680_b_h_20",
+        "mRID": "_F9B5E332-F278-43DD-9A61-1656225E7E0B"
+    },
+    {
+        "Name": "trip_load_680_b_21_Battery",
+        "Bus": "trip_load_680_b_h_21",
+        "mRID": "_3F4B67F9-353F-45E0-B42A-5BE7976D0ED0"
+    },
+    {
+        "Name": "trip_load_680_b_22_Battery",
+        "Bus": "trip_load_680_b_h_22",
+        "mRID": "_2808EE35-FB30-4D77-BDEB-5EF8ABF5A171"
+    },
+    {
+        "Name": "trip_load_680_b_23_Battery",
+        "Bus": "trip_load_680_b_h_23",
+        "mRID": "_CF0D4F03-7590-4556-BC23-E646C7040BEA"
+    },
+    {
+        "Name": "trip_load_680_b_24_Battery",
+        "Bus": "trip_load_680_b_h_24",
+        "mRID": "_725F3186-EE0F-40E8-ACCC-79A9482349E2"
+    },
+    {
+        "Name": "trip_load_680_b_25_Battery",
+        "Bus": "trip_load_680_b_h_25",
+        "mRID": "_0056667F-1FC4-477C-AED2-6547A72F3F05"
+    },
+    {
+        "Name": "trip_load_680_b_26_Battery",
+        "Bus": "trip_load_680_b_h_26",
+        "mRID": "_549B2A56-6615-4F47-A6F1-01EA0F036D63"
+    },
+    {
+        "Name": "trip_load_680_b_27_Battery",
+        "Bus": "trip_load_680_b_h_27",
+        "mRID": "_784EEE85-B7FF-43C7-BD1A-6F4B95124385"
+    },
+    {
+        "Name": "trip_load_680_b_28_Battery",
+        "Bus": "trip_load_680_b_h_28",
+        "mRID": "_3DA07EB2-8955-4276-B450-042F2F14AABE"
+    },
+    {
+        "Name": "trip_load_680_b_29_Battery",
+        "Bus": "trip_load_680_b_h_29",
+        "mRID": "_FADBC394-CA5E-41CA-AB32-269E414B4931"
+    },
+    {
+        "Name": "trip_load_680_b_2_Battery",
+        "Bus": "trip_load_680_b_h_2",
+        "mRID": "_1F121D55-52C2-4A9A-8438-E5EB935D991A"
+    },
+    {
+        "Name": "trip_load_680_b_30_Battery",
+        "Bus": "trip_load_680_b_h_30",
+        "mRID": "_A930CC53-F724-4C84-8717-F3EA2950C8F1"
+    },
+    {
+        "Name": "trip_load_680_b_31_Battery",
+        "Bus": "trip_load_680_b_h_31",
+        "mRID": "_36EDAFFB-D074-458E-98ED-6AC739C9959D"
+    },
+    {
+        "Name": "trip_load_680_b_32_Battery",
+        "Bus": "trip_load_680_b_h_32",
+        "mRID": "_E1D483B4-8B17-491D-A50C-9E2AE5743E97"
+    },
+    {
+        "Name": "trip_load_680_b_33_Battery",
+        "Bus": "trip_load_680_b_h_33",
+        "mRID": "_14F55EFD-87C0-4CE1-B87B-B9BE0F016DCD"
+    },
+    {
+        "Name": "trip_load_680_b_34_Battery",
+        "Bus": "trip_load_680_b_h_34",
+        "mRID": "_1A689880-120D-445C-8431-FE4B989E8B90"
+    },
+    {
+        "Name": "trip_load_680_b_35_Battery",
+        "Bus": "trip_load_680_b_h_35",
+        "mRID": "_643C11DE-75C6-47FB-8A64-805F768D63F6"
+    },
+    {
+        "Name": "trip_load_680_b_36_Battery",
+        "Bus": "trip_load_680_b_h_36",
+        "mRID": "_09A2713A-5196-4168-9B18-72253F9679DA"
+    },
+    {
+        "Name": "trip_load_680_b_37_Battery",
+        "Bus": "trip_load_680_b_h_37",
+        "mRID": "_87C4926E-531D-4F4D-93D5-69759F86813E"
+    },
+    {
+        "Name": "trip_load_680_b_38_Battery",
+        "Bus": "trip_load_680_b_h_38",
+        "mRID": "_A7DF6F5B-8D70-4E03-82E4-DD0CC9F09194"
+    },
+    {
+        "Name": "trip_load_680_b_39_Battery",
+        "Bus": "trip_load_680_b_h_39",
+        "mRID": "_7A559775-3AA4-4159-9BE8-EB7561A2104D"
+    },
+    {
+        "Name": "trip_load_680_b_3_Battery",
+        "Bus": "trip_load_680_b_h_3",
+        "mRID": "_6576D3BD-53EB-4781-A19F-B3C86A0D92A9"
+    },
+    {
+        "Name": "trip_load_680_b_40_Battery",
+        "Bus": "trip_load_680_b_h_40",
+        "mRID": "_4495F8C9-975C-436D-B644-B4CBCBBB2389"
+    },
+    {
+        "Name": "trip_load_680_b_4_Battery",
+        "Bus": "trip_load_680_b_h_4",
+        "mRID": "_347DCEFD-3A73-4960-95D0-E7CA2018E768"
+    },
+    {
+        "Name": "trip_load_680_b_5_Battery",
+        "Bus": "trip_load_680_b_h_5",
+        "mRID": "_F7A8B180-6559-41D2-B461-CE6288A15759"
+    },
+    {
+        "Name": "trip_load_680_b_6_Battery",
+        "Bus": "trip_load_680_b_h_6",
+        "mRID": "_90B913F8-19DC-4C75-9124-B1577EDDD380"
+    },
+    {
+        "Name": "trip_load_680_b_7_Battery",
+        "Bus": "trip_load_680_b_h_7",
+        "mRID": "_1AD069C3-77F8-45FE-9DF2-5F005383E1BA"
+    },
+    {
+        "Name": "trip_load_680_b_8_Battery",
+        "Bus": "trip_load_680_b_h_8",
+        "mRID": "_C08756BE-926D-434B-9AF3-2F43F656BC7A"
+    },
+    {
+        "Name": "trip_load_680_b_9_Battery",
+        "Bus": "trip_load_680_b_h_9",
+        "mRID": "_85530B79-7147-4410-9F21-077411B361D9"
+    },
+    {
+        "Name": "trip_load_680_c_10_Battery",
+        "Bus": "trip_load_680_c_h_10",
+        "mRID": "_29C5E3C9-18A0-44FD-9078-50C888CA39AC"
+    },
+    {
+        "Name": "trip_load_680_c_11_Battery",
+        "Bus": "trip_load_680_c_h_11",
+        "mRID": "_86652042-CA0B-487B-A50D-44704A4F7786"
+    },
+    {
+        "Name": "trip_load_680_c_12_Battery",
+        "Bus": "trip_load_680_c_h_12",
+        "mRID": "_D8D45596-83AD-44A8-984A-7EE2B50AE6C5"
+    },
+    {
+        "Name": "trip_load_680_c_13_Battery",
+        "Bus": "trip_load_680_c_h_13",
+        "mRID": "_C25E3F88-F0EE-496E-BCA3-900E91FB60D3"
+    },
+    {
+        "Name": "trip_load_680_c_14_Battery",
+        "Bus": "trip_load_680_c_h_14",
+        "mRID": "_59D9C4FD-5595-4B0D-A9AD-8E930A7F48AF"
+    },
+    {
+        "Name": "trip_load_680_c_15_Battery",
+        "Bus": "trip_load_680_c_h_15",
+        "mRID": "_72FEF37B-EEB6-4D74-A984-BBA75E7E47B8"
+    },
+    {
+        "Name": "trip_load_680_c_16_Battery",
+        "Bus": "trip_load_680_c_h_16",
+        "mRID": "_510BB93F-740A-4424-B800-C2699612AFAD"
+    },
+    {
+        "Name": "trip_load_680_c_17_Battery",
+        "Bus": "trip_load_680_c_h_17",
+        "mRID": "_FB6FC0B6-53D7-452A-9A7F-9D2F50F9C10F"
+    },
+    {
+        "Name": "trip_load_680_c_18_Battery",
+        "Bus": "trip_load_680_c_h_18",
+        "mRID": "_45A893D4-7CE6-4EE1-8E48-BACA66C36270"
+    },
+    {
+        "Name": "trip_load_680_c_19_Battery",
+        "Bus": "trip_load_680_c_h_19",
+        "mRID": "_5CA609D2-BD6A-4746-83A4-6337D339A62B"
+    },
+    {
+        "Name": "trip_load_680_c_1_Battery",
+        "Bus": "trip_load_680_c_h_1",
+        "mRID": "_89414168-AE47-486E-94B3-09C5E0B25699"
+    },
+    {
+        "Name": "trip_load_680_c_20_Battery",
+        "Bus": "trip_load_680_c_h_20",
+        "mRID": "_F04AB5F7-69FB-4E01-AF09-7CEBF3F53145"
+    },
+    {
+        "Name": "trip_load_680_c_21_Battery",
+        "Bus": "trip_load_680_c_h_21",
+        "mRID": "_3AB3720B-575A-456F-8939-E392FB171963"
+    },
+    {
+        "Name": "trip_load_680_c_22_Battery",
+        "Bus": "trip_load_680_c_h_22",
+        "mRID": "_F264D003-C12A-45CC-968B-E6B2E0B8DE07"
+    },
+    {
+        "Name": "trip_load_680_c_23_Battery",
+        "Bus": "trip_load_680_c_h_23",
+        "mRID": "_3628BCF1-CF8A-41B2-A293-F0163BEF5399"
+    },
+    {
+        "Name": "trip_load_680_c_24_Battery",
+        "Bus": "trip_load_680_c_h_24",
+        "mRID": "_508999D3-19D3-49A6-8AD9-937BFE29080F"
+    },
+    {
+        "Name": "trip_load_680_c_25_Battery",
+        "Bus": "trip_load_680_c_h_25",
+        "mRID": "_FC6C375D-5E7B-4225-9159-1E1169A62153"
+    },
+    {
+        "Name": "trip_load_680_c_26_Battery",
+        "Bus": "trip_load_680_c_h_26",
+        "mRID": "_23AE556C-3404-46AC-BB98-55A9D29A2475"
+    },
+    {
+        "Name": "trip_load_680_c_27_Battery",
+        "Bus": "trip_load_680_c_h_27",
+        "mRID": "_B129AC09-F0F3-4741-89DA-87ADD89E25F9"
+    },
+    {
+        "Name": "trip_load_680_c_28_Battery",
+        "Bus": "trip_load_680_c_h_28",
+        "mRID": "_D1B4BA78-1CD7-4616-BD8D-85F0E8527A9D"
+    },
+    {
+        "Name": "trip_load_680_c_29_Battery",
+        "Bus": "trip_load_680_c_h_29",
+        "mRID": "_A7D7161B-3964-4E05-BA1F-6CB7AB3CB62B"
+    },
+    {
+        "Name": "trip_load_680_c_2_Battery",
+        "Bus": "trip_load_680_c_h_2",
+        "mRID": "_82ED95E0-662D-436F-90E6-20DE7D362492"
+    },
+    {
+        "Name": "trip_load_680_c_30_Battery",
+        "Bus": "trip_load_680_c_h_30",
+        "mRID": "_7B7CB00E-47BB-4E6C-AF0B-A09338C93D7D"
+    },
+    {
+        "Name": "trip_load_680_c_31_Battery",
+        "Bus": "trip_load_680_c_h_31",
+        "mRID": "_EEB4F248-2DD2-4E19-BC92-B39A1E5BC0E2"
+    },
+    {
+        "Name": "trip_load_680_c_32_Battery",
+        "Bus": "trip_load_680_c_h_32",
+        "mRID": "_D06682DE-E8E9-4E78-8FD2-EE12A8482F9D"
+    },
+    {
+        "Name": "trip_load_680_c_33_Battery",
+        "Bus": "trip_load_680_c_h_33",
+        "mRID": "_24E63F0F-72D2-4AC9-90C2-EDBA49FF5166"
+    },
+    {
+        "Name": "trip_load_680_c_34_Battery",
+        "Bus": "trip_load_680_c_h_34",
+        "mRID": "_346F3C80-A5B7-4749-BAE8-D41E54F6AEE4"
+    },
+    {
+        "Name": "trip_load_680_c_35_Battery",
+        "Bus": "trip_load_680_c_h_35",
+        "mRID": "_9E928718-454F-4B29-9F81-3EFA97AF1287"
+    },
+    {
+        "Name": "trip_load_680_c_36_Battery",
+        "Bus": "trip_load_680_c_h_36",
+        "mRID": "_AD16973F-3256-424D-BF17-55C47177610F"
+    },
+    {
+        "Name": "trip_load_680_c_37_Battery",
+        "Bus": "trip_load_680_c_h_37",
+        "mRID": "_C32A36DB-79E1-49C6-9589-C8E654D1D866"
+    },
+    {
+        "Name": "trip_load_680_c_38_Battery",
+        "Bus": "trip_load_680_c_h_38",
+        "mRID": "_B382B407-5340-49A1-87A0-8BE21087B0E7"
+    },
+    {
+        "Name": "trip_load_680_c_39_Battery",
+        "Bus": "trip_load_680_c_h_39",
+        "mRID": "_03D89A84-286A-46CF-B6C1-160A97FB9008"
+    },
+    {
+        "Name": "trip_load_680_c_3_Battery",
+        "Bus": "trip_load_680_c_h_3",
+        "mRID": "_050D6970-3991-4FB9-8B4B-4AA61298EEAF"
+    },
+    {
+        "Name": "trip_load_680_c_40_Battery",
+        "Bus": "trip_load_680_c_h_40",
+        "mRID": "_ECA9350E-9A3F-46D9-9FE7-FE9192FF4201"
+    },
+    {
+        "Name": "trip_load_680_c_4_Battery",
+        "Bus": "trip_load_680_c_h_4",
+        "mRID": "_6EEEB916-B7BE-4250-95B4-303B260C5262"
+    },
+    {
+        "Name": "trip_load_680_c_5_Battery",
+        "Bus": "trip_load_680_c_h_5",
+        "mRID": "_1AEBA92F-CAE4-4185-B3BF-70D13B66DF59"
+    },
+    {
+        "Name": "trip_load_680_c_6_Battery",
+        "Bus": "trip_load_680_c_h_6",
+        "mRID": "_25BCE44C-2FC5-4241-8F58-1EBBAC80D9B5"
+    },
+    {
+        "Name": "trip_load_680_c_7_Battery",
+        "Bus": "trip_load_680_c_h_7",
+        "mRID": "_9528B62D-2F0E-4CBC-923C-7E1199CA4E87"
+    },
+    {
+        "Name": "trip_load_680_c_8_Battery",
+        "Bus": "trip_load_680_c_h_8",
+        "mRID": "_C1B63483-E84A-4166-A924-E9CCE550EF6D"
+    },
+    {
+        "Name": "trip_load_680_c_9_Battery",
+        "Bus": "trip_load_680_c_h_9",
+        "mRID": "_6DF48E26-223E-4BE9-A8E2-994840C7F361"
+    },
+    {
+        "Name": "trip_load_684_a_10_Battery",
+        "Bus": "trip_load_684_a_h_10",
+        "mRID": "_E0369C69-8200-4312-888A-C3401E42E941"
+    },
+    {
+        "Name": "trip_load_684_a_11_Battery",
+        "Bus": "trip_load_684_a_h_11",
+        "mRID": "_728D092E-A9CE-4B13-8908-37A1D0C29E07"
+    },
+    {
+        "Name": "trip_load_684_a_12_Battery",
+        "Bus": "trip_load_684_a_h_12",
+        "mRID": "_C8A82968-ABA2-44F8-ACED-A14FDE79899B"
+    },
+    {
+        "Name": "trip_load_684_a_13_Battery",
+        "Bus": "trip_load_684_a_h_13",
+        "mRID": "_EF783F3E-B9FD-4D2A-AAF1-77F66FDE1246"
+    },
+    {
+        "Name": "trip_load_684_a_14_Battery",
+        "Bus": "trip_load_684_a_h_14",
+        "mRID": "_0B6A05B6-1D29-4993-87B1-41B1064A1F22"
+    },
+    {
+        "Name": "trip_load_684_a_15_Battery",
+        "Bus": "trip_load_684_a_h_15",
+        "mRID": "_0D9EFD75-403C-4C83-A03C-133EC426AFEE"
+    },
+    {
+        "Name": "trip_load_684_a_16_Battery",
+        "Bus": "trip_load_684_a_h_16",
+        "mRID": "_A82F81C2-A7A8-48BC-9F4C-2F988C62983F"
+    },
+    {
+        "Name": "trip_load_684_a_17_Battery",
+        "Bus": "trip_load_684_a_h_17",
+        "mRID": "_C3E502DE-E11C-43A6-973F-23557D0F7477"
+    },
+    {
+        "Name": "trip_load_684_a_18_Battery",
+        "Bus": "trip_load_684_a_h_18",
+        "mRID": "_A7619FC3-823D-4FE5-B2C7-5B215D48B80F"
+    },
+    {
+        "Name": "trip_load_684_a_19_Battery",
+        "Bus": "trip_load_684_a_h_19",
+        "mRID": "_101C3E47-BA74-40E8-BBC8-D89185EB2B30"
+    },
+    {
+        "Name": "trip_load_684_a_1_Battery",
+        "Bus": "trip_load_684_a_h_1",
+        "mRID": "_11F16EB2-D067-4A3E-B1AF-503D53AD92AC"
+    },
+    {
+        "Name": "trip_load_684_a_20_Battery",
+        "Bus": "trip_load_684_a_h_20",
+        "mRID": "_5A1247BE-BF2E-4232-B724-8FA343B557D6"
+    },
+    {
+        "Name": "trip_load_684_a_21_Battery",
+        "Bus": "trip_load_684_a_h_21",
+        "mRID": "_29DFCA60-81A2-40EE-9B92-BC8A17EC22E2"
+    },
+    {
+        "Name": "trip_load_684_a_22_Battery",
+        "Bus": "trip_load_684_a_h_22",
+        "mRID": "_7634DDC2-2F49-4ABA-A76E-ECE95E2B51C3"
+    },
+    {
+        "Name": "trip_load_684_a_23_Battery",
+        "Bus": "trip_load_684_a_h_23",
+        "mRID": "_2DA0E051-9094-48FD-AB69-4A87FF015789"
+    },
+    {
+        "Name": "trip_load_684_a_24_Battery",
+        "Bus": "trip_load_684_a_h_24",
+        "mRID": "_90B28A01-C2A5-461F-9413-43957C030F86"
+    },
+    {
+        "Name": "trip_load_684_a_25_Battery",
+        "Bus": "trip_load_684_a_h_25",
+        "mRID": "_6551D70E-66DC-4B2A-8CFE-382C0E64E061"
+    },
+    {
+        "Name": "trip_load_684_a_26_Battery",
+        "Bus": "trip_load_684_a_h_26",
+        "mRID": "_52FDDC48-9701-47DC-BC63-F1232513DDB4"
+    },
+    {
+        "Name": "trip_load_684_a_27_Battery",
+        "Bus": "trip_load_684_a_h_27",
+        "mRID": "_6FCA4D5F-8D85-488C-B2F3-7525C975245B"
+    },
+    {
+        "Name": "trip_load_684_a_28_Battery",
+        "Bus": "trip_load_684_a_h_28",
+        "mRID": "_89717BD6-EC0E-461F-98F9-F92243849E0C"
+    },
+    {
+        "Name": "trip_load_684_a_29_Battery",
+        "Bus": "trip_load_684_a_h_29",
+        "mRID": "_09CA39F2-6F3F-429D-990A-F0A1C1EBE47D"
+    },
+    {
+        "Name": "trip_load_684_a_2_Battery",
+        "Bus": "trip_load_684_a_h_2",
+        "mRID": "_3DF38E73-1D32-45E0-BC16-299F8F5BDFFE"
+    },
+    {
+        "Name": "trip_load_684_a_30_Battery",
+        "Bus": "trip_load_684_a_h_30",
+        "mRID": "_8A730957-BDBD-42E9-80B7-1ACF6B9896DE"
+    },
+    {
+        "Name": "trip_load_684_a_31_Battery",
+        "Bus": "trip_load_684_a_h_31",
+        "mRID": "_B721FD95-8A23-44B1-AF8C-BED54A493841"
+    },
+    {
+        "Name": "trip_load_684_a_32_Battery",
+        "Bus": "trip_load_684_a_h_32",
+        "mRID": "_85FA5556-F8EC-4A04-A628-E59C8BEFD4D0"
+    },
+    {
+        "Name": "trip_load_684_a_33_Battery",
+        "Bus": "trip_load_684_a_h_33",
+        "mRID": "_2C0D1F83-E13B-4D46-B15D-048DB9FEB510"
+    },
+    {
+        "Name": "trip_load_684_a_34_Battery",
+        "Bus": "trip_load_684_a_h_34",
+        "mRID": "_E4EAF7BC-1663-4E9B-8DC3-A04C66887428"
+    },
+    {
+        "Name": "trip_load_684_a_35_Battery",
+        "Bus": "trip_load_684_a_h_35",
+        "mRID": "_554EAB64-9F90-456A-9F5B-2D00BEDBD676"
+    },
+    {
+        "Name": "trip_load_684_a_36_Battery",
+        "Bus": "trip_load_684_a_h_36",
+        "mRID": "_6547BCF9-4130-4CD9-9779-89A9F164EE1F"
+    },
+    {
+        "Name": "trip_load_684_a_37_Battery",
+        "Bus": "trip_load_684_a_h_37",
+        "mRID": "_A47648E5-D533-424A-B2B1-79D2201D9ED6"
+    },
+    {
+        "Name": "trip_load_684_a_38_Battery",
+        "Bus": "trip_load_684_a_h_38",
+        "mRID": "_879C161C-1736-4CB3-98D0-917275E5F3A5"
+    },
+    {
+        "Name": "trip_load_684_a_39_Battery",
+        "Bus": "trip_load_684_a_h_39",
+        "mRID": "_8013C425-EAC7-4632-AEF3-2BA6AADD281B"
+    },
+    {
+        "Name": "trip_load_684_a_3_Battery",
+        "Bus": "trip_load_684_a_h_3",
+        "mRID": "_C8088A03-8CA0-4378-B305-D8C6A6754025"
+    },
+    {
+        "Name": "trip_load_684_a_40_Battery",
+        "Bus": "trip_load_684_a_h_40",
+        "mRID": "_A1E49954-E17C-4D98-96E3-2CBCFD123EFD"
+    },
+    {
+        "Name": "trip_load_684_a_4_Battery",
+        "Bus": "trip_load_684_a_h_4",
+        "mRID": "_3C1E326A-C886-45AD-9E83-E380301BA6A8"
+    },
+    {
+        "Name": "trip_load_684_a_5_Battery",
+        "Bus": "trip_load_684_a_h_5",
+        "mRID": "_460FD260-486C-4B95-9475-59E558DC041F"
+    },
+    {
+        "Name": "trip_load_684_a_6_Battery",
+        "Bus": "trip_load_684_a_h_6",
+        "mRID": "_D8DC290D-38A9-483F-BB3C-97FFDEA85EE7"
+    },
+    {
+        "Name": "trip_load_684_a_7_Battery",
+        "Bus": "trip_load_684_a_h_7",
+        "mRID": "_06220A58-5CF5-4DC3-B9D9-A40B7656AECE"
+    },
+    {
+        "Name": "trip_load_684_a_8_Battery",
+        "Bus": "trip_load_684_a_h_8",
+        "mRID": "_62E420BE-4651-4FBF-B403-117A8356756A"
+    },
+    {
+        "Name": "trip_load_684_a_9_Battery",
+        "Bus": "trip_load_684_a_h_9",
+        "mRID": "_3A2523D8-7C1D-4F8E-87CD-A418B4FAE29A"
+    },
+    {
+        "Name": "trip_load_684_c_10_Battery",
+        "Bus": "trip_load_684_c_h_10",
+        "mRID": "_433382E3-ADDE-4EBA-9C22-5289F859E9D2"
+    },
+    {
+        "Name": "trip_load_684_c_11_Battery",
+        "Bus": "trip_load_684_c_h_11",
+        "mRID": "_A74AEE90-179B-466B-A7C5-BE4B11869499"
+    },
+    {
+        "Name": "trip_load_684_c_12_Battery",
+        "Bus": "trip_load_684_c_h_12",
+        "mRID": "_F46CFD91-7229-4780-8AFE-5168953F82BF"
+    },
+    {
+        "Name": "trip_load_684_c_13_Battery",
+        "Bus": "trip_load_684_c_h_13",
+        "mRID": "_8C05712E-6FF2-4B15-8804-496C0495B5C3"
+    },
+    {
+        "Name": "trip_load_684_c_14_Battery",
+        "Bus": "trip_load_684_c_h_14",
+        "mRID": "_69577F38-F4C8-4423-A9A6-2CCF66C08E2C"
+    },
+    {
+        "Name": "trip_load_684_c_15_Battery",
+        "Bus": "trip_load_684_c_h_15",
+        "mRID": "_A04E5F44-23AB-4442-9FCF-ADB0A84BBA5E"
+    },
+    {
+        "Name": "trip_load_684_c_16_Battery",
+        "Bus": "trip_load_684_c_h_16",
+        "mRID": "_B869CE0F-D703-471B-9A86-14A7AACD16E2"
+    },
+    {
+        "Name": "trip_load_684_c_17_Battery",
+        "Bus": "trip_load_684_c_h_17",
+        "mRID": "_5B0BBB7F-FC2D-4241-8C19-5FA4C3AD34B5"
+    },
+    {
+        "Name": "trip_load_684_c_18_Battery",
+        "Bus": "trip_load_684_c_h_18",
+        "mRID": "_2064D7F7-6185-4C0B-9FAA-18463A3063A2"
+    },
+    {
+        "Name": "trip_load_684_c_19_Battery",
+        "Bus": "trip_load_684_c_h_19",
+        "mRID": "_4F856B40-74B5-46F7-9F84-D4ED49A59E0D"
+    },
+    {
+        "Name": "trip_load_684_c_1_Battery",
+        "Bus": "trip_load_684_c_h_1",
+        "mRID": "_99A391C3-1024-42E4-B549-13048856D500"
+    },
+    {
+        "Name": "trip_load_684_c_20_Battery",
+        "Bus": "trip_load_684_c_h_20",
+        "mRID": "_CAA55600-3121-4940-9F21-96C154C45B1D"
+    },
+    {
+        "Name": "trip_load_684_c_21_Battery",
+        "Bus": "trip_load_684_c_h_21",
+        "mRID": "_E0EEC42D-0758-4986-80AE-126EC5D879CA"
+    },
+    {
+        "Name": "trip_load_684_c_22_Battery",
+        "Bus": "trip_load_684_c_h_22",
+        "mRID": "_25BD5AC2-4DD4-4603-BD84-0BCEC3B75B89"
+    },
+    {
+        "Name": "trip_load_684_c_23_Battery",
+        "Bus": "trip_load_684_c_h_23",
+        "mRID": "_0BBE6321-BE0F-474D-991A-A9701AC03DCB"
+    },
+    {
+        "Name": "trip_load_684_c_24_Battery",
+        "Bus": "trip_load_684_c_h_24",
+        "mRID": "_03DD4523-CB29-4E93-99F6-28B6C97F7884"
+    },
+    {
+        "Name": "trip_load_684_c_25_Battery",
+        "Bus": "trip_load_684_c_h_25",
+        "mRID": "_DE9DA2E8-958D-45F7-9AEF-3DB806BE5280"
+    },
+    {
+        "Name": "trip_load_684_c_26_Battery",
+        "Bus": "trip_load_684_c_h_26",
+        "mRID": "_03A5DFCE-DD4E-4035-90CC-876C82F89F68"
+    },
+    {
+        "Name": "trip_load_684_c_27_Battery",
+        "Bus": "trip_load_684_c_h_27",
+        "mRID": "_1E3B5364-9001-43B3-BBE5-547C43CD1D27"
+    },
+    {
+        "Name": "trip_load_684_c_28_Battery",
+        "Bus": "trip_load_684_c_h_28",
+        "mRID": "_09C64E33-12E3-41BC-BD0D-32D080C305BF"
+    },
+    {
+        "Name": "trip_load_684_c_29_Battery",
+        "Bus": "trip_load_684_c_h_29",
+        "mRID": "_A7B55AA2-218E-41DB-B0A5-2370D6ECDD41"
+    },
+    {
+        "Name": "trip_load_684_c_2_Battery",
+        "Bus": "trip_load_684_c_h_2",
+        "mRID": "_015B5187-EA25-4F8C-9DE7-32010C140304"
+    },
+    {
+        "Name": "trip_load_684_c_30_Battery",
+        "Bus": "trip_load_684_c_h_30",
+        "mRID": "_6A2E51EB-EF61-4932-9AD8-D17EB2C9F6CF"
+    },
+    {
+        "Name": "trip_load_684_c_31_Battery",
+        "Bus": "trip_load_684_c_h_31",
+        "mRID": "_9CB2EE7A-6209-4A4D-976D-3597F51A0E9C"
+    },
+    {
+        "Name": "trip_load_684_c_32_Battery",
+        "Bus": "trip_load_684_c_h_32",
+        "mRID": "_FAD3B114-3D0D-4F58-8DDE-461986CD2EEE"
+    },
+    {
+        "Name": "trip_load_684_c_33_Battery",
+        "Bus": "trip_load_684_c_h_33",
+        "mRID": "_BF30E096-1066-48DB-A1E5-A18E6F25B82B"
+    },
+    {
+        "Name": "trip_load_684_c_34_Battery",
+        "Bus": "trip_load_684_c_h_34",
+        "mRID": "_54F5606F-8024-48EF-9930-B55262FB78CC"
+    },
+    {
+        "Name": "trip_load_684_c_35_Battery",
+        "Bus": "trip_load_684_c_h_35",
+        "mRID": "_DC6B0E2C-78DA-49D3-A945-74441BA7E698"
+    },
+    {
+        "Name": "trip_load_684_c_36_Battery",
+        "Bus": "trip_load_684_c_h_36",
+        "mRID": "_02F3AAB0-1A64-4F16-A045-A8008615955B"
+    },
+    {
+        "Name": "trip_load_684_c_37_Battery",
+        "Bus": "trip_load_684_c_h_37",
+        "mRID": "_A7B276B6-7502-4974-B3B7-084A9DACF633"
+    },
+    {
+        "Name": "trip_load_684_c_38_Battery",
+        "Bus": "trip_load_684_c_h_38",
+        "mRID": "_62D1CDFC-7D3E-419F-AEF2-3A76ECE1C9DF"
+    },
+    {
+        "Name": "trip_load_684_c_39_Battery",
+        "Bus": "trip_load_684_c_h_39",
+        "mRID": "_20166490-954B-457F-ADD4-9ED81772DF8A"
+    },
+    {
+        "Name": "trip_load_684_c_3_Battery",
+        "Bus": "trip_load_684_c_h_3",
+        "mRID": "_18A36936-F342-4E0A-B5EE-A22B844173D5"
+    },
+    {
+        "Name": "trip_load_684_c_40_Battery",
+        "Bus": "trip_load_684_c_h_40",
+        "mRID": "_B138561F-6052-475D-A841-9E40290AD6C9"
+    },
+    {
+        "Name": "trip_load_684_c_4_Battery",
+        "Bus": "trip_load_684_c_h_4",
+        "mRID": "_672969CF-A372-413E-BB36-B3663BA8BCC8"
+    },
+    {
+        "Name": "trip_load_684_c_5_Battery",
+        "Bus": "trip_load_684_c_h_5",
+        "mRID": "_687F95B4-44DC-45CD-8669-5815E720367E"
+    },
+    {
+        "Name": "trip_load_684_c_6_Battery",
+        "Bus": "trip_load_684_c_h_6",
+        "mRID": "_9563AFEB-3055-4E9E-B0D1-3EA7E505819A"
+    },
+    {
+        "Name": "trip_load_684_c_7_Battery",
+        "Bus": "trip_load_684_c_h_7",
+        "mRID": "_B3D0F6A0-DD45-4117-B1AB-A08A9B9BA977"
+    },
+    {
+        "Name": "trip_load_684_c_8_Battery",
+        "Bus": "trip_load_684_c_h_8",
+        "mRID": "_C1CC36B2-673E-4070-BA84-98B87CC6CC1A"
+    },
+    {
+        "Name": "trip_load_684_c_9_Battery",
+        "Bus": "trip_load_684_c_h_9",
+        "mRID": "_5F8BF5FA-9DC9-4E9F-AE1B-79DC7F278145"
+    },
+    {
+        "Name": "trip_load_692_a_10_Battery",
+        "Bus": "trip_load_692_a_h_10",
+        "mRID": "_EAF406BB-E471-493D-8B99-A12DAF537E4F"
+    },
+    {
+        "Name": "trip_load_692_a_11_Battery",
+        "Bus": "trip_load_692_a_h_11",
+        "mRID": "_135E8EF6-13B1-4D49-A342-4D11E391B2ED"
+    },
+    {
+        "Name": "trip_load_692_a_12_Battery",
+        "Bus": "trip_load_692_a_h_12",
+        "mRID": "_40F0BB00-190E-4DCE-BA6A-D95F89FFB2EB"
+    },
+    {
+        "Name": "trip_load_692_a_13_Battery",
+        "Bus": "trip_load_692_a_h_13",
+        "mRID": "_02D9F8A4-7E8B-49AC-8D50-51E72D82CA7F"
+    },
+    {
+        "Name": "trip_load_692_a_14_Battery",
+        "Bus": "trip_load_692_a_h_14",
+        "mRID": "_DFAAE41D-7816-4D08-92BA-48847BE1E1D1"
+    },
+    {
+        "Name": "trip_load_692_a_15_Battery",
+        "Bus": "trip_load_692_a_h_15",
+        "mRID": "_BD8B6016-4A78-484F-9DDC-B72EC748784B"
+    },
+    {
+        "Name": "trip_load_692_a_16_Battery",
+        "Bus": "trip_load_692_a_h_16",
+        "mRID": "_7585C49B-4E3F-4960-A9F4-49213DABA51E"
+    },
+    {
+        "Name": "trip_load_692_a_17_Battery",
+        "Bus": "trip_load_692_a_h_17",
+        "mRID": "_359C6D05-1E42-4EE2-B846-60604CEAFD5C"
+    },
+    {
+        "Name": "trip_load_692_a_18_Battery",
+        "Bus": "trip_load_692_a_h_18",
+        "mRID": "_C2EDDCB5-1396-4B1C-9FB2-8741AE43A993"
+    },
+    {
+        "Name": "trip_load_692_a_19_Battery",
+        "Bus": "trip_load_692_a_h_19",
+        "mRID": "_28B47EE6-BCB3-40D1-9A51-D8002A707EC7"
+    },
+    {
+        "Name": "trip_load_692_a_1_Battery",
+        "Bus": "trip_load_692_a_h_1",
+        "mRID": "_A444B2E6-8A1A-4DED-A11D-D4FCD6557FF3"
+    },
+    {
+        "Name": "trip_load_692_a_20_Battery",
+        "Bus": "trip_load_692_a_h_20",
+        "mRID": "_6744B104-42CD-4928-B630-A7D844A78CB7"
+    },
+    {
+        "Name": "trip_load_692_a_21_Battery",
+        "Bus": "trip_load_692_a_h_21",
+        "mRID": "_21350778-1093-41C7-AE14-289460A0D4C2"
+    },
+    {
+        "Name": "trip_load_692_a_22_Battery",
+        "Bus": "trip_load_692_a_h_22",
+        "mRID": "_A776B883-2E66-43E4-A007-CAF254101B4E"
+    },
+    {
+        "Name": "trip_load_692_a_23_Battery",
+        "Bus": "trip_load_692_a_h_23",
+        "mRID": "_EDB83396-94A8-4D14-B6F0-8CB86F02C9F4"
+    },
+    {
+        "Name": "trip_load_692_a_24_Battery",
+        "Bus": "trip_load_692_a_h_24",
+        "mRID": "_E3BF5F25-FA56-4D86-B175-471B5B111E67"
+    },
+    {
+        "Name": "trip_load_692_a_25_Battery",
+        "Bus": "trip_load_692_a_h_25",
+        "mRID": "_04E2CF40-42C5-48F4-B17A-A99A74B5ABC5"
+    },
+    {
+        "Name": "trip_load_692_a_26_Battery",
+        "Bus": "trip_load_692_a_h_26",
+        "mRID": "_4C132F68-5184-4F83-BE9B-C9B9922F6515"
+    },
+    {
+        "Name": "trip_load_692_a_27_Battery",
+        "Bus": "trip_load_692_a_h_27",
+        "mRID": "_81697584-F072-4F01-8711-E6C484D4F506"
+    },
+    {
+        "Name": "trip_load_692_a_28_Battery",
+        "Bus": "trip_load_692_a_h_28",
+        "mRID": "_C97BDE9F-EE12-4306-9AA6-CEDB37D92500"
+    },
+    {
+        "Name": "trip_load_692_a_29_Battery",
+        "Bus": "trip_load_692_a_h_29",
+        "mRID": "_419F3EE7-BCF6-4CA9-B948-0E3A3308032D"
+    },
+    {
+        "Name": "trip_load_692_a_2_Battery",
+        "Bus": "trip_load_692_a_h_2",
+        "mRID": "_F79FBA0E-6E95-417D-BF2A-0A521042DA9B"
+    },
+    {
+        "Name": "trip_load_692_a_30_Battery",
+        "Bus": "trip_load_692_a_h_30",
+        "mRID": "_2388EEFC-639E-4EB6-A619-2F075DC91003"
+    },
+    {
+        "Name": "trip_load_692_a_31_Battery",
+        "Bus": "trip_load_692_a_h_31",
+        "mRID": "_3FDA4B09-E919-4ECE-B755-3B38BCEA60E9"
+    },
+    {
+        "Name": "trip_load_692_a_32_Battery",
+        "Bus": "trip_load_692_a_h_32",
+        "mRID": "_61279375-6A68-4FBC-A81A-93A6DB494DE2"
+    },
+    {
+        "Name": "trip_load_692_a_33_Battery",
+        "Bus": "trip_load_692_a_h_33",
+        "mRID": "_F7FACA93-8EDE-40B8-A261-27DE7F2B1E1E"
+    },
+    {
+        "Name": "trip_load_692_a_34_Battery",
+        "Bus": "trip_load_692_a_h_34",
+        "mRID": "_060BBC6D-1893-401B-BFE9-5F7B4C474E9C"
+    },
+    {
+        "Name": "trip_load_692_a_35_Battery",
+        "Bus": "trip_load_692_a_h_35",
+        "mRID": "_9A4D9421-D400-4157-BED2-D4D75CFB0213"
+    },
+    {
+        "Name": "trip_load_692_a_36_Battery",
+        "Bus": "trip_load_692_a_h_36",
+        "mRID": "_6527AD2A-B362-470C-84F5-55F568DA9516"
+    },
+    {
+        "Name": "trip_load_692_a_37_Battery",
+        "Bus": "trip_load_692_a_h_37",
+        "mRID": "_D2161F78-2516-41C8-8A11-E1F82CC84329"
+    },
+    {
+        "Name": "trip_load_692_a_38_Battery",
+        "Bus": "trip_load_692_a_h_38",
+        "mRID": "_05D94176-6D15-4F30-90CA-A13258278CC9"
+    },
+    {
+        "Name": "trip_load_692_a_39_Battery",
+        "Bus": "trip_load_692_a_h_39",
+        "mRID": "_ADE955A4-9BE7-402D-ADE9-F4F2EAA3C1E0"
+    },
+    {
+        "Name": "trip_load_692_a_3_Battery",
+        "Bus": "trip_load_692_a_h_3",
+        "mRID": "_4E03681B-CFFF-407B-B6D3-AE43B3E22091"
+    },
+    {
+        "Name": "trip_load_692_a_40_Battery",
+        "Bus": "trip_load_692_a_h_40",
+        "mRID": "_EE59E083-DE0F-4282-BE7E-76B2FFE2509D"
+    },
+    {
+        "Name": "trip_load_692_a_4_Battery",
+        "Bus": "trip_load_692_a_h_4",
+        "mRID": "_7ADEF358-6ED0-427A-8594-BEBA4F850272"
+    },
+    {
+        "Name": "trip_load_692_a_5_Battery",
+        "Bus": "trip_load_692_a_h_5",
+        "mRID": "_0956EE6D-C3E3-4447-B0F6-3800BB2EB2C6"
+    },
+    {
+        "Name": "trip_load_692_a_6_Battery",
+        "Bus": "trip_load_692_a_h_6",
+        "mRID": "_DE8995A6-3BF8-4704-B453-7221240A3E3E"
+    },
+    {
+        "Name": "trip_load_692_a_7_Battery",
+        "Bus": "trip_load_692_a_h_7",
+        "mRID": "_88CD9210-2E48-4213-95C4-6331E23677F5"
+    },
+    {
+        "Name": "trip_load_692_a_8_Battery",
+        "Bus": "trip_load_692_a_h_8",
+        "mRID": "_6261684F-CC49-4509-B78B-C27050086716"
+    },
+    {
+        "Name": "trip_load_692_a_9_Battery",
+        "Bus": "trip_load_692_a_h_9",
+        "mRID": "_DA94470B-2445-4153-BBA6-1DEB6FB3358C"
+    },
+    {
+        "Name": "trip_load_692_b_10_Battery",
+        "Bus": "trip_load_692_b_h_10",
+        "mRID": "_BC5D58E3-CDA1-4D8B-8C4D-1777FF5BAB03"
+    },
+    {
+        "Name": "trip_load_692_b_11_Battery",
+        "Bus": "trip_load_692_b_h_11",
+        "mRID": "_36DBBE9F-2A89-497C-A9F4-8FE5A7D66F71"
+    },
+    {
+        "Name": "trip_load_692_b_12_Battery",
+        "Bus": "trip_load_692_b_h_12",
+        "mRID": "_DE50336F-B17F-4414-BD51-D3FD049BD8F1"
+    },
+    {
+        "Name": "trip_load_692_b_13_Battery",
+        "Bus": "trip_load_692_b_h_13",
+        "mRID": "_6822B0FF-BF28-4D2C-A24C-23013D9B4BFF"
+    },
+    {
+        "Name": "trip_load_692_b_14_Battery",
+        "Bus": "trip_load_692_b_h_14",
+        "mRID": "_9950FBF1-299E-4376-9EAD-8D4782E0378D"
+    },
+    {
+        "Name": "trip_load_692_b_15_Battery",
+        "Bus": "trip_load_692_b_h_15",
+        "mRID": "_17CE1B5A-1AA5-4709-BADC-4594DDF86656"
+    },
+    {
+        "Name": "trip_load_692_b_16_Battery",
+        "Bus": "trip_load_692_b_h_16",
+        "mRID": "_F1B6A651-3815-4CA0-BB8D-083A9047787A"
+    },
+    {
+        "Name": "trip_load_692_b_17_Battery",
+        "Bus": "trip_load_692_b_h_17",
+        "mRID": "_B8896799-E85F-499B-BD5E-B73A2A6F76C8"
+    },
+    {
+        "Name": "trip_load_692_b_18_Battery",
+        "Bus": "trip_load_692_b_h_18",
+        "mRID": "_00BA0411-712A-4E5A-9CAB-99564CCB1851"
+    },
+    {
+        "Name": "trip_load_692_b_19_Battery",
+        "Bus": "trip_load_692_b_h_19",
+        "mRID": "_2977EA9C-839C-41FB-BEA2-3B2772F6914C"
+    },
+    {
+        "Name": "trip_load_692_b_1_Battery",
+        "Bus": "trip_load_692_b_h_1",
+        "mRID": "_11781357-6EEF-4ACE-A446-F6F326FEE10F"
+    },
+    {
+        "Name": "trip_load_692_b_20_Battery",
+        "Bus": "trip_load_692_b_h_20",
+        "mRID": "_51FE0F97-7644-4D67-A9E7-94AF6A40348C"
+    },
+    {
+        "Name": "trip_load_692_b_21_Battery",
+        "Bus": "trip_load_692_b_h_21",
+        "mRID": "_E2E7650F-C79B-49DF-AACE-D5BCE62A73A6"
+    },
+    {
+        "Name": "trip_load_692_b_22_Battery",
+        "Bus": "trip_load_692_b_h_22",
+        "mRID": "_06D07931-7018-467D-A1BE-026366B251C5"
+    },
+    {
+        "Name": "trip_load_692_b_23_Battery",
+        "Bus": "trip_load_692_b_h_23",
+        "mRID": "_CFC06E1E-D6A2-40A6-8345-F67715CE549C"
+    },
+    {
+        "Name": "trip_load_692_b_24_Battery",
+        "Bus": "trip_load_692_b_h_24",
+        "mRID": "_F0504AB5-951E-4807-989F-9FCE2FC3F3D8"
+    },
+    {
+        "Name": "trip_load_692_b_25_Battery",
+        "Bus": "trip_load_692_b_h_25",
+        "mRID": "_F48EC798-375A-4D14-856B-C46C7E474107"
+    },
+    {
+        "Name": "trip_load_692_b_26_Battery",
+        "Bus": "trip_load_692_b_h_26",
+        "mRID": "_E248EB11-E357-4EBE-BAB7-3AF201903FE0"
+    },
+    {
+        "Name": "trip_load_692_b_27_Battery",
+        "Bus": "trip_load_692_b_h_27",
+        "mRID": "_497E151B-5AE0-4BEA-85EC-06F7710EDFDB"
+    },
+    {
+        "Name": "trip_load_692_b_28_Battery",
+        "Bus": "trip_load_692_b_h_28",
+        "mRID": "_DF1B6B4C-8079-4CA7-AEEB-B23880DA5940"
+    },
+    {
+        "Name": "trip_load_692_b_29_Battery",
+        "Bus": "trip_load_692_b_h_29",
+        "mRID": "_25DF367A-52EC-4DFB-B4F5-51AB6F776A21"
+    },
+    {
+        "Name": "trip_load_692_b_2_Battery",
+        "Bus": "trip_load_692_b_h_2",
+        "mRID": "_6AAB4292-3161-463E-9636-32930D2445B8"
+    },
+    {
+        "Name": "trip_load_692_b_30_Battery",
+        "Bus": "trip_load_692_b_h_30",
+        "mRID": "_D6979F55-BC13-4FEB-8F10-E7012EA321D7"
+    },
+    {
+        "Name": "trip_load_692_b_31_Battery",
+        "Bus": "trip_load_692_b_h_31",
+        "mRID": "_8EF55FBE-5A8B-46F2-96E3-9853B7E9F5E5"
+    },
+    {
+        "Name": "trip_load_692_b_32_Battery",
+        "Bus": "trip_load_692_b_h_32",
+        "mRID": "_E83AC6EE-1528-4F5D-836D-712F6FE2D8BE"
+    },
+    {
+        "Name": "trip_load_692_b_33_Battery",
+        "Bus": "trip_load_692_b_h_33",
+        "mRID": "_E4F4F9C1-58AD-471C-B027-9178A7BA35FA"
+    },
+    {
+        "Name": "trip_load_692_b_34_Battery",
+        "Bus": "trip_load_692_b_h_34",
+        "mRID": "_1D6443D6-AAC6-4A02-A6C3-8EA676BCC3EE"
+    },
+    {
+        "Name": "trip_load_692_b_35_Battery",
+        "Bus": "trip_load_692_b_h_35",
+        "mRID": "_8A2E9A48-0AB0-4D9A-AD1A-81BCF2109FCE"
+    },
+    {
+        "Name": "trip_load_692_b_36_Battery",
+        "Bus": "trip_load_692_b_h_36",
+        "mRID": "_95252302-927C-4718-BD5B-7C5D17FB4573"
+    },
+    {
+        "Name": "trip_load_692_b_37_Battery",
+        "Bus": "trip_load_692_b_h_37",
+        "mRID": "_2C3C79E5-3BD3-4AD8-BEDB-716F96A4CB46"
+    },
+    {
+        "Name": "trip_load_692_b_38_Battery",
+        "Bus": "trip_load_692_b_h_38",
+        "mRID": "_E9EA3114-C959-4DEE-A44B-59C8D2E167F7"
+    },
+    {
+        "Name": "trip_load_692_b_39_Battery",
+        "Bus": "trip_load_692_b_h_39",
+        "mRID": "_C113EDCF-0E69-41B7-A5BA-58300B17AD29"
+    },
+    {
+        "Name": "trip_load_692_b_3_Battery",
+        "Bus": "trip_load_692_b_h_3",
+        "mRID": "_5D591E1A-F963-4762-B050-0B300F88770C"
+    },
+    {
+        "Name": "trip_load_692_b_40_Battery",
+        "Bus": "trip_load_692_b_h_40",
+        "mRID": "_64900F31-E316-48BA-8ECB-E0C74A8984F8"
+    },
+    {
+        "Name": "trip_load_692_b_4_Battery",
+        "Bus": "trip_load_692_b_h_4",
+        "mRID": "_DA3906AD-514B-4C72-AF50-1E50E9959882"
+    },
+    {
+        "Name": "trip_load_692_b_5_Battery",
+        "Bus": "trip_load_692_b_h_5",
+        "mRID": "_DD4BE41B-F991-4882-9131-CCCA0853042C"
+    },
+    {
+        "Name": "trip_load_692_b_6_Battery",
+        "Bus": "trip_load_692_b_h_6",
+        "mRID": "_DA4E7773-95B2-4E99-B185-822B2A1F9250"
+    },
+    {
+        "Name": "trip_load_692_b_7_Battery",
+        "Bus": "trip_load_692_b_h_7",
+        "mRID": "_1CA7E3F3-E491-424F-B046-520300BA3CFF"
+    },
+    {
+        "Name": "trip_load_692_b_8_Battery",
+        "Bus": "trip_load_692_b_h_8",
+        "mRID": "_7268498F-493C-4A35-9623-55548B218486"
+    },
+    {
+        "Name": "trip_load_692_b_9_Battery",
+        "Bus": "trip_load_692_b_h_9",
+        "mRID": "_EF0C84CE-1997-43A4-A161-A04B91A2C4FE"
+    },
+    {
+        "Name": "trip_load_692_c_10_Battery",
+        "Bus": "trip_load_692_c_h_10",
+        "mRID": "_05662FEA-F19B-4E76-A84C-D79D9C139A33"
+    },
+    {
+        "Name": "trip_load_692_c_11_Battery",
+        "Bus": "trip_load_692_c_h_11",
+        "mRID": "_00A1325B-C1F3-4F8A-9FFF-7807BE31398B"
+    },
+    {
+        "Name": "trip_load_692_c_12_Battery",
+        "Bus": "trip_load_692_c_h_12",
+        "mRID": "_E75222B3-C2C9-4152-ACCF-0A4366E7489D"
+    },
+    {
+        "Name": "trip_load_692_c_13_Battery",
+        "Bus": "trip_load_692_c_h_13",
+        "mRID": "_FBD6AC45-74BA-464C-993C-CC916000079F"
+    },
+    {
+        "Name": "trip_load_692_c_14_Battery",
+        "Bus": "trip_load_692_c_h_14",
+        "mRID": "_3ECC77DD-D08B-401C-8D14-679D8B0C2CF7"
+    },
+    {
+        "Name": "trip_load_692_c_15_Battery",
+        "Bus": "trip_load_692_c_h_15",
+        "mRID": "_3525F7CB-4D48-46E4-8CA0-CD5704EEE23D"
+    },
+    {
+        "Name": "trip_load_692_c_16_Battery",
+        "Bus": "trip_load_692_c_h_16",
+        "mRID": "_B78A5D8D-921E-4BE1-81BA-64A704EB0FE0"
+    },
+    {
+        "Name": "trip_load_692_c_17_Battery",
+        "Bus": "trip_load_692_c_h_17",
+        "mRID": "_1E8560C8-ACB2-4993-8F44-B5ECF5DBF959"
+    },
+    {
+        "Name": "trip_load_692_c_18_Battery",
+        "Bus": "trip_load_692_c_h_18",
+        "mRID": "_E7994E65-B24B-4F14-970F-609317C06F2F"
+    },
+    {
+        "Name": "trip_load_692_c_19_Battery",
+        "Bus": "trip_load_692_c_h_19",
+        "mRID": "_451B11E6-9FEA-40E4-8105-678B2874BBFE"
+    },
+    {
+        "Name": "trip_load_692_c_1_Battery",
+        "Bus": "trip_load_692_c_h_1",
+        "mRID": "_A15818F2-2DE6-485E-A471-4202D0D5E2DF"
+    },
+    {
+        "Name": "trip_load_692_c_20_Battery",
+        "Bus": "trip_load_692_c_h_20",
+        "mRID": "_83106D64-7A37-4E64-932E-E28D41D3A28B"
+    },
+    {
+        "Name": "trip_load_692_c_21_Battery",
+        "Bus": "trip_load_692_c_h_21",
+        "mRID": "_4BDB4B79-6CEB-4C5D-897E-15D1DF5662F2"
+    },
+    {
+        "Name": "trip_load_692_c_22_Battery",
+        "Bus": "trip_load_692_c_h_22",
+        "mRID": "_94531C0C-6ED6-43DC-9ECD-57FBCAEC466F"
+    },
+    {
+        "Name": "trip_load_692_c_23_Battery",
+        "Bus": "trip_load_692_c_h_23",
+        "mRID": "_3020A3EF-9DA1-4E37-866A-A1CA06DB16A4"
+    },
+    {
+        "Name": "trip_load_692_c_24_Battery",
+        "Bus": "trip_load_692_c_h_24",
+        "mRID": "_40278FDD-054B-4AB9-857C-A238C60EA1FD"
+    },
+    {
+        "Name": "trip_load_692_c_25_Battery",
+        "Bus": "trip_load_692_c_h_25",
+        "mRID": "_1B5EFAEE-1FFC-4935-BAD8-EA2BE7C12C1F"
+    },
+    {
+        "Name": "trip_load_692_c_26_Battery",
+        "Bus": "trip_load_692_c_h_26",
+        "mRID": "_B182ACB3-14E6-4B56-AB9A-423214ADB8A1"
+    },
+    {
+        "Name": "trip_load_692_c_27_Battery",
+        "Bus": "trip_load_692_c_h_27",
+        "mRID": "_DE494354-C20E-4C7C-962B-4BAC3C34B6C8"
+    },
+    {
+        "Name": "trip_load_692_c_28_Battery",
+        "Bus": "trip_load_692_c_h_28",
+        "mRID": "_20484D52-AAB1-4EF8-9CB8-B0EC263F3C3E"
+    },
+    {
+        "Name": "trip_load_692_c_29_Battery",
+        "Bus": "trip_load_692_c_h_29",
+        "mRID": "_22C1FD74-DB43-4573-B922-DB4FFBAA1CBF"
+    },
+    {
+        "Name": "trip_load_692_c_2_Battery",
+        "Bus": "trip_load_692_c_h_2",
+        "mRID": "_9E5DBD01-90E7-4211-B0EA-22C53447F074"
+    },
+    {
+        "Name": "trip_load_692_c_30_Battery",
+        "Bus": "trip_load_692_c_h_30",
+        "mRID": "_758A1E89-6DC0-4265-A410-7B514F45DA28"
+    },
+    {
+        "Name": "trip_load_692_c_31_Battery",
+        "Bus": "trip_load_692_c_h_31",
+        "mRID": "_00E3437E-427E-434F-8B14-43B8080101F5"
+    },
+    {
+        "Name": "trip_load_692_c_32_Battery",
+        "Bus": "trip_load_692_c_h_32",
+        "mRID": "_E6F18F7A-05A0-4476-A8F0-587231DAEA48"
+    },
+    {
+        "Name": "trip_load_692_c_33_Battery",
+        "Bus": "trip_load_692_c_h_33",
+        "mRID": "_5EF94212-D7A1-4A76-8C56-CA50B647D4DD"
+    },
+    {
+        "Name": "trip_load_692_c_34_Battery",
+        "Bus": "trip_load_692_c_h_34",
+        "mRID": "_98C991B4-B5A5-498B-AAA3-4EA635E8C285"
+    },
+    {
+        "Name": "trip_load_692_c_35_Battery",
+        "Bus": "trip_load_692_c_h_35",
+        "mRID": "_37FF5574-86C9-444C-A30F-DDA3829D778E"
+    },
+    {
+        "Name": "trip_load_692_c_36_Battery",
+        "Bus": "trip_load_692_c_h_36",
+        "mRID": "_54BCD68C-4A22-476C-8904-834075DF7D34"
+    },
+    {
+        "Name": "trip_load_692_c_37_Battery",
+        "Bus": "trip_load_692_c_h_37",
+        "mRID": "_7841353B-F640-4694-A17F-5D0B647BA514"
+    },
+    {
+        "Name": "trip_load_692_c_38_Battery",
+        "Bus": "trip_load_692_c_h_38",
+        "mRID": "_7F39503C-4DA3-44C8-94A6-6CCDA640E87F"
+    },
+    {
+        "Name": "trip_load_692_c_39_Battery",
+        "Bus": "trip_load_692_c_h_39",
+        "mRID": "_A4A8787B-5AA4-49B7-B908-52423CAD3C4A"
+    },
+    {
+        "Name": "trip_load_692_c_3_Battery",
+        "Bus": "trip_load_692_c_h_3",
+        "mRID": "_572D51D3-851C-4956-8B08-1D442E39703C"
+    },
+    {
+        "Name": "trip_load_692_c_40_Battery",
+        "Bus": "trip_load_692_c_h_40",
+        "mRID": "_B469EBA5-8AA7-417E-B825-BEB2CD8EC95E"
+    },
+    {
+        "Name": "trip_load_692_c_4_Battery",
+        "Bus": "trip_load_692_c_h_4",
+        "mRID": "_CD304CE3-3391-4252-A83A-DD43EF2AEFF4"
+    },
+    {
+        "Name": "trip_load_692_c_5_Battery",
+        "Bus": "trip_load_692_c_h_5",
+        "mRID": "_A0731C1B-E607-4B6E-82AB-DD4FFE25A5CE"
+    },
+    {
+        "Name": "trip_load_692_c_6_Battery",
+        "Bus": "trip_load_692_c_h_6",
+        "mRID": "_7E90407C-B5E4-4299-BE5F-4FF2C5149F01"
+    },
+    {
+        "Name": "trip_load_692_c_7_Battery",
+        "Bus": "trip_load_692_c_h_7",
+        "mRID": "_9BF2CB9C-2795-47C5-A645-9C9D76DFCADB"
+    },
+    {
+        "Name": "trip_load_692_c_8_Battery",
+        "Bus": "trip_load_692_c_h_8",
+        "mRID": "_7746FC46-B675-453C-B6C0-D576ABF6AA8C"
+    },
+    {
+        "Name": "trip_load_692_c_9_Battery",
+        "Bus": "trip_load_692_c_h_9",
+        "mRID": "_8C75C6EA-3D3D-4187-811A-84EC32406F52"
+    }
+]
