@@ -181,7 +181,7 @@ sparql.method = 'POST'
 #    cim_ns = toks[1]
 #    prefix = prefix_template.format(cimURL=cim_ns)
 #fp.close()
-
+print(CIMHubConfig.prefix)
 fp = open (sys.argv[2], 'r')
 for ln in fp.readlines():
   toks = re.split('[,\s]+', ln)

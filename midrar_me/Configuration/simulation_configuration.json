@@ -1,8 +1,8 @@
 {
     "power_system_config": {
-        "GeographicalRegion_name": "_D8B9F922-7358-4B91-97B5-3B520217E714",
-        "SubGeographicalRegion_name": "_2B298432-8582-4F14-A258-F92B06F0C004",
-        "Line_name": "_30EB11E3-34CC-4AF4-A4D0-E179EB4A60B3"
+        "GeographicalRegion_name": "_D4D1B91D-9B23-4922-A390-F0BE87273F15",
+        "SubGeographicalRegion_name": "_B7F755B6-57A1-4913-A087-2C274E5CFA20",
+        "Line_name": "_CAE955BB-6276-4A1B-95EB-FD2C25166C1B"
     },
     "application_config": {
         "applications": []

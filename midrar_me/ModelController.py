@@ -37,7 +37,7 @@ class MCConfiguration:
         # }
         self.go_sensor_decision_making_manual_override = True
         self.manual_service_filename = "manually_posted_service_input.xml"
-        self.output_log_name = 'Logged Grid State Data/MeasOutputLogs.csv'
+        self.output_log_name = 'Logged_Grid_State_Data/MeasOutputLogs.csv'
 
 
 class EDMCore:
@@ -55,12 +55,12 @@ class EDMCore:
         self.cim_measurement_dict = []
 
     def get_sim_start_time(self):
-        print(f"\n\n--------\n\nI am here in edmCore get_sim_start_time\n\n--------\n\n")
+        print(f"\n\n--------\n\nI am here in edmCore get_sim_start_time\n\n{self.sim_start_time}\n\n--------\n\n")
 
         return self.sim_start_time
 
     def get_line_mrid(self):
-        print(f"\n\n--------\n\nI am here in edmCore get line mrid func\n\n--------\n\n")
+        print(f"\n\n--------\n\nI am here in edmCore get line mrid func\n\n{self.line_mrid}\n\n--------\n\n")
 
         return self.line_mrid
 
@@ -171,7 +171,7 @@ class EDMCore:
         measdict = cim_dict['data']['feeders'][0]['measurements']
         self.cim_measurement_dict = measdict
         print("--------------")
-        # pp(measdict)
+        print("ctrl+f this if you need to print the CIM Dictionary message")
         print("--------------")
     def get_mrid_name_lookup_table(self):
         print(f"\n\n--------\n\nI am here in edmCore get mrid name lookup table\n\n--------\n\n")
@@ -754,34 +754,32 @@ class DERAssignmentHandler:
         self.assignment_table = None
         self.association_table = []
         self.der_em_mrid_per_bus_query_message = f'''
-        PREFIX r:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-        PREFIX c:  <http://iec.ch/TC57/CIM100#>
-        SELECT ?name ?id ?bus ?ratedS ?ratedU ?ipu ?p ?q ?fdrid (group_concat(distinct ?phs;separator="\\n") as ?phases) WHERE {{
-         ?s r:type c:BatteryUnit.
-         ?s c:IdentifiedObject.name ?name.
-          ?s c:IdentifiedObject.mRID ?id.
-         ?pec c:PowerElectronicsConnection.PowerElectronicsUnit ?s.
-        # feeder selection options - if all commented out, query matches all feeders
-        #VALUES ?fdrid {{"_C1C3E687-6FFD-C753-582B-632A27E28507"}}  # 123 bus
-        #VALUES ?fdrid {{"_49AD8E07-3BF9-A4E2-CB8F-C3722F837B62"}}  # 13 bus
+        PREFIX r: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        PREFIX c: <http://iec.ch/TC57/CIM100#>
+        SELECT ?class ?type ?name ?bus ?phases ?eqtype ?eqname ?eqid ?trmid ?id WHERE {{
         VALUES ?fdrid {{"{edmCore.line_mrid}"}}  # psu_feeder
-         ?pec c:Equipment.EquipmentContainer ?fdr.
-         ?fdr c:IdentifiedObject.mRID ?fdrid.
-         ?pec c:PowerElectronicsConnection.ratedS ?ratedS.
-         ?pec c:PowerElectronicsConnection.ratedU ?ratedU.
-         ?pec c:PowerElectronicsConnection.maxIFault ?ipu.
-         ?pec c:PowerElectronicsConnection.p ?p.
-         ?pec c:PowerElectronicsConnection.q ?q.
-         OPTIONAL {{?pecp c:PowerElectronicsConnectionPhase.PowerElectronicsConnection ?pec.
-         ?pecp c:PowerElectronicsConnectionPhase.phase ?phsraw.
-           bind(strafter(str(?phsraw),"SinglePhaseKind.") as ?phs) }}
-         ?t c:Terminal.ConductingEquipment ?pec.
-         ?t c:Terminal.ConnectivityNode ?cn.
-         ?cn c:IdentifiedObject.name ?bus
-        }}
-        GROUP by ?name ?id ?bus ?ratedS ?ratedU ?ipu ?p ?q ?fdrid
-        ORDER by ?name
+        ?eq c:Equipment.EquipmentContainer ?fdr.
+        ?fdr c:IdentifiedObject.mRID ?fdrid.
+        {{ ?s r:type c:Discrete. bind ("Discrete" as ?class)}}
+          UNION
+        {{ ?s r:type c:Analog. bind ("Analog" as ?class)}}
+        ?s c:IdentifiedObject.name ?name .
+        ?s c:IdentifiedObject.mRID ?id .
+        ?s c:Measurement.PowerSystemResource ?eq .
+        ?s c:Measurement.Terminal ?trm .
+        ?s c:Measurement.measurementType ?type .
+        ?trm c:IdentifiedObject.mRID ?trmid.
+        ?eq c:IdentifiedObject.mRID ?eqid.
+        ?eq c:IdentifiedObject.name ?eqname.
+        ?eq r:type ?typeraw.
+         bind(strafter(str(?typeraw),"#") as ?eqtype)
+        ?trm c:Terminal.ConnectivityNode ?cn.
+        ?cn c:IdentifiedObject.name ?bus.
+        ?s c:Measurement.phases ?phsraw .
+         {{bind(strafter(str(?phsraw),"PhaseCode.") as ?phases)}}
+        }} ORDER BY ?class ?type ?name
         '''
+        print(f"\n\n------\n\nQuery to gather DER-EM Data\n\n{self.der_em_mrid_per_bus_query_message}\n\n------\n\n")
 
     def get_assignment_lookup_table(self):
         """
@@ -796,18 +794,16 @@ class DERAssignmentHandler:
         and mRIDs of all DER-EMs on each bus in the current model.
         """
         der_em_mrid_per_bus_query_output = edmCore.gapps_session.query_data(self.der_em_mrid_per_bus_query_message)
-        print(f"\n\n=========\n\nTesting:\tprinting the query to ensure the correct mrid is being used\n\n")
-        print(self.der_em_mrid_per_bus_query_message)
-        print(f"\n\n=========\n\nend Testing\n\n=======\n\n")
+        
         x = []
         for i in range(len(der_em_mrid_per_bus_query_output['data']['results']['bindings'])):
-            x.append({'Name': der_em_mrid_per_bus_query_output['data']['results']['bindings'][i]['name']['value'],
-                      'Bus': der_em_mrid_per_bus_query_output['data']['results']['bindings'][i]['bus']['value'],
-                      'mRID': der_em_mrid_per_bus_query_output['data']['results']['bindings'][i]['id']['value']})
-            # print(f"Name\t{der_em_mrid_per_bus_query_output['data']['results']['bindings'][i]['name']['value']}")
-            # print(f"Bus\t{der_em_mrid_per_bus_query_output['data']['results']['bindings'][i]['bus']['value']}")
-            # print(f"id\t{der_em_mrid_per_bus_query_output['data']['results']['bindings'][i]['id']['value']}")
-        self.assignment_lookup_table = x     
+            if (der_em_mrid_per_bus_query_output['data']['results']['bindings'][i]['name']['value'].startswith('EnergyConsumer')) and (der_em_mrid_per_bus_query_output['data']['results']['bindings'][i]['bus']['value'].startswith('trip_load')):
+                curr_dict = {'Name':der_em_mrid_per_bus_query_output['data']['results']['bindings'][i]['name']['value'].split("r_")[1],
+                             'Bus':der_em_mrid_per_bus_query_output['data']['results']['bindings'][i]['bus']['value'],
+                             'mRID':der_em_mrid_per_bus_query_output['data']['results']['bindings'][i]['eqid']['value']}
+                if curr_dict not in x:
+                    x.append(curr_dict)
+        self.assignment_lookup_table = x
 
     def assign_all_ders(self):
         print(f"\n\n-------\n\nI am here in derassignment handler, assign all ders\n\n-------\n\n")
@@ -1208,6 +1204,9 @@ class MCOutputLog:
         """
         Closes the log file and re-appends the timestamps.
         """
+        print("================\n\n")
+        print(self.csv_file)
+        print("\n\n================\n\n")
         self.csv_file.close()
         self.append_timestamps()
 

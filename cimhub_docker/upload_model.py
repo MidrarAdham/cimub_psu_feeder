@@ -7,6 +7,7 @@ import shutil
 import subprocess
 import pandas as pd
 import cimhub.api as cimhub
+from pprint import pprint as pp
 from pathlib import Path as path
 from gridappsd import topics as t
 import xml.etree.ElementTree as et
@@ -188,6 +189,7 @@ def create_mrid_files(config_parameters, loads_query):
 
     sim_session = Simulation(gapps_session,config_parameters)
     topic = t.REQUEST_POWERGRID_DATA
+    pp(topic)
     print("-------------------------------------------------")
     print("----> Querying Loads Information <----")
     print("-------------------------------------------------")
@@ -201,8 +203,8 @@ def create_mrid_files(config_parameters, loads_query):
         busses.append(resp['data']['results']['bindings'][i]['bus']['value'])
         load_type.append('Battery')
         rated_kva.append('1')
-        rated_kv.append('0.12')
-        kw.append('1')
+        rated_kv.append('0.208')
+        kw.append('0.1')
         kvar.append('0')
         rated_kwh.append('0')
         stored_kwh.append('0')
@@ -263,11 +265,11 @@ def list_insert_meas(fd_mrid,me_dir):
     print("----> Changing directory to:\n----> /home/deras/Desktop/midrar_work_github/cimhub_psu_feeder/midrar_me/DERScripts/ <----\n")
 
     drop_der = open('drop_der.sh','w')
-    print(f'python3 $CIMHUB_UTILS/DropDER.py $CIMHUB_UTILS/cimhubconfig.json EGoT13_der_psu.txt', file=drop_der)
+    print(f'python3 DropDER.py cimhubconfig.json EGoT13_der_psu.txt', file=drop_der)
     drop_der.close()
 
     insert_der = open('insert_der.sh','w')
-    print(f'python3 $CIMHUB_UTILS/InsertDER.py $CIMHUB_UTILS/cimhubconfig.json EGoT13_der_psu.txt', file=insert_der)
+    print(f'python3 InsertDER.py cimhubconfig.json EGoT13_der_psu.txt', file=insert_der)
     insert_der.close()
     
     drop_all_measurements = open('drop_all_measurements.sh','w')
@@ -275,28 +277,37 @@ def list_insert_meas(fd_mrid,me_dir):
     drop_all_measurements.close()
 
     list_meas =  open('list_measurements.sh','w')
-    print(f'python3 $CIMHUB_UTILS/ListMeasureables.py psu_13_node_feeder_7 {fd_mrid}', file=list_meas)
+    print(f'python3 ListMeasureables.py cimhubconfig.json psu_13_node_feeder_7 {fd_mrid} Meas', file=list_meas)
     list_meas.close()
 
     insert_meas =  open('insert_measurements.sh','w')
-    print('python3 InsertMeasurements.py psu_13_node_feeder_7_lines_pq.txt psu_13_node_feeder.json', file=insert_meas)
-    print('python3 InsertMeasurements.py psu_13_node_feeder_7_loads.txt psu_13_node_feeder.json', file=insert_meas)
-    print('python3 InsertMeasurements.py psu_13_node_feeder_7_node_v.txt psu_13_node_feeder.json', file=insert_meas)
-    print('python3 InsertMeasurements.py psu_13_node_feeder_7_special.txt psu_13_node_feeder.json', file=insert_meas)
-    print('python3 InsertMeasurements.py psu_13_node_feeder_7_switch_i.txt psu_13_node_feeder.json', file=insert_meas)
-    print('python3 InsertMeasurements.py psu_13_node_feeder_7_xfmr_pq.txt psu_13_node_feeder.json', file=insert_meas)
+    print('python3 InsertMeasurements.py cimhubconfig.json ./Meas/psu_13_node_feeder_7_lines_pq.txt ./Meas/psu_13_node_feeder.json', file=insert_meas)
+    print('python3 InsertMeasurements.py cimhubconfig.json ./Meas/psu_13_node_feeder_7_loads.txt    ./Meas/psu_13_node_feeder.json', file=insert_meas)
+    print('python3 InsertMeasurements.py cimhubconfig.json ./Meas/psu_13_node_feeder_7_node_v.txt   ./Meas/psu_13_node_feeder.json', file=insert_meas)
+    print('python3 InsertMeasurements.py cimhubconfig.json ./Meas/psu_13_node_feeder_7_special.txt  ./Meas/psu_13_node_feeder.json', file=insert_meas)
+    print('python3 InsertMeasurements.py cimhubconfig.json ./Meas/psu_13_node_feeder_7_switch_i.txt ./Meas/psu_13_node_feeder.json', file=insert_meas)
+    print('python3 InsertMeasurements.py cimhubconfig.json ./Meas/psu_13_node_feeder_7_xfmr_pq.txt  ./Meas/psu_13_node_feeder.json', file=insert_meas)
     insert_meas.close()
 
+    # insert_meas =  open('insert_measurements.sh','w')
+    # print('python3 InsertMeasurements.py cimhubconfig.json ./Meas/psu_13_node_feeder_7_lines_pq.txt ./Meas/psu_13_node_feeder_msid.json', file=insert_meas)
+    # print('python3 InsertMeasurements.py cimhubconfig.json ./Meas/psu_13_node_feeder_7_loads.txt ./Meas/psu_13_node_feeder_msid.json', file=insert_meas)
+    # print('python3 InsertMeasurements.py cimhubconfig.json ./Meas/psu_13_node_feeder_7_node_v.txt ./Meas/psu_13_node_feeder_msid.json', file=insert_meas)
+    # print('python3 InsertMeasurements.py cimhubconfig.json ./Meas/psu_13_node_feeder_7_special.txt ./Meas/psu_13_node_feeder_msid.json', file=insert_meas)
+    # print('python3 InsertMeasurements.py cimhubconfig.json ./Meas/psu_13_node_feeder_7_switch_i.txt ./Meas/psu_13_node_feeder_msid.json', file=insert_meas)
+    # print('python3 InsertMeasurements.py cimhubconfig.json ./Meas/psu_13_node_feeder_7_xfmr_pq.txt ./Meas/psu_13_node_feeder_msid.json', file=insert_meas)
+    # insert_meas.close()
+
     run_meas = open ('run_meas.sh','w')
-    print('echo "\n\n---> running drop_der.sh file <----\n\n"', file=run_meas)
-    print('bash ./drop_der.sh', file=run_meas)
-    print('echo "\n\n----> running insert_der.sh file <----\n\n"', file=run_meas)
-    print('bash ./insert_der.sh', file=run_meas)
-    print('echo "\n\n----> running drop_all_measurements.sh file <----\n\n"', file=run_meas)
-    print('bash ./drop_all_measurements.sh', file=run_meas)
-    print('echo "\n\n----> running list_measurements.sh file <----\n\n"', file=run_meas)
+    print('#echo "---> running drop_der.sh file <----"', file=run_meas)
+    print('#bash ./drop_der.sh', file=run_meas)
+    print('#echo "----> running insert_der.sh file <----"', file=run_meas)
+    print('#bash ./insert_der.sh', file=run_meas)
+    print('#echo "----> running drop_all_measurements.sh file <----"', file=run_meas)
+    print('#bash ./drop_all_measurements.sh', file=run_meas)
+    print('echo "----> running list_measurements.sh file <----"', file=run_meas)
     print('bash ./list_measurements.sh', file=run_meas)
-    print('echo "\n\n----> running insert_measurements.sh file <----\n\n"', file=run_meas)
+    print('echo "----> running insert_measurements.sh file <----"', file=run_meas)
     print('bash ./insert_measurements.sh', file=run_meas)
     run_meas.close()
 
@@ -304,7 +315,7 @@ def list_insert_meas(fd_mrid,me_dir):
     
     os.chmod("run_meas.sh",0o775)
     os.chmod("drop_der.sh",0o775)
-    os.chmod("drop_all_measurements.sh",0o775)
+    # os.chmod("drop_all_measurements.sh",0o775)
     os.chmod("insert_der.sh",0o775)
     os.chmod("list_measurements.sh",0o775)
     os.chmod("insert_measurements.sh",0o775)

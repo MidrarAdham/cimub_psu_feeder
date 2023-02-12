@@ -1,8 +1,0 @@
-- ``` edmCore.sim_start_up_process```, located in EDMCore class, calls the MCOutputlog class.
-- ``` edmCore.sim_start_up_process``` , located in EDMCore class, calls MCInputInterface class.
-- ``` edmCore.sim_start_up_process``` , located in EDMCore class, calls DERHistoricalDataInput class.
-- ``` edmCore.sim_start_up_process``` , located in EDMCore class, calls RWHDERS class.
-- ``` edmCore.sim_start_up_process``` , located in EDMCore class, calls DERAssignmentHandler class.
-- ``` edmCore.sim_start_up_process``` , located in EDMCore class, calls DERIdentificationManager class.
-- ``` edmCore.sim_start_up_process``` , located in EDMCore class, calls GOSensor class.
-- ``` edmCore.sim_start_up_process``` , located in EDMCore class, GOOutputInterface class.
