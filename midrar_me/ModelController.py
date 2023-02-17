@@ -25,16 +25,7 @@ class MCConfiguration:
         # midrar is not using the WH emulators. So remove the RWHDERS and its respective key.
         self.ders_obj_list = {
             'DERSHistoricalDataInput': 'dersHistoricalDataInput'
-            # 'RWHDERS': 'rwhDERS'
-            # ,
-            # 'EXAMPLEDERClassName': 'exampleDERObjectName'
         }
-        # self.ders_obj_list = {
-        #     'DERSHistoricalDataInput': 'dersHistoricalDataInput',
-        #     'RWHDERS': 'rwhDERS'
-        #     # ,
-        #     # 'EXAMPLEDERClassName': 'exampleDERObjectName'
-        # }
         self.go_sensor_decision_making_manual_override = True
         self.manual_service_filename = "manually_posted_service_input.xml"
         self.output_log_name = 'Logged_Grid_State_Data/MeasOutputLogs.csv'
@@ -357,7 +348,9 @@ class EDMMeasurementProcessor(object):
         calls methods to append names, association/location info, etc. Basically, this turns the raw input data into
         the fully formatted edmMeasurementProcessor.current_measurements dictionary which is passed to the logger and GO
         """
+        
         self.current_measurements = measurement_message['message']['measurements']
+        # print(f"\n\n--------------- In EDMMeasurementProcessor Class\n\n{self.current_measurements} --------------------\n\n")
         self.measurement_timestamp = measurement_message['message']['timestamp']
         self.append_names()
         self.append_association_data()
@@ -401,8 +394,12 @@ class EDMMeasurementProcessor(object):
         self.assignment_lookup_table = derAssignmentHandler.get_assignment_lookup_table()
         for item in self.assignment_lookup_table:
             original_name = item['Name']
+            print(f"\n\n--------------\n\nDo we have loads that end with the word Battery?\n\n")
+            print(f"%%%%%%%%%%%%%%%%%%%%%%%%%%%\n\n{original_name}\n\n%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n\n")
             formatted_name = original_name[:-len('_Battery')]
             item['DER-EM Name'] = formatted_name
+            print(f"\n\n--------------\n\nDo we have loads that end with the word Battery?\n\n")
+            print(f"%%%%%%%%%%%%%%%%%%%%%%%%%%%\n\n{formatted_name}\n\n%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n\n")
         for key, value in self.current_measurements.items():
             try:
                 assignment_dict_with_given_name = next(item for item in self.assignment_lookup_table if
@@ -478,8 +475,7 @@ class RWHDERS:
         bus. This function does those tasks using the input_identification_dict generated in the initialization process
         (see self.parse_input_file_names_for_assignment())
         """
-        print(f"I am here in ")
-        print(f"\n\n ------------- input_identification_dict ------------- \n\n{self.input_identification_dict}")
+        
         for key, value in self.input_identification_dict.items():
             der_id = key
             der_bus = value['Bus']
@@ -561,6 +557,8 @@ class DERSHistoricalDataInput:
            be assigned to.
     """
     def __init__(self, mcConfiguration):
+        
+        print("----\n\nI am here in DERSHistoricalData Inpu, initialize_der_s\n\n-----")
         self.der_em_input_request = []
         self.historical_data_file_path = mcConfiguration.mc_file_directory + r"DERSHistoricalDataInput/psu_13_feeder_ders_s.csv"
         self.input_table = None
@@ -607,16 +605,6 @@ class DERSHistoricalDataInput:
         - In Sean's ME version, der_being_assigned[i] returns the bus location, which is 632
         """
         print(f"\n\n----------\n\nI am here in dersHistoricalData class, assign_der_s_to_der_input_request\n\n----------\n\n")
-        # print(f"----------\n\ncheck the list of ders\n\n{self.list_of_ders}")
-        # pp(f"\n\n----------\n\ncheck the input table\n\n{self.input_table[0]}")
-        # with open ('assign_der_s_to_der_em_input_table.json', 'w') as output:
-        #     json.dump(self.input_table, output, indent=4)
-        
-        # with open ('assign_der_s_to_der_em_location_lookup_dictionary.json', 'w') as output:
-        #     json.dump(self.location_lookup_dictionary, output, indent=4)
-
-        # with open ('assign_der_s_to_der_em_list_of_ders.json', 'w') as output:
-        #     json.dump(self.list_of_ders, output, indent=4)
         for i in self.list_of_ders:
             der_being_assigned = {}
             der_being_assigned[i] = self.input_table[0][(self.location_lookup_dictionary[i])]
@@ -814,8 +802,8 @@ class DERAssignmentHandler:
         """
         self.assignment_table = self.assignment_lookup_table
 
-        with open ('assignment_table_derAssignmentHandler_assign_all_ders.json', 'w') as output:
-            json.dump(self.assignment_table, output, indent=4)
+        # with open ('assignment_table_derAssignmentHandler_assign_all_ders.json', 'w') as output:
+        #     json.dump(self.assignment_table, output, indent=4)
 
         # Object list contains string names of objects. eval() lets us use these to call the methods for the proper obj
         for key, value in mcConfiguration.ders_obj_list.items():
@@ -895,15 +883,16 @@ class MCInputInterface:
         the new DER states. This will be reflected in future measurements.
         """
         input_topic = t.simulation_input_topic(edmCore.sim_mrid)
+        my_diff_build = DifferenceBuilder(edmCore.sim_mrid)
         for i in self.current_unified_input_request:
             der_name_to_look_up = list(i.keys())
             der_name_to_look_up = der_name_to_look_up[0]
             associated_der_em_mrid = derIdentificationManager.get_der_em_mrid(der_name_to_look_up)
-            my_diff_build = DifferenceBuilder(edmCore.sim_mrid)
             my_diff_build.add_difference(associated_der_em_mrid, "PowerElectronicsConnection.p",
                                          int(i[der_name_to_look_up]), 0)
-            message = my_diff_build.get_message()
-            edmCore.gapps_session.send(input_topic, message)
+        message = my_diff_build.get_message()
+        edmCore.gapps_session.send(input_topic, message)
+        my_diff_build.clear()
         self.current_unified_input_request.clear()
 
 

@@ -94,8 +94,7 @@ der_em_mrid_per_bus_query_output = gapps_session.query_data(loads_query)
 
 x = []
 
-for i in range(len( der_em_mrid_per_bus_query_output['data']['results']['bindings'])):
-
+for i in range(len(der_em_mrid_per_bus_query_output['data']['results']['bindings'])):
     if (der_em_mrid_per_bus_query_output['data']['results']['bindings'][i]['name']['value'].startswith('EnergyConsumer')) and (der_em_mrid_per_bus_query_output['data']['results']['bindings'][i]['bus']['value'].startswith('trip_load')):
         curr_dict = {'Name':der_em_mrid_per_bus_query_output['data']['results']['bindings'][i]['name']['value'].split("r_")[1],
                 'Bus':der_em_mrid_per_bus_query_output['data']['results']['bindings'][i]['bus']['value'],

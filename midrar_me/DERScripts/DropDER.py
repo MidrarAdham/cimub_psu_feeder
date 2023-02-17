@@ -136,6 +136,20 @@ drop_pv_template = """DELETE {{
 }}
 """
 
+drop_EnergyConsumer_template = """DELETE {{
+ ?m a ?class.
+ ?m c:IdentifiedObject.mRID ?uuid.
+ ?m c:IdentifiedObject.name ?name.
+ ?m c:PowerSystemResource.Location ?loc.
+}} WHERE {{
+ VALUES ?uuid {{\"{res}\"}}
+ VALUES ?class {{c:EnergyConsumer}}
+ ?m a ?class.
+ ?m c:IdentifiedObject.mRID ?uuid.
+ ?m c:IdentifiedObject.name ?name.
+ ?m c:PowerSystemResource.Location ?loc.
+}}
+"""
 drop_bat_template = """DELETE {{
  ?m a ?class.
  ?m c:IdentifiedObject.mRID ?uuid.
@@ -181,7 +195,6 @@ sparql.method = 'POST'
 #    cim_ns = toks[1]
 #    prefix = prefix_template.format(cimURL=cim_ns)
 #fp.close()
-print(CIMHubConfig.prefix)
 fp = open (sys.argv[2], 'r')
 for ln in fp.readlines():
   toks = re.split('[,\s]+', ln)
@@ -200,6 +213,8 @@ for ln in fp.readlines():
     qstr = CIMHubConfig.prefix + drop_loc_template.format(res=mRID)
   elif cls == 'PhotovoltaicUnit':
     qstr = CIMHubConfig.prefix + drop_pv_template.format(res=mRID)
+  elif cls == 'EnergyConsumer':
+    qstr = CIMHubConfig.prefix + drop_EnergyConsumer_template.format(res=mRID)
   elif cls == 'BatteryUnit':
     qstr = CIMHubConfig.prefix + drop_bat_template.format(res=mRID)
   elif cls == 'SynchronousMachine':

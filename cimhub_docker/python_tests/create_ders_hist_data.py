@@ -118,11 +118,11 @@ def interpolate_df(df):
 
 def wr_csv(df):
     # choosing only 4 columns
-    df = df.iloc[:, :5]
+    # df = df.iloc[:, :5]
     float_cols = [col for col in df.columns if df[col].dtype == 'float64']
     df[float_cols] = df[float_cols].astype(int)
     # Choosing only 10 rows
-    df = df.head(5)
+    # df = df.head(5)
     # df = df.head(5400)
     df = df.applymap(lambda x: x.lower() if type(x) == str else x) # change all bus names to lower case to match blazegraph query
     os.chdir('/home/deras/Desktop/midrar_work_github/cimhub_psu_feeder/midrar_me/DERSHistoricalDataInput/')

@@ -289,15 +289,6 @@ def list_insert_meas(fd_mrid,me_dir):
     print('python3 InsertMeasurements.py cimhubconfig.json ./Meas/psu_13_node_feeder_7_xfmr_pq.txt  ./Meas/psu_13_node_feeder.json', file=insert_meas)
     insert_meas.close()
 
-    # insert_meas =  open('insert_measurements.sh','w')
-    # print('python3 InsertMeasurements.py cimhubconfig.json ./Meas/psu_13_node_feeder_7_lines_pq.txt ./Meas/psu_13_node_feeder_msid.json', file=insert_meas)
-    # print('python3 InsertMeasurements.py cimhubconfig.json ./Meas/psu_13_node_feeder_7_loads.txt ./Meas/psu_13_node_feeder_msid.json', file=insert_meas)
-    # print('python3 InsertMeasurements.py cimhubconfig.json ./Meas/psu_13_node_feeder_7_node_v.txt ./Meas/psu_13_node_feeder_msid.json', file=insert_meas)
-    # print('python3 InsertMeasurements.py cimhubconfig.json ./Meas/psu_13_node_feeder_7_special.txt ./Meas/psu_13_node_feeder_msid.json', file=insert_meas)
-    # print('python3 InsertMeasurements.py cimhubconfig.json ./Meas/psu_13_node_feeder_7_switch_i.txt ./Meas/psu_13_node_feeder_msid.json', file=insert_meas)
-    # print('python3 InsertMeasurements.py cimhubconfig.json ./Meas/psu_13_node_feeder_7_xfmr_pq.txt ./Meas/psu_13_node_feeder_msid.json', file=insert_meas)
-    # insert_meas.close()
-
     run_meas = open ('run_meas.sh','w')
     print('#echo "---> running drop_der.sh file <----"', file=run_meas)
     print('#bash ./drop_der.sh', file=run_meas)
@@ -320,8 +311,8 @@ def list_insert_meas(fd_mrid,me_dir):
     os.chmod("list_measurements.sh",0o775)
     os.chmod("insert_measurements.sh",0o775)
     time.sleep(5)
-    p1 = subprocess.Popen('./run_meas.sh', shell=True)
-    p1.wait()
+    # p1 = subprocess.Popen('./run_meas.sh', shell=True)
+    # p1.wait()
 
 def main (dss_name, current_dir, me_dir):
     dss_config_files(dss_name, current_dir)
