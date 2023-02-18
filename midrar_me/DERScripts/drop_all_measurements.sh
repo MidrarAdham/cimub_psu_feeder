@@ -1,1 +1,1 @@
-python3 $CIMHUB_UTILS/DropMeasurements.py $CIMHUB_UTILS/cimhubconfig.json _2D6CB195-3471-4F21-8609-09AD4865B205
+python3 $CIMHUB_UTILS/DropMeasurements.py $CIMHUB_UTILS/cimhubconfig.json _567EB232-FD8C-4D8C-9A96-D957B1FC8592

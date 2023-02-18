@@ -180,21 +180,7 @@ if len(sys.argv) < 3:
 CIMHubConfig.ConfigFromJsonFile (sys.argv[1])
 sparql = SPARQLWrapper2(CIMHubConfig.blazegraph_url)
 sparql.method = 'POST'
-#cim_ns = ''
-#blz_url = ''
-#sparql = None
 
-#fp = open (sys.argv[1], 'r')
-#for ln in fp.readlines():
-#  toks = re.split('[,\s]+', ln)
-#  if toks[0] == 'blazegraph_url':
-#    blz_url = toks[1]
-#    sparql = SPARQLWrapper2 (blz_url)
-#    sparql.method = 'POST'
-#  elif toks[0] == 'cim_namespace':
-#    cim_ns = toks[1]
-#    prefix = prefix_template.format(cimURL=cim_ns)
-#fp.close()
 fp = open (sys.argv[2], 'r')
 for ln in fp.readlines():
   toks = re.split('[,\s]+', ln)
@@ -223,6 +209,8 @@ for ln in fp.readlines():
     print ('*** ERROR: do not know how to drop SynchronousMachinePhase')
     print ('          (only 3-phase machines are currently supported)')
     exit()
+  else:
+    print(f'----> ERROR: CIM CLASS NOT FOUND <----\n----> CIM CLASS SHOULD BE LOCATED IN THE FIRST COLUMN <----')
 
   if qstr is not None:
 #    print (qstr)
@@ -230,4 +218,3 @@ for ln in fp.readlines():
     ret = sparql.query()
     print('deleting', cls, nm, ret.response.msg)
 fp.close()
-

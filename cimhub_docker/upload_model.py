@@ -265,16 +265,12 @@ def list_insert_meas(fd_mrid,me_dir):
     print("----> Changing directory to:\n----> /home/deras/Desktop/midrar_work_github/cimhub_psu_feeder/midrar_me/DERScripts/ <----\n")
 
     drop_der = open('drop_der.sh','w')
-    print(f'python3 DropDER.py cimhubconfig.json EGoT13_der_psu.txt', file=drop_der)
+    print(f'python3 DropDER.py cimhubconfig.json EGoT13_orig_der_psu.txt', file=drop_der)
     drop_der.close()
 
     insert_der = open('insert_der.sh','w')
     print(f'python3 InsertDER.py cimhubconfig.json EGoT13_der_psu.txt', file=insert_der)
     insert_der.close()
-    
-    drop_all_measurements = open('drop_all_measurements.sh','w')
-    print(f'python3 $CIMHUB_UTILS/DropMeasurements.py $CIMHUB_UTILS/cimhubconfig.json {fd_mrid}', file=drop_all_measurements)
-    drop_all_measurements.close()
 
     list_meas =  open('list_measurements.sh','w')
     print(f'python3 ListMeasureables.py cimhubconfig.json psu_13_node_feeder_7 {fd_mrid} Meas', file=list_meas)
@@ -294,19 +290,16 @@ def list_insert_meas(fd_mrid,me_dir):
     print('#bash ./drop_der.sh', file=run_meas)
     print('#echo "----> running insert_der.sh file <----"', file=run_meas)
     print('#bash ./insert_der.sh', file=run_meas)
-    print('#echo "----> running drop_all_measurements.sh file <----"', file=run_meas)
-    print('#bash ./drop_all_measurements.sh', file=run_meas)
-    print('echo "----> running list_measurements.sh file <----"', file=run_meas)
-    print('bash ./list_measurements.sh', file=run_meas)
-    print('echo "----> running insert_measurements.sh file <----"', file=run_meas)
-    print('bash ./insert_measurements.sh', file=run_meas)
+    print('#echo "----> running list_measurements.sh file <----"', file=run_meas)
+    print('#bash ./list_measurements.sh', file=run_meas)
+    print('#echo "----> running insert_measurements.sh file <----"', file=run_meas)
+    print('#bash ./insert_measurements.sh', file=run_meas)
     run_meas.close()
 
     # If running this script for the first time, uncomment the following three lines.
     
     os.chmod("run_meas.sh",0o775)
     os.chmod("drop_der.sh",0o775)
-    # os.chmod("drop_all_measurements.sh",0o775)
     os.chmod("insert_der.sh",0o775)
     os.chmod("list_measurements.sh",0o775)
     os.chmod("insert_measurements.sh",0o775)

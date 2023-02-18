@@ -11,6 +11,7 @@ from pprint import pprint as pp
 from pathlib import Path as path
 from gridappsd import topics as t
 import xml.etree.ElementTree as et
+import xml.dom.minidom as dom_mini
 from datetime import datetime as dt
 import cimhub.CIMHubConfig as CIMHubConfig
 from gridappsd.simulation import Simulation
@@ -53,7 +54,7 @@ def request_types():
     # Returns all specifics of a feeder or a SET of equipments
     objectInfo = {
     "requestType": "QUERY_OBJECT_DICT",
-    "modelId": "_2D6CB195-3471-4F21-8609-09AD4865B205",
+    "modelId": "_859AC45B-99CC-4250-8FE6-23CF2532ECFF",
     "objectType": "EnergyConsumer",
     "resultFormat": "JSON"
     }
@@ -73,32 +74,36 @@ def request_types():
 
     return objectInfo
 
-def wr_csv(objType, objName, objmRID, me_dir):
-    d = {'der_type':objType, 'der_name':objName, 'mRID':objmRID}
-    df = pd.DataFrame(d)
+def wr_csv(data, me_dir):
+    df = pd.DataFrame(data)
     df.to_csv(f"{me_dir}EGoT13_orig_der_psu.txt",header=False, index=False)
-    # with open('EGoT13_orig_der_psu.txt','w', newline='') as f:
-    #     writer = csv.writer(f)
-    #     writer.writerow(rows)
 
 
-def config_file_to_remove_existing_ders(me_dir, object_info):
-    objmRID = []
-    objType = []
-    objName = []
-    for i in range(len(object_info['data'])):
-        objmRID.append(object_info['data'][i]['IdentifiedObject.mRID'])
-        objName.append(object_info['data'][i]['IdentifiedObject.name'])
-        objType.append(object_info['data'][i]['type'])
-    
-    wr_csv(objType, objName, objmRID, me_dir)
+def config_file_to_remove_existing_ders(me_dir):
+    data = []
+    tree = et.parse("../dss/Master.xml")
+    root = tree.getroot()
+    energy_consumer_found = False
+    d = {"{http://iec.ch/TC57/CIM100#}Location": ['mRID','name']}
+    for child in root.iter():
+        term = child.tag.split('}')[1]
+        if term == 'EnergyConsumer':
+             energy_consumer_found = True
+        if energy_consumer_found and ((term == 'EnergyConsumer') or (term == 'Terminal') or (term == 'Location')):
+            mrid_tag = '{http://iec.ch/TC57/CIM100#}IdentifiedObject.mRID'
+            name_tag = '{http://iec.ch/TC57/CIM100#}IdentifiedObject.name'
+            x = child.find(mrid_tag)
+            y = child.find(name_tag)
+            data.append((child.tag.split('}')[1],y.text,x.text))
+
+    wr_csv(data, me_dir)
     
 def main(me_dir):
     gapps_session = connect_to_GridAPPSD()
     message = request_types()
     # Need one of the above queries? Return its variable in request_types func and uncomment the following line.
-    resp = query(gapps_session, message)
-    config_file_to_remove_existing_ders(me_dir, resp)
+    # query(gapps_session, message)
+    config_file_to_remove_existing_ders(me_dir)
 
     
 main(me_dir)
