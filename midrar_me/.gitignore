@@ -1,3 +1,9 @@
 /auxil/
 /out/
 /Outdated/
+
+# Remove large files:
+
+**/DERSHistoricalDataInput/*
+
+**/Logged_Grid_State_Data/*

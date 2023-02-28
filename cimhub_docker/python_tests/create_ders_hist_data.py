@@ -102,18 +102,19 @@ def interpolate_df(df):
     data into a one second time-resolution, fill in the missing DER_locations and DER_magnitudes.
     '''
     df["Time"] = pd.date_range('2023-01-01 00:00:00', '2023-01-02 00:00:00', freq = '15T')
-    df["Time"] = pd.to_datetime(df["Time"])
-    df['Time'] = (df['Time'].apply(lambda x: x.timestamp())).astype(int)
-    cols = df.columns.tolist()
-    cols.remove('Time')
-    cols = ['Time'] + cols
-    df = df[cols]
-    # new_ts = pd.date_range('2023-01-01 00:00:00', '2023-01-02 00:00:00', freq = 'S')
-    # expanded_df = pd.concat([df.set_index('Time'), pd.DataFrame({'Time': new_ts}).set_index('Time')], axis=1, join='outer').ffill().reset_index()
-    # expanded_df['Time'] = pd.to_datetime(expanded_df['Time'])
-    # expanded_df['Time'] = (expanded_df['Time'].apply(lambda x: x.timestamp())).astype(int)
-    # return expanded_df
-    return df
+    # df["Time"] = pd.to_datetime(df["Time"])
+    # df['Time'] = (df['Time'].apply(lambda x: x.timestamp())).astype(int)
+    # cols = df.columns.tolist()
+    # cols.remove('Time')
+    # cols = ['Time'] + cols
+    # df = df[cols]
+    # return df
+    new_ts = pd.date_range('2023-01-01 00:00:00', '2023-01-02 00:00:00', freq = '1T')
+    expanded_df = pd.concat([df.set_index('Time'), pd.DataFrame({'Time': new_ts}).set_index('Time')], axis=1, join='outer').ffill().reset_index()
+    expanded_df['Time'] = pd.to_datetime(expanded_df['Time'])
+    expanded_df['Time'] = (expanded_df['Time'].apply(lambda x: x.timestamp())).astype(int)
+    return expanded_df
+    
 
 
 def wr_csv(df):

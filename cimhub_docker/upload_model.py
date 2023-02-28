@@ -290,10 +290,10 @@ def list_insert_meas(fd_mrid,me_dir):
     print('#bash ./drop_der.sh', file=run_meas)
     print('#echo "----> running insert_der.sh file <----"', file=run_meas)
     print('#bash ./insert_der.sh', file=run_meas)
-    print('#echo "----> running list_measurements.sh file <----"', file=run_meas)
-    print('#bash ./list_measurements.sh', file=run_meas)
-    print('#echo "----> running insert_measurements.sh file <----"', file=run_meas)
-    print('#bash ./insert_measurements.sh', file=run_meas)
+    print('echo "----> running list_measurements.sh file <----"', file=run_meas)
+    print('bash ./list_measurements.sh', file=run_meas)
+    print('echo "----> running insert_measurements.sh file <----"', file=run_meas)
+    print('bash ./insert_measurements.sh', file=run_meas)
     run_meas.close()
 
     # If running this script for the first time, uncomment the following three lines.
@@ -304,8 +304,8 @@ def list_insert_meas(fd_mrid,me_dir):
     os.chmod("list_measurements.sh",0o775)
     os.chmod("insert_measurements.sh",0o775)
     time.sleep(5)
-    # p1 = subprocess.Popen('./run_meas.sh', shell=True)
-    # p1.wait()
+    p1 = subprocess.Popen('./run_meas.sh', shell=True)
+    p1.wait()
 
 def main (dss_name, current_dir, me_dir):
     dss_config_files(dss_name, current_dir)
