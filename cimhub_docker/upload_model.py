@@ -1,9 +1,7 @@
 import os
-import ast
 import csv
 import time
 import json
-import shutil
 import subprocess
 import pandas as pd
 import cimhub.api as cimhub
@@ -67,7 +65,6 @@ def get_mrids (dss_name):
     return geo_rgn, sub_geo, fd_mrid
 
 def upload_to_blazegraph(dss_name,fd_mrid, current_dir):
-    
     # upload XML version to Blazegraph
     print(f"\n\n----> uploading xml <----\n\n")
     print("-------------------------------------------------")
@@ -84,7 +81,7 @@ def upload_to_blazegraph(dss_name,fd_mrid, current_dir):
     print("-------------------------------------------------")
     os.system(f'java -cp "../target/libs/*:../target/cimhub-0.0.1-SNAPSHOT.jar" gov.pnnl.gridappsd.cimhub.CIMImporter -s={fd_mrid} -u=$DB_URL -o=both -l=1.0 -i=1 -h=0 -x=0 -t=1 master')
 
-
+    
 def query_feeder (fd_mrid):   
     
     loads_query = f'''
@@ -141,7 +138,7 @@ def create_config_file(geo_rgn, sub_geo, fd_mrid, me_dir):
         },
         "simulation_config": {
             "start_time": str(starting_time),
-            "duration": "30",
+            "duration": "21600",
             "simulator": "GridLAB-D",
             "timestep_frequency": "1000",
             "timestep_increment": "1000",

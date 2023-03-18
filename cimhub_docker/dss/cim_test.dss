@@ -1,0 +1,9 @@
+redirect Master.dss
+//uuids master_uuids.dat
+export cim100 fid="67CF8C4B-700E-4019-A03D-7C9E929ECAF9" substation=Fictitious subgeo=Portland geo=Oregon file=Master.xml
+export uuids Master_uuids.dat
+export summary   Master_s.csv
+export voltages  Master_v.csv
+export currents  Master_i.csv
+export taps      Master_t.csv
+export nodeorder Master_n.csv

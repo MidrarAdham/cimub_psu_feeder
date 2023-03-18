@@ -58,6 +58,12 @@ def request_types():
     "objectType": "EnergyConsumer",
     "resultFormat": "JSON"
     }
+    
+    # Returns the detailed mRIDs for each feeder within the Blazegraph
+    Model_detailed_info = {
+    "requestType": "QUERY_MODEL_INFO",
+    "resultFormat": "JSON"
+    }
     # Returns the types of CIM classes. It is important to create the EGoT13_der_psu.txt
     CIMClassesTypes = {
     "requestType": "QUERY_OBJECT_TYPES",
