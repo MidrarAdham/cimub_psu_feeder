@@ -4,6 +4,7 @@
 **/psu_13_node_feeder*
 **/output/*
 py_scripts/*.py
+**/cimhub_docker2/**
 
 # Remove OpenDSS exported files:
 
