@@ -3,7 +3,7 @@ import os
 import ast
 import csv
 import time
-import json
+# import json
 import xmltodict
 import pandas as pd
 from dict2xml import dict2xml
@@ -463,7 +463,7 @@ class DERSHistoricalDataInput:
         
         #print("----\n\nI am here in DERSHistoricalData Inpu, initialize_der_s\n\n-----")
         self.der_em_input_request = []
-        self.historical_data_file_path = mcConfiguration.mc_file_directory + r"DERSHistoricalDataInput/psu_13_feeder_ders_s.csv"
+        self.historical_data_file_path = mcConfiguration.mc_file_directory + r"DERSHistoricalDataInput/psu_feeder_ders_data.csv"
         self.input_table = None
         self.list_of_ders = []
         self.location_lookup_dictionary = {}

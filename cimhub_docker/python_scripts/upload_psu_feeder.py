@@ -56,14 +56,13 @@ class upload_feeder_blazegraph():
             self.cfg_json = f'{self.main_dir}/cimhub_config_files/cimhubdocker.json'
     
     def get_blazegraph_link(self):
-        
         CIMHubConfig.ConfigFromJsonFile (self.cfg_json)
 
     def remove_all_feeders(self):
         cimhub.clear_db (self.cfg_json)
 
     def upload_model_to_blazegraph(self):
-        os.system(f'curl -D- -H "Content-Type: application/xml" --upload-file {self.main_dir}/dss/{self.dss_name}.xml -X POST {CIMHubConfig.blazegraph_url}')
+        os.system(f'curl -D- -H "Content-Type: application/xml" --upload-file {self.main_dir}/dss_no_loads/{self.dss_name}.xml -X POST {CIMHubConfig.blazegraph_url}')
     
     def list_feeders(self):
         cimhub.list_feeders (self.cfg_json)
@@ -203,7 +202,7 @@ class gld_configuration_file(upload_feeder_blazegraph):
         p1.wait()
         os.chdir(self.main_dir)
     
-class simulation_configuration_file (dss_configuration_file):
+class me_configuration_files (dss_configuration_file):
 
     def __init__(self):
         
@@ -256,7 +255,7 @@ class simulation_configuration_file (dss_configuration_file):
 
         os.chdir(f'{self.me_dir}/Configuration/')
 
-        with open ('simulation_configuration_test.json', 'w') as output:
+        with open ('simulation_configuration.json', 'w') as output:
             json.dump(self.sim_config, output, indent=4)
         
         os.chdir(self.main_dir)
@@ -288,17 +287,14 @@ class user_args_response():
         global gld
         gld = gld_configuration_file()
         global me
-        me = simulation_configuration_file()
+        me = me_configuration_files()
     
     def u_user_response(self):
 
-        
         print('Uploading feeder ... ')
         feeder.get_blazegraph_link()
         feeder.upload_model_to_blazegraph()
-        print(f'\n\n')
         feeder.list_feeders()
-        print(f'\n\n')
     
     def fdb_user_response(self):
 
